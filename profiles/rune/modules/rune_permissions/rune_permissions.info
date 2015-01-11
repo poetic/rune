@@ -1,0 +1,10 @@
+name = Rune Permissions
+description = Allows users to view published content.
+core = 7.x
+package = Rune
+version = 7.x-1.0
+project = rune_permissions
+dependencies[] = features
+dependencies[] = node
+features[features_api][] = api:2
+features[user_permission][] = access content

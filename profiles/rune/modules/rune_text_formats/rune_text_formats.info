@@ -1,0 +1,14 @@
+name = Rune Text Formats
+description = Default text formats (filtered_html, full_html, plain_text, no_formatting)
+core = 7.x
+package = Rune
+version = 7.x-1.0
+project = rune_text_formats
+dependencies[] = features
+dependencies[] = filter
+features[features_api][] = api:2
+features[filter][] = filtered_html
+features[filter][] = full_html
+features[filter][] = no_formatting
+features[filter][] = plain_text
+project path = profiles/rune/modules

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Rune Admin Theme feature.
+ */
+
+include_once 'rune_admin_theme.features.inc';

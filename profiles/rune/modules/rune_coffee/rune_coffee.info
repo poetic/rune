@@ -1,0 +1,12 @@
+name = Rune Coffee
+description = Include main menu in coffee.
+core = 7.x
+package = Rune
+version = 7.x-1.0
+project = rune_coffee
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = coffee_settings_menus
+project path = profiles/rune/modules

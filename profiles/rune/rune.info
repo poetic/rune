@@ -1,0 +1,55 @@
+name = Rune
+description = Rune distribution
+
+core = 7.x
+
+; core
+dependencies[] = contextual
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = taxonomy
+
+; essentials
+dependencies[] = ctools
+dependencies[] = entity
+dependencies[] = entityreference
+dependencies[] = token
+dependencies[] = views
+dependencies[] = webform
+
+; workflow
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = uuid
+dependencies[] = uuid_features
+dependencies[] = uuid_panel_node
+dependencies[] = webform_uuid
+
+; administration
+dependencies[] = admin_views
+dependencies[] = ckeditor
+dependencies[] = content_menu
+dependencies[] = diff
+dependencies[] = module_filter
+dependencies[] = responsive_preview
+dependencies[] = views_bulk_operations
+
+; navigation
+dependencies[] = admin_menu
+dependencies[] = adminimal_admin_menu
+dependencies[] = coffee
+
+; rune
+dependencies[] = rune_admin_theme
+dependencies[] = rune_coffee
+dependencies[] = rune_fences
+dependencies[] = rune_permissions
+dependencies[] = rune_text_formats

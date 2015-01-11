@@ -1,0 +1,13 @@
+name = Rune Admin Theme
+description = Set Adminimal as the admin theme and use it for editing content.
+core = 7.x
+package = Rune
+version = 7.x-1.0
+project = rune_admin_theme
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = admin_theme
+features[variable][] = node_admin_theme
+project path = profiles/rune/modules

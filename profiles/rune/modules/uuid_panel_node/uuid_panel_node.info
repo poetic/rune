@@ -1,0 +1,7 @@
+name = UUID node Panels integration
+description = Makes it possible to include a node as a pane referenced by his uuid
+core = 7.x
+
+dependencies[] = uuid
+dependencies[] = panels
+package = UUID

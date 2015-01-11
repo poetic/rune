@@ -1,0 +1,15 @@
+name = Rune Fences
+description = Fences hack to make "no markup" the default option.
+core = 7.x
+package = Rune
+version = 7.x-1.0
+project = rune_fences
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = fences
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = fences_default_classes
+features[variable][] = fences_default_markup
+project path = profiles/rune/modules

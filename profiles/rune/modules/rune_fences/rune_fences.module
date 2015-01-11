@@ -1,0 +1,31 @@
+<?php
+/**
+ * @file
+ * Code for the Rune Fences feature.
+ */
+
+include_once 'rune_fences.features.inc';
+
+function rune_fences_pre_features_enable_feature($component) {
+  // Set the weight of this module to 1 so that it runs after most contrib modules
+  db_update('system')
+    ->fields(array('weight' => 1))
+    ->condition('type', 'module')
+    ->condition('name', 'rune_fences')
+    ->execute();
+}
+
+/**
+ * Implements hook_form_alter()
+ */
+function rune_fences_form_field_ui_field_edit_form_alter(&$form, &$form_state, $form_id){
+  $suggestion = fences_get_suggestion($form['#instance']['entity_type'], $form['#instance']['bundle'], $form['#instance']['field_name']);
+
+  $form['instance']['fences_wrapper'] = array(
+    '#type' => 'select',
+    '#title' => t('Wrapper markup'),
+    '#default_value' => $suggestion ? $suggestion : 'no_wrapper',
+    '#options' => fences_get_fences_options('field'),
+    '#description' => t('Choose the HTML to use to wrap the field!'),
+  );
+}

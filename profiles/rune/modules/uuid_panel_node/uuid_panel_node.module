@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * Implements of hook_ctools_plugin_directory().
+ */
+function uuid_panel_node_ctools_plugin_directory($module, $plugin) {
+  if ($module == 'ctools') {
+    return 'plugins/' . $plugin;
+  }
+}
+
+/**
+ * Function to load the node by uuid.
+ * @param type $uuid
+ * @return type
+ */
+function node_get_by_uuid($uuid) {
+  $node = db_select('node', 'n')
+          ->fields('n')
+          ->condition('uuid', $uuid)
+          ->execute()
+          ->fetchAssoc();
+  $nid = $node['nid'];
+  return node_load($nid);
+}
