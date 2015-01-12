@@ -22,7 +22,7 @@ dependencies[] = ctools
 dependencies[] = entity
 dependencies[] = entityreference
 dependencies[] = token
-dependencies[] = views
+dependencies[] = views_ui
 dependencies[] = webform
 
 ; workflow
@@ -39,7 +39,6 @@ dependencies[] = ckeditor
 dependencies[] = content_menu
 dependencies[] = diff
 dependencies[] = module_filter
-dependencies[] = responsive_preview
 dependencies[] = views_bulk_operations
 
 ; navigation
