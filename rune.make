@@ -14,6 +14,7 @@ projects[webform] = 4.2
 
 ; workflow
 projects[features] = 2.3
+projects[features_override] = 2.0-rc2
 projects[strongarm] = 2.0
 projects[uuid][download][revision] = a7bf2db
 projects[uuid_features][download][revision] = 4fdc77f
@@ -26,7 +27,9 @@ projects[ckeditor] = 1.16
 projects[content_menu] = 1.0
 projects[devel] = 1.5
 projects[diff] = 3.2
+projects[masquerade] = 1.0-rc7
 projects[module_filter] = 2.0-alpha2
+projects[simplify] = 3.2
 projects[views_bulk_operations] = 3.2
 
 ; navigation
@@ -38,6 +41,7 @@ projects[superfish][download][revision] = fa3d7c6
 
 ; fields
 projects[addressfield] = 1.0-rc1
+projects[date] = 2.8
 projects[fences] = 1.0
 projects[field_collection] = 1.0-beta8
 projects[geofield] = 2.3
@@ -62,8 +66,11 @@ projects[quicktabs] = 3.6
 projects[image_combination_effects] = 1.0-alpha1
 projects[image_combination_effects][patch][] = https://www.drupal.org/files/issues/ICE-fix-fatal-typecast-error-228133-2.patch
 projects[imagecache_actions] = 1.5
+projects[media] = 1.4
 
 ; utility
+projects[auto_entitylabel] = 1.3
+projects[email_registration] = 1.2
 projects[geocoder] = 1.2
 projects[geophp] = 1.7
 projects[jquery_update] = 2.4

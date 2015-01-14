@@ -27,6 +27,7 @@ dependencies[] = webform
 
 ; workflow
 dependencies[] = features
+dependencies[] = features_override
 dependencies[] = strongarm
 dependencies[] = uuid
 dependencies[] = uuid_features
@@ -45,6 +46,13 @@ dependencies[] = views_bulk_operations
 dependencies[] = admin_menu
 dependencies[] = adminimal_admin_menu
 dependencies[] = coffee
+
+; media
+dependencies[] = media
+
+; utility
+dependencies[] = email_registration
+dependencies[] = jquery_update
 
 ; rune
 dependencies[] = rune_admin_theme
