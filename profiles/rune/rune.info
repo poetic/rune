@@ -20,10 +20,15 @@ dependencies[] = taxonomy
 ; essentials
 dependencies[] = ctools
 dependencies[] = entity
+dependencies[] = entity_token
 dependencies[] = entityreference
+dependencies[] = pathauto
 dependencies[] = token
 dependencies[] = views_ui
 dependencies[] = webform
+
+; fields
+dependencies[] = filefield_paths
 
 ; workflow
 dependencies[] = features

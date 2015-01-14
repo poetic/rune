@@ -8,6 +8,7 @@ defaults[projects][subdir] = contrib
 projects[ctools] = 1.5
 projects[entity] = 1.5
 projects[entityreference] = 1.1
+projects[pathauto] = 1.2
 projects[token] = 1.5
 projects[views] = 3.8
 projects[webform] = 4.2
@@ -44,6 +45,7 @@ projects[addressfield] = 1.0-rc1
 projects[date] = 2.8
 projects[fences] = 1.0
 projects[field_collection] = 1.0-beta8
+projects[filefield_paths] = 1.0-beta4
 projects[geofield] = 2.3
 projects[link] = 1.3
 projects[phone] = 1.0-beta1
@@ -74,6 +76,7 @@ projects[email_registration] = 1.2
 projects[geocoder] = 1.2
 projects[geophp] = 1.7
 projects[jquery_update] = 2.4
+projects[services] = 3.11
 
 ; libraries
 projects[libraries] = 2.2
