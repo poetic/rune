@@ -1,4 +1,4 @@
-name = CKEditor
+name = Rune CKEditor
 description = Sane CKEditor profiles. Set autoParagraph = false;
 core = 7.x
 package = Rune

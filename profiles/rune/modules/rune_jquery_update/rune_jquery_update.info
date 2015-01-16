@@ -1,4 +1,4 @@
-name = jQuery Update
+name = Rune jQuery Update
 description = Set the admin version of jQuery to 1.7.
 core = 7.x
 package = Rune
