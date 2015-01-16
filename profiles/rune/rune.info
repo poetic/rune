@@ -17,47 +17,34 @@ dependencies[] = search
 dependencies[] = shortcut
 dependencies[] = taxonomy
 
-; essentials
+; contrib
+dependencies[] = admin_menu
+dependencies[] = admin_views
+dependencies[] = adminimal_admin_menu
+dependencies[] = ckeditor
+dependencies[] = coffee
+dependencies[] = content_menu
 dependencies[] = ctools
+dependencies[] = diff
+dependencies[] = email_registration
 dependencies[] = entity
 dependencies[] = entity_token
 dependencies[] = entityreference
-dependencies[] = pathauto
-dependencies[] = token
-dependencies[] = views_ui
-dependencies[] = webform
-
-; fields
-dependencies[] = filefield_paths
-
-; workflow
 dependencies[] = features
 dependencies[] = features_override
+dependencies[] = filefield_paths
+dependencies[] = jquery_update
+dependencies[] = module_filter
+dependencies[] = pathauto
 dependencies[] = strongarm
+dependencies[] = token
 dependencies[] = uuid
 dependencies[] = uuid_features
 dependencies[] = uuid_panel_node
-dependencies[] = webform_uuid
-
-; administration
-dependencies[] = admin_views
-dependencies[] = ckeditor
-dependencies[] = content_menu
-dependencies[] = diff
-dependencies[] = module_filter
 dependencies[] = views_bulk_operations
-
-; navigation
-dependencies[] = admin_menu
-dependencies[] = adminimal_admin_menu
-dependencies[] = coffee
-
-; media
-dependencies[] = media
-
-; utility
-dependencies[] = email_registration
-dependencies[] = jquery_update
+dependencies[] = views_ui
+dependencies[] = webform
+dependencies[] = webform_uuid
 
 ; rune
 dependencies[] = rune_admin_theme
