@@ -1,0 +1,11 @@
+name = CKEditor
+description = Sane CKEditor profiles. Set autoParagraph = false;
+core = 7.x
+package = Rune
+version = 7.x-1.0
+project = rune_ckeditor
+dependencies[] = ckeditor
+features[ckeditor_profile][] = Advanced
+features[ckeditor_profile][] = Full
+features[features_api][] = api:2
+project path = profiles/rune/modules

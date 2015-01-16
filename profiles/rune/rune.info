@@ -48,7 +48,9 @@ dependencies[] = webform_uuid
 
 ; rune
 dependencies[] = rune_admin_theme
+dependencies[] = rune_ckeditor
 dependencies[] = rune_coffee
 dependencies[] = rune_fences
+dependencies[] = rune_jquery_update
 dependencies[] = rune_permissions
 dependencies[] = rune_text_formats
