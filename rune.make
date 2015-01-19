@@ -35,6 +35,7 @@ projects[geophp] = 1.7
 projects[image_combination_effects] = 1.0-alpha1
 projects[image_combination_effects][patch][] = https://www.drupal.org/files/issues/ICE-fix-fatal-typecast-error-228133-2.patch
 projects[imagecache_actions] = 1.5
+projects[imagecache_token] = 1.x-dev
 projects[imce] = 1.9
 projects[imce_filefield] = 1.0
 projects[jquery_update] = 2.4
