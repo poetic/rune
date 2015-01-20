@@ -57,6 +57,7 @@ projects[panels_everywhere] = 1.0-rc1
 projects[pathauto] = 1.2
 projects[phone] = 1.0-beta1
 projects[quicktabs] = 3.6
+projects[range] = 1.1
 projects[services] = 3.11
 projects[simplify] = 3.2
 projects[strongarm] = 2.0
