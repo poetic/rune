@@ -77,8 +77,6 @@ projects[youtube] = 1.3
 ; libraries
 libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor%20for%20Drupal/edit/ckeditor_4.4.3_edit.zip
-libraries[colorbox][download][type] = get
-libraries[colorbox][download][url] = https://github.com/jackmoore/colorbox/archive/1.x.zip
 libraries[leaflet][download][type] = get
 libraries[leaflet][download][url] = http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.3.zip
 libraries[superfish][download][type] = get
@@ -86,6 +84,6 @@ libraries[superfish][download][url] = https://github.com/mehrpadin/Superfish-for
 projects[libraries] = 2.2
 
 ; themes
-projects[adminimal_theme] = 1.18
+projects[adminimal_theme] = 1.19
 projects[bootstrap] = 3.0
 projects[omega] = 4.3
