@@ -45,6 +45,7 @@ projects[jquery_update] = 2.4
 projects[leaflet] = 1.1
 projects[leaflet_more_maps] = 1.10
 projects[link] = 1.3
+projects[linkit] = 3.3
 projects[manualcrop][download][branch] = 1.x-dev
 projects[manualcrop][download][revision] = 332ffcc
 projects[masquerade] = 1.0-rc7
