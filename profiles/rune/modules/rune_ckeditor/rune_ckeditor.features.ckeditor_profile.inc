@@ -79,7 +79,7 @@ function rune_ckeditor_ckeditor_profile_defaults() {
       'settings' => array(
         'ss' => 2,
         'toolbar' => '[
-    [\'Source\',\'-\',\'Format\',\'Styles\',\'-\',\'Bold\',\'Italic\',\'Underline\',\'Strike\',\'-\',\'NumberedList\',\'BulletedList\',\'-\',\'Link\',\'Unlink\',\'Image\',\'-\',\'PasteText\',\'RemoveFormat\',\'-\',\'SpellChecker\']
+    [\'Source\',\'-\',\'Format\',\'Styles\',\'-\',\'Bold\',\'Italic\',\'Underline\',\'Strike\',\'-\',\'NumberedList\',\'BulletedList\',\'-\',\'Link\',\'Unlink\',\'linkit\',\'Image\',\'-\',\'PasteText\',\'RemoveFormat\',\'-\',\'SpellChecker\']
 ]',
         'expand' => 't',
         'default' => 't',
@@ -119,7 +119,8 @@ function rune_ckeditor_ckeditor_profile_defaults() {
         'html_entities' => 'f',
         'scayt_autoStartup' => 'f',
         'theme_config_js' => 'f',
-        'js_conf' => 'config.autoParagraph = false;',
+        'js_conf' => 'config.autoParagraph = false;
+config.allowedContent = true;',
         'loadPlugins' => array(
           'drupalbreaks' => array(
             'name' => 'drupalbreaks',
@@ -132,6 +133,17 @@ function rune_ckeditor_ckeditor_profile_defaults() {
               ),
             ),
             'default' => 't',
+          ),
+          'linkit' => array(
+            'name' => 'linkit',
+            'desc' => 'Support for Linkit module',
+            'path' => '%base_path%sites/all/modules/contrib/linkit/editors/ckeditor/',
+            'buttons' => array(
+              'linkit' => array(
+                'label' => 'Linkit',
+                'icon' => 'icons/linkit.png',
+              ),
+            ),
           ),
         ),
       ),
