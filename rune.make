@@ -14,6 +14,7 @@ projects[auto_entitylabel] = 1.3
 projects[better_exposed_filters] = 3.0
 projects[bg_image] = 1.4
 projects[bg_image_formatter] = 1.3
+projects[computed_field] = 1.0
 projects[ckeditor] = 1.16
 projects[coffee] = 2.2
 projects[colorbox] = 2.8
