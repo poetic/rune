@@ -51,6 +51,7 @@ projects[linkit] = 3.3
 projects[manualcrop][download][branch] = 1.x-dev
 projects[manualcrop][download][revision] = 332ffcc
 projects[masquerade] = 1.0-rc7
+projects[menu_attributes] = 1.0-rc3
 projects[module_filter] = 2.0-alpha2
 projects[panelizer][download][branch] = 3.x-dev
 projects[panelizer][download][revision] = dd5aacc
