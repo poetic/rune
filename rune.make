@@ -43,6 +43,7 @@ projects[imagecache_token] = 1.x-dev
 projects[imce] = 1.9
 projects[imce_filefield] = 1.0
 projects[inline_entity_form] = 1.5
+projects[inline_messages] = 1.0
 projects[jquery_update] = 2.4
 projects[leaflet] = 1.1
 projects[leaflet_more_maps] = 1.10
