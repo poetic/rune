@@ -8,6 +8,7 @@ defaults[projects][subdir] = contrib
 projects[rune][type] = profile
 projects[rune][subdir] = ''
 projects[rune][working-copy] = TRUE
-projects[rune][download][url] = git@github.com:poetic/rune.git
+projects[rune][download][url] = git@github.com:ergonlogic/rune.git
+projects[rune][download][branch] = 'profile'
 
 includes[] = ../devel.make
