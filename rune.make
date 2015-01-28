@@ -33,6 +33,7 @@ projects[fences] = 1.0
 projects[field_collection] = 1.0-beta8
 projects[field_group] = 1.4
 projects[filefield_paths] = 1.0-beta4
+projects[flag] = 3.5
 projects[geocoder] = 1.2
 projects[geofield] = 2.3
 projects[geophp] = 1.7
