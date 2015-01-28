@@ -6,6 +6,7 @@ defaults[projects][subdir] = contrib
 
 ; modules
 projects[addressfield] = 1.0-rc1
+projects[addressfield_staticmap] = 7.x-1.0
 projects[admin_menu] = 3.0-rc5
 projects[admin_menu][patch][] = https://www.drupal.org/files/admin_menu-search-disappeared-1916812-13.patch
 projects[admin_views] = 1.3
