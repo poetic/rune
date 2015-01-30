@@ -27,6 +27,7 @@ projects[devel] = 1.5
 projects[diff] = 3.2
 projects[email_registration] = 1.2
 projects[entity] = 1.5
+projects[entity_view_mode] = 1.0-rc1
 projects[entityreference] = 1.1
 projects[features] = 2.3
 projects[features_override] = 2.0-rc2
