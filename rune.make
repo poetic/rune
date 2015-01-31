@@ -33,6 +33,7 @@ projects[features] = 2.3
 projects[features_override] = 2.0-rc2
 projects[fences] = 1.0
 projects[field_collection] = 1.0-beta8
+projects[field_collection][patch][] = https://www.drupal.org/files/issues/field_collection-host_entity_tokens-1372652-74.patch
 projects[field_group] = 1.4
 projects[filefield_paths] = 1.0-beta4
 projects[flag] = 3.5
