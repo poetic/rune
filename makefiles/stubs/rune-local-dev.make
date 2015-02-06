@@ -4,6 +4,7 @@ core = 7.x
 projects[] = drupal
 
 defaults[projects][subdir] = contrib
+defaults[projects][contrib_destination] = profiles/rune
 defaults[projects][working_copy] = 1
 
 includes[] = ../makefiles/modules.make
