@@ -10,5 +10,3 @@ projects[rune][subdir] = ''
 projects[rune][working-copy] = TRUE
 projects[rune][download][url] = git@github.com:ergonlogic/rune.git
 projects[rune][download][branch] = 'profile'
-
-includes[] = ../devel.make
