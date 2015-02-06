@@ -28,23 +28,27 @@ projects[uuid][download][branch] = "1.x-dev"
 projects[uuid][download][revision] = "a7bf2db"
 projects[uuid][download][type] = "git"
 
+projects[uuid_features][download][branch] = "1.x-dev"
+projects[uuid_features][download][revision] = "166fb9f"
+projects[uuid_features][download][type] = "git"
+
 projects[admin_menu][patch][0] = "https://www.drupal.org/files/admin_menu-search-disappeared-1916812-13.patch"
 projects[admin_menu][version] = "3.0-rc5"
 
 projects[image_combination_effects][patch][0] = "https://www.drupal.org/files/issues/ICE-fix-fatal-typecast-error-228133-2.patch"
 projects[image_combination_effects][version] = "1.0-alpha1"
 
-projects[uuid_features][download][branch] = "1.x-dev"
-projects[uuid_features][download][revision] = "4fdc77f"
-projects[uuid_features][download][type] = "git"
-projects[uuid_features][patch][0] = "https://www.drupal.org/files/issues/uuid_features-field_collection_remove_slashes-1844848-3.patch"
-projects[uuid_features][patch][1] = "https://www.drupal.org/files/issues/include_file_field-2411869-6.patch"
-
 projects[features][download][branch] = "7.x-2.x"
 projects[features][download][type] = "git"
-projects[features][patch] = "https://www.drupal.org/node/1064340#comment-8918659"
+projects[features][patch] = "https://www.drupal.org/files/issues/1064340-features-files-13.patch"
 
+projects[addressfield][patch][0] = "https://www.drupal.org/files/issues/addressfield-nonempty-1263316-98.patch"
 projects[addressfield][version] = "1.0"
+
+projects[field_collection][patch][0] = "https://www.drupal.org/files/issues/field_collection-host_entity_tokens-1372652-74.patch"
+projects[field_collection][version] = "1.0-beta8"
+
+projects[addressfield_staticmap][version] = "1.0"
 
 projects[admin_views][version] = "1.3"
 
@@ -76,17 +80,19 @@ projects[email_registration][version] = "1.2"
 
 projects[entity][version] = "1.5"
 
+projects[entity_view_mode][version] = "1.0-rc1"
+
 projects[entityreference][version] = "1.1"
 
 projects[features_override][version] = "2.0-rc2"
 
 projects[fences][version] = "1.0"
 
-projects[field_collection][version] = "1.0-beta8"
-
 projects[field_group][version] = "1.4"
 
 projects[filefield_paths][version] = "1.0-beta4"
+
+projects[flag][version] = "3.5"
 
 projects[geocoder][version] = "1.2"
 
@@ -103,6 +109,8 @@ projects[imce][version] = "1.9"
 projects[imce_filefield][version] = "1.0"
 
 projects[inline_entity_form][version] = "1.5"
+
+projects[inline_messages][version] = "1.0"
 
 projects[jquery_update][version] = "2.5"
 
@@ -130,7 +138,7 @@ projects[phone][version] = "1.0-beta1"
 
 projects[quicktabs][version] = "3.6"
 
-projects[range][version] = "1.1"
+projects[range][version] = "1.2"
 
 projects[services][version] = "3.11"
 
@@ -138,7 +146,7 @@ projects[simplify][version] = "3.2"
 
 projects[strongarm][version] = "2.0"
 
-projects[themekey][version] = "3.2"
+projects[themekey][version] = "3.3"
 
 projects[title][version] = "1.0-alpha7"
 
@@ -159,7 +167,7 @@ projects[webform_uuid][version] = "1.1"
 projects[youtube][version] = "1.3"
 
 ; Themes
-projects[adminimal_theme][version] = "1.19"
+projects[adminimal_theme][version] = "1.20"
 projects[adminimal_theme][type] = "theme"
 
 projects[bootstrap][version] = "3.0"
