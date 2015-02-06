@@ -10,7 +10,7 @@ projects[image_combination_effects][patch][] = https://www.drupal.org/files/issu
 ;; Allow files to be included in exported features.
 ;; See: https://www.drupal.org/node/1064340#comment-8918659
 projects[features][download][branch] = 7.x-2.x
-projects[features][patch] = https://www.drupal.org/files/issues/1064340-features-files-13.patch
+projects[features][patch][] = https://www.drupal.org/files/issues/1064340-features-files-13.patch
 
 projects[addressfield] = 1.x
 projects[addressfield][patch][] = https://www.drupal.org/files/issues/addressfield-nonempty-1263316-98.patch
