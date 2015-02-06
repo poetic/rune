@@ -58,8 +58,7 @@ profile are structured for easy readability and maintenance.
 For dev builds, Drush Make will prefer the latest versions of contrib modules,
 except for those specifying pinned versions.
 
-For production builds, we use makefiles with all versions locked down. To
-update these makefile, run the following commands from the makefiles directory:
+For production builds, we use a makefile with all versions locked down. To
+update this makefile, run the following command from the project root:
 
-    drush make --no-build --lock=lockfiles/modules.lock modules.make --no-core
-    drush make --no-build --lock=lockfiles/themes.lock themes.make --no-core
+    drush make --no-build --no-core makefiles/rune.make --lock=rune.make
