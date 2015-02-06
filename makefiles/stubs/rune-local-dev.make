@@ -7,6 +7,6 @@ defaults[projects][subdir] = contrib
 defaults[projects][contrib_destination] = profiles/rune
 defaults[projects][working_copy] = 1
 
-includes[] = ../makefiles/modules.make
-includes[] = ../makefiles/themes.make
-includes[] = ../makefiles/devel.make
+includes[] = ../modules.make
+includes[] = ../themes.make
+includes[] = ../devel.make
