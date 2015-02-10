@@ -1,8 +1,14 @@
 api: 2
 core: 7.x
 
-includes:
-  - build.make.yml
+defaults: { projects: { subdir: contrib } }
 
 projects:
-  rune: { download: { working-copy: true } }
+  drupal: { version: ~ }
+  rune:
+    type: profile
+    subdir: ''
+    download:
+      url: https://github.com/poetic/rune.git
+      branch: profile
+      working-copy: true
