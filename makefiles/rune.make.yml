@@ -1,0 +1,9 @@
+api: 2
+core: 7.x
+
+defaults: { projects: { subdir: contrib } }
+
+includes:
+  - libraries.make.yml
+  - modules.make.yml
+  - themes.make.yml

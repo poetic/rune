@@ -1,0 +1,15 @@
+api: 2
+core: 7.x
+
+defaults:
+  projects:
+    subdir: contrib
+    contrib_destination: profiles/rune
+    working_copy: true
+
+projects: { drupal: { version: ~ } }
+
+includes:
+  - ../libraries.make.yml
+  - ../modules.make.yml
+  - ../themes.make.yml

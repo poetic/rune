@@ -1,0 +1,8 @@
+api: 2
+core: 7.x
+
+includes:
+  - build.make.yml
+
+projects:
+  rune: { download: { working-copy: true } }
