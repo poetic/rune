@@ -1,25 +1,35 @@
-# RUNE
-An opinionated Drupal distribution focused on developer happiness with a
-git-based workflow.
+# Rune
+An opinionated install profile focused on developer happiness and a
+git-based workflow. Built and battle tested on [Valkyrie](https://github.com/GetValkyrie/valkyrie).
 
 ## Usage
 To build the distribution atop the latest Durpal core, run:
+    
+    drush make https://raw.githubusercontent.com/poetic/rune/master/makefiles/stubs/build.make.yml [platform_name]
 
-    drush make -y makefiles/stubs/rune-build.make platform_dir/
+To build for development (includes working copy of the profile):
 
-To build for development, run:
+    drush make https://raw.githubusercontent.com/poetic/rune/master/makefiles/stubs/dev.make.yml [platform_name]
 
-    drush make -y --working-copy makefiles/stubs/rune-dev.make platform_dir/
+To re-build an existing platform installed using one of the above commands, run this from your platform root:
 
-To re-build an existing platform, run:
+    drush make profiles/rune/makefiles/stubs/rune-local-dev.make
 
-    cd /path/to/platform_dir
-    drush make -y --working-copy profiles/rune/makefiles/stubs/rune-local-dev.make
-
-This last will rebuild Drupal core and contrib in an existing code-base without
+This will rebuild Drupal core and contrib in an existing code-base without
 touching the Rune profile itself. This is useful primarily when developing an
 install profile.
 
+## Maintenance
+The makefiles that define the various requirements for this installation
+profile are structured for easy readability and maintenance.
+
+For dev builds, Drush Make will prefer the latest versions of contrib modules,
+except for those specifying pinned versions.
+
+For production builds, we use a makefile with all versions locked down. To
+update this makefile, run the following command from the *profile* root:
+
+    drush make --no-build --no-core makefiles/profile.make.yml --lock=rune.make
 
 ## Workflow suggestions
 All modules in the make file are known to be exportable using uuid_features.
@@ -50,15 +60,3 @@ is as follows (replace "site" with the name of your site):
   because edits to the menu are likely to affect multiple links (such as
   re-oreding the menu). This would cause multiple features to become
   "overridden" instead of one.
-
-## Maintenance
-The makefiles that define the various requirements for this installation
-profile are structured for easy readability and maintenance.
-
-For dev builds, Drush Make will prefer the latest versions of contrib modules,
-except for those specifying pinned versions.
-
-For production builds, we use a makefile with all versions locked down. To
-update this makefile, run the following command from the project root:
-
-    drush make --no-build --no-core makefiles/rune.make --lock=rune.make
