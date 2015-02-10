@@ -2,6 +2,8 @@ api: 2
 core: 7.x
 
 defaults:
+  libraries:
+    contrib_destination: profiles/rune
   projects:
     subdir: contrib
     contrib_destination: profiles/rune
