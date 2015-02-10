@@ -7,7 +7,6 @@ defaults:
   projects:
     subdir: contrib
     contrib_destination: profiles/rune
-    working_copy: true
 
 projects: { drupal: { version: ~ } }
 
