@@ -7,6 +7,7 @@ projects:
   drupal: { version: ~ }
   rune:
     type: profile
+    subdir: ~
     download:
       url: https://github.com/poetic/rune.git
       working-copy: true
