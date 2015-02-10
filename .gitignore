@@ -1,4 +1,3 @@
-*
-!.gitignore
-!*.make
-!profiles
+modules/contrib/*
+themes/contrib/*
+libraries/*

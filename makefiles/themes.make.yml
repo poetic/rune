@@ -1,0 +1,7 @@
+api: 2
+core: 7.x
+
+projects:
+  adminimal_theme: { version: ~ }
+  bootstrap: { version: ~ }
+  omega: { version: ~ }
