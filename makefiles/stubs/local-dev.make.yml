@@ -7,4 +7,4 @@ defaults:
 
 projects: { drupal: { version: ~ } }
 
-includes: { - ../rune.make.yml }
+includes: { - ../profile.make.yml }
