@@ -10,3 +10,4 @@ projects:
     subdir: ''
     download:
       url: https://github.com/poetic/rune.git
+      branch: profile
