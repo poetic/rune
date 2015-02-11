@@ -71,7 +71,7 @@ projects:
     download: { branch: 3.x-dev, revision: dd5aacc }
   panels:
     download: { branch: 3.x-dev, revision: f7ed1af }
-  panels_everywhere: { version: ~ }
+  panels_everywhere: { version: 1.0-rc1 }
   pathauto: { version: ~ }
   phone: { version: ~ }
   quicktabs: { version: ~ }

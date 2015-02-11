@@ -13,7 +13,7 @@ To build for development (includes working copy of the profile):
 
 To re-build an existing platform installed using one of the above commands, run this from your platform root:
 
-    drush make profiles/rune/makefiles/stubs/rune-local-dev.make
+    drush make profiles/rune/makefiles/stubs/local-dev.make.yml
 
 This will rebuild Drupal core and contrib in an existing code-base without
 touching the Rune profile itself. This is useful primarily when developing an
