@@ -181,7 +181,7 @@ projects[panels][download][revision] = "f7ed1af"
 projects[panels][download][type] = "git"
 projects[panels][subdir] = "contrib"
 
-projects[panels_everywhere][version] = "1.0-rc2"
+projects[panels_everywhere][version] = "1.0-rc1"
 projects[panels_everywhere][subdir] = "contrib"
 
 projects[pathauto][version] = "1.2"
