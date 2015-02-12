@@ -3,7 +3,7 @@ An opinionated install profile focused on developer happiness and a
 git-based workflow. Built and battle tested on [Valkyrie](https://github.com/GetValkyrie/valkyrie).
 
 ## Usage
-To build the distribution atop the latest Durpal core, run:
+To build the distribution atop the latest Drupal core, run:
     
     drush make https://raw.githubusercontent.com/poetic/rune/master/makefiles/stubs/build.make.yml [platform_name]
 
