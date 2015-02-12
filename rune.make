@@ -99,6 +99,9 @@ projects[field_collection][version] = "1.0-beta8"
 projects[field_collection][patch][0] = "https://www.drupal.org/files/issues/field_collection-host_entity_tokens-1372652-74.patch"
 projects[field_collection][subdir] = "contrib"
 
+projects[field_count_formatter][version] = "1.0-beta1"
+projects[field_count_formatter][subdir] = "contrib"
+
 projects[field_group][version] = "1.4"
 projects[field_group][subdir] = "contrib"
 
