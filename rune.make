@@ -99,9 +99,6 @@ projects[field_collection][version] = "1.0-beta8"
 projects[field_collection][patch][0] = "https://www.drupal.org/files/issues/field_collection-host_entity_tokens-1372652-74.patch"
 projects[field_collection][subdir] = "contrib"
 
-projects[field_count_formatter][version] = "1.0-beta1"
-projects[field_count_formatter][subdir] = "contrib"
-
 projects[field_group][version] = "1.4"
 projects[field_group][subdir] = "contrib"
 
@@ -196,7 +193,7 @@ projects[phone][subdir] = "contrib"
 projects[quicktabs][version] = "3.6"
 projects[quicktabs][subdir] = "contrib"
 
-projects[range][version] = "1.2"
+projects[range][version] = "1.3"
 projects[range][subdir] = "contrib"
 
 projects[services][version] = "3.11"
@@ -232,7 +229,7 @@ projects[uuid_features][download][revision] = "166fb9f"
 projects[uuid_features][download][type] = "git"
 projects[uuid_features][subdir] = "contrib"
 
-projects[views][version] = "3.8"
+projects[views][version] = "3.10"
 projects[views][subdir] = "contrib"
 
 projects[views_bootstrap][version] = "3.1"

@@ -40,7 +40,6 @@ projects:
     version: 1.0-beta8
     patch:
       - https://www.drupal.org/files/issues/field_collection-host_entity_tokens-1372652-74.patch
-  field_count_formatter: { version: ~ }
   field_group: { version: ~ }
   filefield_paths: { version: ~ }
   flag: { version: ~ }
