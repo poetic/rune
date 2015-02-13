@@ -84,6 +84,9 @@ projects[entity_view_mode][subdir] = "contrib"
 projects[entityreference][version] = "1.1"
 projects[entityreference][subdir] = "contrib"
 
+projects[eva][version] = "1.2"
+projects[eva][subdir] = "contrib"
+
 projects[features][download][branch] = "7.x-2.x"
 projects[features][download][type] = "git"
 projects[features][patch][0] = "https://www.drupal.org/files/issues/1064340-features-files-13.patch"
