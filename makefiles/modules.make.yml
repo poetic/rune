@@ -27,10 +27,11 @@ projects:
   date: { version: ~ }
   diff: { version: ~ }
   email_registration: { version: ~ }
+  editableviews: { version: ~ }
   entity: { version: ~ }
   entity_view_mode: { version: ~ }
   entityreference: { version: ~ }
-  eva: {version: ~}
+  eva: { version: ~ }
   features:
     download: { branch: 7.x-2.x }
     patch:

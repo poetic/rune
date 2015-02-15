@@ -75,6 +75,9 @@ projects[diff][subdir] = "contrib"
 projects[email_registration][version] = "1.2"
 projects[email_registration][subdir] = "contrib"
 
+projects[editableviews][version] = "1.0-beta9"
+projects[editableviews][subdir] = "contrib"
+
 projects[entity][version] = "1.5"
 projects[entity][subdir] = "contrib"
 
