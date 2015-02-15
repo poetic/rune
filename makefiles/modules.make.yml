@@ -27,7 +27,7 @@ projects:
   date: { version: ~ }
   diff: { version: ~ }
   email_registration: { version: ~ }
-  editableviews: { version: ~ }
+  editablefields: { version: ~ }
   entity: { version: ~ }
   entity_view_mode: { version: ~ }
   entityreference: { version: ~ }
