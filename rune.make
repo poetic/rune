@@ -235,7 +235,7 @@ projects[uuid_features][download][revision] = "166fb9f"
 projects[uuid_features][download][type] = "git"
 projects[uuid_features][subdir] = "contrib"
 
-projects[views][version] = "3.8"
+projects[views][version] = "3.10"
 projects[views][subdir] = "contrib"
 
 projects[views_bootstrap][version] = "3.1"
@@ -243,10 +243,6 @@ projects[views_bootstrap][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = "contrib"
-
-projects[views_php][version] = "2.x-dev"
-projects[views_php][patch][0] = "https://www.drupal.org/files/issues/views_php-pager_missing-2276165-2.patch"
-projects[views_php][subdir] = "contrib"
 
 projects[webform][version] = "4.3"
 projects[webform][subdir] = "contrib"

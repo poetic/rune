@@ -90,13 +90,9 @@ projects:
     download: { branch: 1.x-dev, revision: a7bf2db }
   uuid_features:
     download: { branch: 1.x-dev, revision: 166fb9f }
-  views: { version: 3.8 }
+  views: { version: ~ }
   views_bootstrap: { version: ~ }
   views_bulk_operations: { version: ~ }
-  views_php:
-    version: 2.x-dev
-    patch:
-      - https://www.drupal.org/files/issues/views_php-pager_missing-2276165-2.patch
   webform: { version: ~ }
   webform_phone: { version: ~ }
   webform_uuid: { version: ~ }
