@@ -45,7 +45,7 @@ projects:
   field_collection_bulkupload: { version: ~ }
   field_group: { version: ~ }
   filefield_paths: { version: ~ }
-  filefield_sources: { version: ~ }   
+  filefield_sources: { version: ~ }
   flag: { version: ~ }
   geocoder: { version: ~ }
   geofield: { version: ~ }
@@ -78,7 +78,7 @@ projects:
   panels_everywhere: { version: 1.0-rc1 }
   pathauto: { version: ~ }
   phone: { version: ~ }
-  plupload: { version: ~ }  
+  plupload: { version: ~ }
   quicktabs: { version: ~ }
   range: { version: ~ }
   services: { version: ~ }
@@ -93,7 +93,10 @@ projects:
     download: { branch: 1.x-dev, revision: a7bf2db }
   uuid_features:
     download: { branch: 1.x-dev, revision: 166fb9f }
-  views: { version: ~ }
+  views:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/views-area-results-plural-1793500-1.patch
   views_bootstrap: { version: ~ }
   views_bulk_operations: { version: ~ }
   webform: { version: ~ }
