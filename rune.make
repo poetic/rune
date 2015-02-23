@@ -28,7 +28,7 @@ projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][patch][0] = "https://www.drupal.org/files/admin_menu-search-disappeared-1916812-13.patch"
 projects[admin_menu][subdir] = "contrib"
 
-projects[admin_views][version] = "1.3"
+projects[admin_views][version] = "1.4"
 projects[admin_views][subdir] = "contrib"
 
 projects[adminimal_admin_menu][version] = "1.5"
@@ -180,7 +180,7 @@ projects[masquerade][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc3"
 projects[menu_attributes][subdir] = "contrib"
 
-projects[module_filter][version] = "2.0-alpha2"
+projects[module_filter][version] = "2.0"
 projects[module_filter][subdir] = "contrib"
 
 projects[panelizer][download][branch] = "3.x-dev"
@@ -245,6 +245,7 @@ projects[uuid_features][download][type] = "git"
 projects[uuid_features][subdir] = "contrib"
 
 projects[views][version] = "3.10"
+projects[views][patch][0] = "https://www.drupal.org/files/views-area-results-plural-1793500-1.patch"
 projects[views][subdir] = "contrib"
 
 projects[views_bootstrap][version] = "3.1"
@@ -262,7 +263,7 @@ projects[webform_phone][subdir] = "contrib"
 projects[webform_uuid][version] = "1.1"
 projects[webform_uuid][subdir] = "contrib"
 
-projects[youtube][version] = "1.3"
+projects[youtube][version] = "1.5"
 projects[youtube][subdir] = "contrib"
 
 ; Libraries
