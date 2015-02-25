@@ -28,7 +28,7 @@ projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][patch][0] = "https://www.drupal.org/files/admin_menu-search-disappeared-1916812-13.patch"
 projects[admin_menu][subdir] = "contrib"
 
-projects[admin_views][version] = "1.3"
+projects[admin_views][version] = "1.4"
 projects[admin_views][subdir] = "contrib"
 
 projects[adminimal_admin_menu][version] = "1.5"
@@ -98,6 +98,12 @@ projects[features][subdir] = "contrib"
 projects[features_override][version] = "2.0-rc2"
 projects[features_override][subdir] = "contrib"
 
+projects[feeds][version] = "2.0-alpha8"
+projects[feeds][subdir] = "contrib"
+
+projects[feeds_xpathparser][version] = "1.0"
+projects[feeds_xpathparser][subdir] = "contrib"
+
 projects[fences][version] = "1.0"
 projects[fences][subdir] = "contrib"
 
@@ -154,6 +160,9 @@ projects[inline_messages][subdir] = "contrib"
 projects[jquery_update][version] = "2.5"
 projects[jquery_update][subdir] = "contrib"
 
+projects[job_scheduler][version] = "2.0-alpha3"
+projects[job_scheduler][subdir] = "contrib"
+
 projects[leaflet][version] = "1.1"
 projects[leaflet][subdir] = "contrib"
 
@@ -180,7 +189,7 @@ projects[masquerade][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc3"
 projects[menu_attributes][subdir] = "contrib"
 
-projects[module_filter][version] = "2.0-alpha2"
+projects[module_filter][version] = "2.0"
 projects[module_filter][subdir] = "contrib"
 
 projects[panelizer][download][branch] = "3.x-dev"
@@ -262,7 +271,7 @@ projects[webform_phone][subdir] = "contrib"
 projects[webform_uuid][version] = "1.1"
 projects[webform_uuid][subdir] = "contrib"
 
-projects[youtube][version] = "1.3"
+projects[youtube][version] = "1.5"
 projects[youtube][subdir] = "contrib"
 
 ; Libraries
