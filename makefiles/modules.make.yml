@@ -99,7 +99,7 @@ projects:
   views:
     version: ~
     patch:
-      - https://www.drupal.org/files/views-area-results-plural-1793500-1.patc
+      - https://www.drupal.org/files/views-area-results-plural-1793500-1.patch
   views_bootstrap: { version: ~ }
   views_bulk_operations: { version: ~ }
   webform: { version: ~ }
