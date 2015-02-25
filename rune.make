@@ -254,7 +254,7 @@ projects[uuid_features][download][type] = "git"
 projects[uuid_features][subdir] = "contrib"
 
 projects[views][version] = "3.10"
-projects[views][patch][0] = "https://www.drupal.org/files/views-area-results-plural-1793500-1.patc"
+projects[views][patch][0] = "https://www.drupal.org/files/views-area-results-plural-1793500-1.patch"
 projects[views][subdir] = "contrib"
 
 projects[views_bootstrap][version] = "3.1"
