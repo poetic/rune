@@ -96,7 +96,10 @@ projects:
     download: { branch: 1.x-dev, revision: a7bf2db }
   uuid_features:
     download: { branch: 1.x-dev, revision: 166fb9f }
-  views: { version: ~ }
+  views:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/views-area-results-plural-1793500-1.patc
   views_bootstrap: { version: ~ }
   views_bulk_operations: { version: ~ }
   webform: { version: ~ }
