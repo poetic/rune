@@ -44,7 +44,6 @@ projects:
     version: 1.0-beta8
     patch:
       - https://www.drupal.org/files/issues/field_collection-host_entity_tokens-1372652-74.patch
-  field_collection_bulkupload: { version: ~ }
   field_group: { version: ~ }
   filefield_paths: { version: ~ }
   filefield_sources: { version: ~ }
@@ -81,7 +80,6 @@ projects:
   panels_everywhere: { version: 1.0-rc1 }
   pathauto: { version: ~ }
   phone: { version: ~ }
-  plupload: { version: ~ }
   quicktabs: { version: ~ }
   range: { version: ~ }
   services: { version: ~ }
@@ -102,6 +100,7 @@ projects:
       - https://www.drupal.org/files/views-area-results-plural-1793500-1.patch
   views_bootstrap: { version: ~ }
   views_bulk_operations: { version: ~ }
+  views_data_export: { version: ~ }
   webform: { version: ~ }
   webform_phone: { version: ~ }
   webform_uuid: { version: ~ }
