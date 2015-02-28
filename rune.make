@@ -78,7 +78,7 @@ projects[email_registration][subdir] = "contrib"
 projects[editablefields][version] = "1.0-alpha2"
 projects[editablefields][subdir] = "contrib"
 
-projects[entity][version] = "1.5"
+projects[entity][version] = "1.6"
 projects[entity][subdir] = "contrib"
 
 projects[entity_view_mode][version] = "1.0-rc1"
@@ -110,9 +110,6 @@ projects[fences][subdir] = "contrib"
 projects[field_collection][version] = "1.0-beta8"
 projects[field_collection][patch][0] = "https://www.drupal.org/files/issues/field_collection-host_entity_tokens-1372652-74.patch"
 projects[field_collection][subdir] = "contrib"
-
-projects[field_collection_bulkupload][version] = "1.0-alpha1"
-projects[field_collection_bulkupload][subdir] = "contrib"
 
 projects[field_group][version] = "1.4"
 projects[field_group][subdir] = "contrib"
@@ -211,9 +208,6 @@ projects[pathauto][subdir] = "contrib"
 projects[phone][version] = "1.0-beta1"
 projects[phone][subdir] = "contrib"
 
-projects[plupload][version] = "1.7"
-projects[plupload][subdir] = "contrib"
-
 projects[quicktabs][version] = "3.6"
 projects[quicktabs][subdir] = "contrib"
 
@@ -262,6 +256,9 @@ projects[views_bootstrap][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = "contrib"
+
+projects[views_data_export][version] = "3.0-beta8"
+projects[views_data_export][subdir] = "contrib"
 
 projects[webform][version] = "4.3"
 projects[webform][subdir] = "contrib"
