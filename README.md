@@ -22,6 +22,9 @@ install profile.
 Note: if you receive an error like "No core project specified. [error]" you may need a more up-to-date version of drush.
 
     which drush
+    
+Go to the drush directory
+
     git fetch
     git checkout [appropriate branch name]
 
