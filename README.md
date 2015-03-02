@@ -19,6 +19,12 @@ This will rebuild Drupal core and contrib in an existing code-base without
 touching the Rune profile itself. This is useful primarily when developing an
 install profile.
 
+Note: if you receive an error like "No core project specified. [error]" you may need a more up-to-date version of drush.
+
+    which drush
+    git fetch
+    git checkout [appropriate branch name]
+
 ## Maintenance
 The makefiles that define the various requirements for this installation
 profile are structured for easy readability and maintenance.
