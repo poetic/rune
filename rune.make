@@ -4,7 +4,7 @@ api = 2
 
 ; Core
 ; Themes
-projects[adminimal_theme][version] = "1.20"
+projects[adminimal_theme][version] = "1.21"
 projects[adminimal_theme][subdir] = "contrib"
 projects[adminimal_theme][type] = "theme"
 
@@ -120,7 +120,7 @@ projects[filefield_paths][subdir] = "contrib"
 projects[filefield_sources][version] = "1.9"
 projects[filefield_sources][subdir] = "contrib"
 
-projects[flag][version] = "3.5"
+projects[flag][version] = "3.6"
 projects[flag][subdir] = "contrib"
 
 projects[geocoder][version] = "1.2"
@@ -223,6 +223,9 @@ projects[simplify][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "contrib"
 
+projects[subpathauto][version] = "1.3"
+projects[subpathauto][subdir] = "contrib"
+
 projects[superfish][download][branch] = "1.x-dev"
 projects[superfish][download][revision] = "fa3d7c6"
 projects[superfish][download][type] = "git"
@@ -234,7 +237,7 @@ projects[themekey][subdir] = "contrib"
 projects[title][version] = "1.0-alpha7"
 projects[title][subdir] = "contrib"
 
-projects[token][version] = "1.5"
+projects[token][version] = "1.6"
 projects[token][subdir] = "contrib"
 
 projects[uuid][download][branch] = "1.x-dev"

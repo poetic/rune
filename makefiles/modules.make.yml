@@ -85,6 +85,7 @@ projects:
   services: { version: ~ }
   simplify: { version: ~ }
   strongarm: { version: ~ }
+  subpathauto: { version: ~ }
   superfish:
     download: { branch: 1.x-dev, revision: fa3d7c6 }
   themekey: { version: ~ }
