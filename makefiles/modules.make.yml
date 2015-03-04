@@ -82,6 +82,7 @@ projects:
   phone: { version: ~ }
   quicktabs: { version: ~ }
   range: { version: ~ }
+  save_edit: { version: ~ }
   services: { version: ~ }
   simplify: { version: ~ }
   strongarm: { version: ~ }
