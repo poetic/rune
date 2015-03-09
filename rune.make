@@ -189,6 +189,9 @@ projects[menu_attributes][subdir] = "contrib"
 projects[module_filter][version] = "2.0"
 projects[module_filter][subdir] = "contrib"
 
+projects[office_hours][version] = "1.4"
+projects[office_hours][subdir] = "contrib"
+
 projects[panelizer][download][branch] = "3.x-dev"
 projects[panelizer][download][revision] = "dd5aacc"
 projects[panelizer][download][type] = "git"
@@ -266,7 +269,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_data_export][version] = "3.0-beta8"
 projects[views_data_export][subdir] = "contrib"
 
-projects[webform][version] = "4.3"
+projects[webform][version] = "4.4"
 projects[webform][subdir] = "contrib"
 
 projects[webform_phone][version] = "1.21"
