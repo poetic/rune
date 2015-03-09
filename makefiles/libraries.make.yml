@@ -6,6 +6,10 @@ libraries:
     download:
       type: get
       url: http://download.cksource.com/CKEditor%20for%20Drupal/edit/ckeditor_4.4.3_edit.zip
+  flexslider:
+    download:
+      type: get
+      url: https://github.com/woothemes/FlexSlider/archive/master.zip
   leaflet:
     download:
       type: get
