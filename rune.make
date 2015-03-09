@@ -123,6 +123,9 @@ projects[filefield_sources][subdir] = "contrib"
 projects[flag][version] = "3.6"
 projects[flag][subdir] = "contrib"
 
+projects[flexslider][version] = "2.0-alpha3"
+projects[flexslider][subdir] = "contrib"
+
 projects[geocoder][version] = "1.2"
 projects[geocoder][subdir] = "contrib"
 
@@ -285,6 +288,10 @@ projects[youtube][subdir] = "contrib"
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor%20for%20Drupal/edit/ckeditor_4.4.3_edit.zip"
 libraries[ckeditor][type] = "library"
+
+libraries[flexslider][download][type] = "get"
+libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
+libraries[flexslider][type] = "library"
 
 libraries[leaflet][download][type] = "get"
 libraries[leaflet][download][url] = "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.3.zip"

@@ -48,6 +48,7 @@ projects:
   filefield_paths: { version: ~ }
   filefield_sources: { version: ~ }
   flag: { version: ~ }
+  flexslider: { version: ~ }
   geocoder: { version: ~ }
   geofield: { version: ~ }
   geophp: { version: ~ }
