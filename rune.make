@@ -164,6 +164,7 @@ projects[job_scheduler][version] = "2.0-alpha3"
 projects[job_scheduler][subdir] = "contrib"
 
 projects[leaflet][version] = "1.1"
+projects[leaflet][patch][0] = "https://www.drupal.org/files/issues/field-formatter-errors-2185767-6.patch"
 projects[leaflet][subdir] = "contrib"
 
 projects[leaflet_more_maps][version] = "1.10"
