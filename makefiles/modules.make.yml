@@ -64,7 +64,10 @@ projects:
   inline_messages: { version: ~ }
   jquery_update: { version: ~ }
   job_scheduler: { version: ~ }
-  leaflet: { version: ~ }
+  leaflet:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/field-formatter-errors-2185767-6.patch
   leaflet_more_maps: { version: ~ }
   libraries: { version: ~ }
   link: { version: ~ }
