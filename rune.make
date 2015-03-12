@@ -190,6 +190,9 @@ projects[masquerade][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc3"
 projects[menu_attributes][subdir] = "contrib"
 
+projects[migrate][version] = "2.7"
+projects[migrate][subdir] = "contrib"
+
 projects[module_filter][version] = "2.0"
 projects[module_filter][subdir] = "contrib"
 
