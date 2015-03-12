@@ -273,6 +273,9 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_data_export][version] = "3.0-beta8"
 projects[views_data_export][subdir] = "contrib"
 
+projects[views_datasource][version] = "1.0-alpha2"
+projects[views_datasource][subdir] = "contrib"
+
 projects[webform][version] = "4.4"
 projects[webform][subdir] = "contrib"
 
