@@ -76,6 +76,7 @@ projects:
     download: { branch: 1.x-dev, revision: 332ffcc }
   masquerade: { version: ~ }
   menu_attributes: { version: ~ }
+  migrate: { version: ~ }
   module_filter: { version: ~ }
   office_hours: { version: ~ }
   panelizer:
