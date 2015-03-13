@@ -26,6 +26,7 @@ projects:
     download: { branch: 1.6-rc1, revision: 2678da8 }
   date: { version: ~ }
   diff: { version: ~ }
+  email: { versions: ~ }
   email_registration: { version: ~ }
   editablefields: { version: ~ }
   entity: { version: ~ }

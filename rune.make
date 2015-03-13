@@ -72,6 +72,9 @@ projects[date][subdir] = "contrib"
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
 
+projects[email][subdir] = "contrib"
+projects[email][version] = "1.3"
+
 projects[email_registration][version] = "1.2"
 projects[email_registration][subdir] = "contrib"
 
