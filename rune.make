@@ -273,6 +273,9 @@ projects[views][version] = "3.10"
 projects[views][patch][0] = "https://www.drupal.org/files/views-area-results-plural-1793500-1.patch"
 projects[views][subdir] = "contrib"
 
+projects[views_accordion][version] = "1.1"
+projects[views_accordion][subdir] = "contrib"
+
 projects[views_bootstrap][version] = "3.1"
 projects[views_bootstrap][subdir] = "contrib"
 
