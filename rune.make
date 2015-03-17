@@ -40,6 +40,9 @@ projects[auto_entitylabel][subdir] = "contrib"
 projects[better_exposed_filters][version] = "3.0"
 projects[better_exposed_filters][subdir] = "contrib"
 
+projects[better_formats][version] = "1.0-beta1"
+projects[better_formats][subdir] = "contrib"
+
 projects[bg_image][version] = "1.4"
 projects[bg_image][subdir] = "contrib"
 
@@ -170,7 +173,7 @@ projects[leaflet][version] = "1.1"
 projects[leaflet][patch][0] = "https://www.drupal.org/files/issues/field-formatter-errors-2185767-6.patch"
 projects[leaflet][subdir] = "contrib"
 
-projects[leaflet_more_maps][version] = "1.10"
+projects[leaflet_more_maps][version] = "1.11"
 projects[leaflet_more_maps][subdir] = "contrib"
 
 projects[libraries][version] = "2.2"

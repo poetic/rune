@@ -15,6 +15,7 @@ projects:
   adminimal_admin_menu: { version: ~ }
   auto_entitylabel: { version: ~ }
   better_exposed_filters: { version: ~ }
+  better_formats: { version: ~ }
   bg_image: { version: ~ }
   bg_image_formatter: { version: ~ }
   ckeditor: { version: ~ }
