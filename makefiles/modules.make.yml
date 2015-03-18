@@ -15,6 +15,7 @@ projects:
   adminimal_admin_menu: { version: ~ }
   auto_entitylabel: { version: ~ }
   better_exposed_filters: { version: ~ }
+  better_formats: { version: ~ }
   bg_image: { version: ~ }
   bg_image_formatter: { version: ~ }
   ckeditor: { version: ~ }
@@ -107,6 +108,7 @@ projects:
     version: ~
     patch:
       - https://www.drupal.org/files/views-area-results-plural-1793500-1.patch
+  views_accordion: { version: ~ }
   views_bootstrap: { version: ~ }
   views_bulk_operations: { version: ~ }
   views_data_export: { version: ~ }

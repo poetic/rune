@@ -40,6 +40,9 @@ projects[auto_entitylabel][subdir] = "contrib"
 projects[better_exposed_filters][version] = "3.0"
 projects[better_exposed_filters][subdir] = "contrib"
 
+projects[better_formats][version] = "1.0-beta1"
+projects[better_formats][subdir] = "contrib"
+
 projects[bg_image][version] = "1.4"
 projects[bg_image][subdir] = "contrib"
 
@@ -170,7 +173,7 @@ projects[leaflet][version] = "1.1"
 projects[leaflet][patch][0] = "https://www.drupal.org/files/issues/field-formatter-errors-2185767-6.patch"
 projects[leaflet][subdir] = "contrib"
 
-projects[leaflet_more_maps][version] = "1.10"
+projects[leaflet_more_maps][version] = "1.11"
 projects[leaflet_more_maps][subdir] = "contrib"
 
 projects[libraries][version] = "2.2"
@@ -269,6 +272,9 @@ projects[uuid_features][subdir] = "contrib"
 projects[views][version] = "3.10"
 projects[views][patch][0] = "https://www.drupal.org/files/views-area-results-plural-1793500-1.patch"
 projects[views][subdir] = "contrib"
+
+projects[views_accordion][version] = "1.1"
+projects[views_accordion][subdir] = "contrib"
 
 projects[views_bootstrap][version] = "3.1"
 projects[views_bootstrap][subdir] = "contrib"
