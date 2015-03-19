@@ -39,7 +39,9 @@ projects:
     patch:
       - https://www.drupal.org/files/issues/1064340-features-files-13.patch
   features_override: { version: ~ }
-  feeds: { version: ~ }
+  feeds:
+    download: { branch: 2.x-dev, revision: 45152d3 }
+  feeds_tamper: { version: ~ }
   feeds_xpathparser: { version: ~ }
   fences: { version: ~ }
   field_collection:
@@ -47,6 +49,7 @@ projects:
     patch:
       - https://www.drupal.org/files/issues/field_collection-host_entity_tokens-1372652-74.patch
   field_group: { version: ~ }
+  field_validation: { branch: 2.x-dev }
   filefield_paths: { version: ~ }
   filefield_sources: { version: ~ }
   flag: { version: ~ }
@@ -104,6 +107,8 @@ projects:
     download: { branch: 1.x-dev, revision: a7bf2db }
   uuid_features:
     download: { branch: 1.x-dev, revision: 166fb9f }
+    patch:
+      - https://www.drupal.org/files/issues/uuid_features-export%E2%80%93files-in%E2%80%93file-fields-with-taxonomy-terms-2454405-1.patch
   views:
     version: ~
     patch:

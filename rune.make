@@ -104,8 +104,13 @@ projects[features][subdir] = "contrib"
 projects[features_override][version] = "2.0-rc2"
 projects[features_override][subdir] = "contrib"
 
-projects[feeds][version] = "2.0-alpha8"
+projects[feeds][download][branch] = "2.x-dev"
+projects[feeds][download][revision] = "45152d3"
+projects[feeds][download][type] = "git"
 projects[feeds][subdir] = "contrib"
+
+projects[feeds_tamper][version] = "1.0"
+projects[feeds_tamper][subdir] = "contrib"
 
 projects[feeds_xpathparser][version] = "1.0"
 projects[feeds_xpathparser][subdir] = "contrib"
@@ -119,6 +124,10 @@ projects[field_collection][subdir] = "contrib"
 
 projects[field_group][version] = "1.4"
 projects[field_group][subdir] = "contrib"
+
+projects[field_validation][branch] = "2.x-dev"
+projects[field_validation][subdir] = "contrib"
+projects[field_validation][version] = "2.4"
 
 projects[filefield_paths][version] = "1.0-beta4"
 projects[filefield_paths][subdir] = "contrib"
@@ -267,6 +276,7 @@ projects[uuid][subdir] = "contrib"
 projects[uuid_features][download][branch] = "1.x-dev"
 projects[uuid_features][download][revision] = "166fb9f"
 projects[uuid_features][download][type] = "git"
+projects[uuid_features][patch][0] = "https://www.drupal.org/files/issues/uuid_features-export%E2%80%93files-in%E2%80%93file-fields-with-taxonomy-terms-2454405-1.patch"
 projects[uuid_features][subdir] = "contrib"
 
 projects[views][version] = "3.10"
@@ -288,7 +298,7 @@ projects[views_data_export][subdir] = "contrib"
 projects[views_datasource][version] = "1.0-alpha2"
 projects[views_datasource][subdir] = "contrib"
 
-projects[webform][version] = "4.4"
+projects[webform][version] = "4.5"
 projects[webform][subdir] = "contrib"
 
 projects[webform_phone][version] = "1.21"
