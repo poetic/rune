@@ -40,16 +40,21 @@ projects:
       - https://www.drupal.org/files/issues/1064340-features-files-13.patch
   features_override: { version: ~ }
   feeds:
-    download: { branch: 2.x-dev, revision: 45152d3 }
+    download: { branch: 2.x-dev, revision: f22a0f7 }
   feeds_tamper: { version: ~ }
   feeds_xpathparser: { version: ~ }
   fences: { version: ~ }
   field_collection:
-    version: 1.0-beta8
+    version: 1.0-beta5
     patch:
       - https://www.drupal.org/files/issues/field_collection-host_entity_tokens-1372652-74.patch
+  field_collection_feeds: 
+    version: 1.0-alpha3
+    patch:
+      - https://www.drupal.org/files/issues/FeedsUpdateIssue-1921128-12.patch
   field_group: { version: ~ }
-  field_validation: { branch: 2.x-dev }
+  field_validation:
+    download: { branch: 2.x-dev, revision: 63e1e83 }
   filefield_paths: { version: ~ }
   filefield_sources: { version: ~ }
   flag: { version: ~ }
