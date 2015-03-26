@@ -105,7 +105,7 @@ projects[features_override][version] = "2.0-rc2"
 projects[features_override][subdir] = "contrib"
 
 projects[feeds][download][branch] = "2.x-dev"
-projects[feeds][download][revision] = "45152d3"
+projects[feeds][download][revision] = "f22a0f7"
 projects[feeds][download][type] = "git"
 projects[feeds][subdir] = "contrib"
 
@@ -118,16 +118,21 @@ projects[feeds_xpathparser][subdir] = "contrib"
 projects[fences][version] = "1.0"
 projects[fences][subdir] = "contrib"
 
-projects[field_collection][version] = "1.0-beta8"
+projects[field_collection][version] = "1.0-beta5"
 projects[field_collection][patch][0] = "https://www.drupal.org/files/issues/field_collection-host_entity_tokens-1372652-74.patch"
 projects[field_collection][subdir] = "contrib"
+
+projects[field_collection_feeds][version] = "1.0-alpha3"
+projects[field_collection_feeds][patch][0] = "https://www.drupal.org/files/issues/FeedsUpdateIssue-1921128-12.patch"
+projects[field_collection_feeds][subdir] = "contrib"
 
 projects[field_group][version] = "1.4"
 projects[field_group][subdir] = "contrib"
 
-projects[field_validation][branch] = "2.x-dev"
+projects[field_validation][download][branch] = "2.x-dev"
+projects[field_validation][download][revision] = "63e1e83"
+projects[field_validation][download][type] = "git"
 projects[field_validation][subdir] = "contrib"
-projects[field_validation][version] = "2.4"
 
 projects[filefield_paths][version] = "1.0-beta4"
 projects[filefield_paths][subdir] = "contrib"
@@ -301,7 +306,7 @@ projects[views_data_export][subdir] = "contrib"
 projects[views_datasource][version] = "1.0-alpha2"
 projects[views_datasource][subdir] = "contrib"
 
-projects[webform][version] = "4.5"
+projects[webform][version] = "4.6"
 projects[webform][subdir] = "contrib"
 
 projects[webform_phone][version] = "1.21"
