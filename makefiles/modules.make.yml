@@ -57,6 +57,7 @@ projects:
   geocoder: { version: ~ }
   geofield: { version: ~ }
   geophp: { version: ~ }
+  i18n: { version: ~ }
   image_combination_effects:
     version: 1.0-alpha1
     patch:
