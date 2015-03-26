@@ -45,10 +45,10 @@ projects:
   feeds_xpathparser: { version: ~ }
   fences: { version: ~ }
   field_collection:
-    version: 1.0-beta5
+    version: 1.0-beta8
     patch:
       - https://www.drupal.org/files/issues/field_collection-host_entity_tokens-1372652-74.patch
-  field_collection_feeds: 
+  field_collection_feeds:
     version: 1.0-alpha3
     patch:
       - https://www.drupal.org/files/issues/FeedsUpdateIssue-1921128-12.patch

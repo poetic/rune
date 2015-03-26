@@ -118,7 +118,7 @@ projects[feeds_xpathparser][subdir] = "contrib"
 projects[fences][version] = "1.0"
 projects[fences][subdir] = "contrib"
 
-projects[field_collection][version] = "1.0-beta5"
+projects[field_collection][version] = "1.0-beta8"
 projects[field_collection][patch][0] = "https://www.drupal.org/files/issues/field_collection-host_entity_tokens-1372652-74.patch"
 projects[field_collection][subdir] = "contrib"
 
@@ -306,7 +306,7 @@ projects[views_data_export][subdir] = "contrib"
 projects[views_datasource][version] = "1.0-alpha2"
 projects[views_datasource][subdir] = "contrib"
 
-projects[webform][version] = "4.6"
+projects[webform][version] = "4.7"
 projects[webform][subdir] = "contrib"
 
 projects[webform_phone][version] = "1.21"
