@@ -34,6 +34,7 @@ projects:
   entity_view_mode: { version: ~ }
   entityreference: { version: ~ }
   eva: { version: ~ }
+  fboauth: { version: ~ }
   features:
     download: { branch: 7.x-2.x }
     patch:
