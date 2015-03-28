@@ -96,6 +96,9 @@ projects[entityreference][subdir] = "contrib"
 projects[eva][version] = "1.2"
 projects[eva][subdir] = "contrib"
 
+projects[fboauth][version] = "1.7"
+projects[fboauth][subdir] = "contrib"
+
 projects[features][download][branch] = "7.x-2.x"
 projects[features][download][type] = "git"
 projects[features][patch][0] = "https://www.drupal.org/files/issues/1064340-features-files-13.patch"
