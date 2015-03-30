@@ -189,6 +189,9 @@ projects[jquery_update][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
 projects[job_scheduler][subdir] = "contrib"
 
+projects[lang_dropdown][version] = "1.5"
+projects[lang_dropdown][subdir] = "contrib"
+
 projects[leaflet][version] = "1.1"
 projects[leaflet][patch][0] = "https://www.drupal.org/files/issues/field-formatter-errors-2185767-6.patch"
 projects[leaflet][subdir] = "contrib"

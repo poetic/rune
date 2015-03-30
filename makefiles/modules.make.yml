@@ -76,6 +76,7 @@ projects:
   inline_messages: { version: ~ }
   jquery_update: { version: ~ }
   job_scheduler: { version: ~ }
+  lang_dropdown: { version: ~ }
   leaflet:
     version: ~
     patch:
