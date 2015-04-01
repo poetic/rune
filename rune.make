@@ -312,6 +312,9 @@ projects[views_data_export][subdir] = "contrib"
 projects[views_datasource][version] = "1.0-alpha2"
 projects[views_datasource][subdir] = "contrib"
 
+projects[views_field_view][version] = "1.1"
+projects[views_field_view][subdir] = "contrib"
+
 projects[webform][version] = "4.7"
 projects[webform][subdir] = "contrib"
 
