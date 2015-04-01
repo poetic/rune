@@ -125,6 +125,7 @@ projects:
   views_bulk_operations: { version: ~ }
   views_data_export: { version: ~ }
   views_datasource: { version: ~ }
+  views_field_view: { version: ~ }
   webform: { version: ~ }
   webform_phone: { version: ~ }
   webform_uuid: { version: ~ }
