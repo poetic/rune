@@ -101,6 +101,7 @@ projects:
   phone: { version: ~ }
   quicktabs: { version: ~ }
   range: { version: ~ }
+  rules: { version: ~ }
   save_edit: { version: ~ }
   services: { version: ~ }
   simplify: { version: ~ }
