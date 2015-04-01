@@ -253,6 +253,9 @@ projects[quicktabs][subdir] = "contrib"
 projects[range][version] = "1.3"
 projects[range][subdir] = "contrib"
 
+projects[rules][version] = "2.9"
+projects[rules][subdir] = "contrib"
+
 projects[save_edit][version] = "1.0-beta1"
 projects[save_edit][subdir] = "contrib"
 
