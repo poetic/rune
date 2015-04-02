@@ -285,6 +285,9 @@ projects[title][subdir] = "contrib"
 projects[token][version] = "1.6"
 projects[token][subdir] = "contrib"
 
+projects[token_filter][version] = "1.1"
+projects[token_filter][subdir] = "contrib"
+
 projects[uuid][download][branch] = "1.x-dev"
 projects[uuid][download][revision] = "a7bf2db"
 projects[uuid][download][type] = "git"

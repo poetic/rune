@@ -112,6 +112,7 @@ projects:
   themekey: { version: ~ }
   title: { version: ~ }
   token: { version: ~ }
+  token_filter: { version: ~ }
   uuid:
     download: { branch: 1.x-dev, revision: a7bf2db }
   uuid_features:
