@@ -1,0 +1,11 @@
+name = Rune Image Toolkit
+description = Default jpeg quality to 100%
+core = 7.x
+package = Rune
+version = 7.x-1.0
+project = rune_image_toolkit
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = image_jpeg_quality

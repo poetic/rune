@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Rune Image Toolkit feature.
+ */
+
+include_once 'rune_image_toolkit.features.inc';
