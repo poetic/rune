@@ -96,9 +96,6 @@ projects[entityreference][subdir] = "contrib"
 projects[eva][version] = "1.2"
 projects[eva][subdir] = "contrib"
 
-projects[fboauth][version] = "1.7"
-projects[fboauth][subdir] = "contrib"
-
 projects[features][download][branch] = "7.x-2.x"
 projects[features][download][type] = "git"
 projects[features][patch][0] = "https://www.drupal.org/files/issues/1064340-features-files-13.patch"
@@ -157,6 +154,9 @@ projects[geofield][subdir] = "contrib"
 
 projects[geophp][version] = "1.7"
 projects[geophp][subdir] = "contrib"
+
+projects[hybridauth][version] = "2.9"
+projects[hybridauth][subdir] = "contrib"
 
 projects[i18n][version] = "1.12"
 projects[i18n][subdir] = "contrib"
@@ -346,4 +346,8 @@ libraries[leaflet][type] = "library"
 libraries[superfish][download][type] = "get"
 libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal/archive/master.zip"
 libraries[superfish][type] = "library"
+
+libraries[hybridauth][download][type] = "get"
+libraries[hybridauth][download][url] = "https://github.com/hybridauth/hybridauth/archive/master.zip"
+libraries[hybridauth][type] = "library"
 
