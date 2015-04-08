@@ -34,7 +34,6 @@ projects:
   entity_view_mode: { version: ~ }
   entityreference: { version: ~ }
   eva: { version: ~ }
-  fboauth: { version: ~ }
   features:
     download: { branch: 7.x-2.x }
     patch:
@@ -63,6 +62,7 @@ projects:
   geocoder: { version: ~ }
   geofield: { version: ~ }
   geophp: { version: ~ }
+  hybridauth: { version: ~ }
   i18n: { version: ~ }
   image_combination_effects:
     version: 1.0-alpha1

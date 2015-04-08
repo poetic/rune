@@ -18,3 +18,7 @@ libraries:
     download:
       type: get
       url: https://github.com/mehrpadin/Superfish-for-Drupal/archive/master.zip
+  hybridauth:
+    download:
+      type: get
+      url: https://github.com/hybridauth/hybridauth/archive/master.zip
