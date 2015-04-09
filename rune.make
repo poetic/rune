@@ -99,6 +99,8 @@ projects[eva][subdir] = "contrib"
 projects[features][download][branch] = "7.x-2.x"
 projects[features][download][type] = "git"
 projects[features][patch][0] = "https://www.drupal.org/files/issues/1064340-features-files-13.patch"
+projects[features][patch][1] = "https://www.drupal.org/files/issues/features-defaultversion-2467705-1.patch"
+projects[features][patch][2] = "https://www.drupal.org/files/issues/features-add_generate_button-401392-1.patch"
 projects[features][subdir] = "contrib"
 
 projects[features_override][version] = "2.0-rc2"
