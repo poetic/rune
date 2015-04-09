@@ -38,6 +38,8 @@ projects:
     download: { branch: 7.x-2.x }
     patch:
       - https://www.drupal.org/files/issues/1064340-features-files-13.patch
+      - https://www.drupal.org/files/issues/features-defaultversion-2467705-1.patch
+      - https://www.drupal.org/files/issues/features-add_generate_button-401392-1.patch
   features_override: { version: ~ }
   feeds:
     download: { branch: 2.x-dev, revision: f22a0f7 }
