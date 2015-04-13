@@ -13,13 +13,13 @@ Beyond this, we have nodes, static pages, and other instances of entities. As th
 
 ## Workflow Guidelines
 * Order matters
-  > By capturing things at the most basic level and working your way up through the hierarchy, we ensure our feature code will be clean.
-  > For example: If the field bases are already captured on a content type, the content type feature will not try to add them itself.
+  * By capturing things at the most basic level and working your way up through the hierarchy, we ensure our feature code will be clean.
+  * For example: If the field bases are already captured on a content type, the content type feature will not try to add them itself.
 * Feature dependencies should not be parallel (for the most part)
-  > As each level should use consumables from the level before it, feature dependencies should rarely point to features on the same level.
-  > An exception to this would be content types referencing other content types via Entity Reference.
+  * As each level should use consumables from the level before it, feature dependencies should rarely point to features on the same level.
+  * An exception to this would be content types referencing other content types via Entity Reference.
 * Clear cache often
-  > It is quite common for changes to features (such as new field instances) to not show up without a cache clear.
+  * It is quite common for changes to features (such as new field instances) to not show up without a cache clear.
 
 ## Implementation
 Lets say a new content type of “Location” has been added to a site, with 3 fields: Address, Photo, and Description. The following process would be used to properly capture this configuration:
@@ -34,19 +34,19 @@ Add example_location and example_location_nodes to example_core
 ## Features Structure
 Features should fall into the following groups, assume a site named “Example”. First level bullets are groupings on the Features page, second level bullets are the individual feature names. All features should have the site name (lowercased and underscored) as a prefix for easy identification of site-specific features.
 * Example
-  > example_core
-  > example_field_bases
-  > example_view_modes
-  > example_image_styles
-  > example_flexslider
+  * example_core
+  * example_field_bases
+  * example_view_modes
+  * example_image_styles
+  * example_flexslider
 * Example Content Types
-  > example_amenity
-  > example_unit
-  > example_gallery
+  * example_amenity
+  * example_unit
+  * example_gallery
 * Example Pages
-  > example_contact_page
-  > example_home_page
-  > example_gallery_page
+  * example_contact_page
+  * example_home_page
+  * example_gallery_page
 
 Great care should be taken when generating features, as the features auto-detection capabilities will often try to create overlap between features, which can potentially cause conflicts. Be sure to thoroughly analyze the added/removed settings when regenerating a feature.
 
