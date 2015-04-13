@@ -301,6 +301,9 @@ projects[uuid_features][download][type] = "git"
 projects[uuid_features][patch][0] = "https://www.drupal.org/files/issues/uuid_features-export%E2%80%93files-in%E2%80%93file-fields-with-taxonomy-terms-2454405-1.patch"
 projects[uuid_features][subdir] = "contrib"
 
+projects[variable][version] = "2.5"
+projects[variable][subdir] = "contrib"
+
 projects[views][version] = "3.10"
 projects[views][patch][0] = "https://www.drupal.org/files/views-area-results-plural-1793500-1.patch"
 projects[views][subdir] = "contrib"
