@@ -46,4 +46,4 @@ There are many modules that are set to a specific commit or that may have
 patches applied in order to get this functionality working.
 
 We recommend building sites with many small features over large
-all-encompassing ones. We have currated the concepts behind clean and maintainable features with our [Scalable and Modular Architecture with Features](https://github.com/mattcoker/rune/blob/master/SMAF.md) philosphy.
+all-encompassing ones. We have currated the concepts behind clean and maintainable features with our [Scalable and Modular Architecture with Features](SMAF.md) philosphy.
