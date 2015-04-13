@@ -3,7 +3,7 @@
 ## Workflow Concepts
 When using the SMAF workflow, it becomes important to think of objects on the site in terms of consumables.
 
-Much like the food chain above, various objects on the site often consume the objects one level below. This becomes the basis for the order in which we modify our features, and informs us on future expansions of this philosophy.
+Much like a food chain, various objects on the site often consume the objects one level below. This becomes the basis for the order in which we modify our features, and informs us on future expansions of this philosophy.
 
 At the most base level, our initial consumable, we have objects like field bases. These are used by multiple views, content types, and other entities all across the site. A core feature of Drupal, field bases allow a single field to be used on multiple content types. Other items that fit into this category would be Flexslider optionsets, view modes, image styles, taxonomies (not terms), etc.
 
