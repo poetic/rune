@@ -99,6 +99,7 @@ projects:
   panels:
     download: { branch: 3.x-dev, revision: f7ed1af }
   panels_everywhere: { version: 1.0-rc1 }
+  paragraphs: { version: ~ }
   pathauto: { version: ~ }
   phone: { version: ~ }
   quicktabs: { version: ~ }

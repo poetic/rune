@@ -243,6 +243,9 @@ projects[panels][subdir] = "contrib"
 projects[panels_everywhere][version] = "1.0-rc1"
 projects[panels_everywhere][subdir] = "contrib"
 
+projects[paragraphs][version] = "1.0-beta6"
+projects[paragraphs][subdir] = "contrib"
+
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
 
