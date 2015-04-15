@@ -123,7 +123,7 @@ projects:
     download: { branch: 1.x-dev, revision: 166fb9f }
     patch:
       - https://www.drupal.org/files/issues/uuid_features-export%E2%80%93files-in%E2%80%93file-fields-with-taxonomy-terms-2454405-1.patch
-      - https://www.drupal.org/files/issues/uuid_features-add_paragraphs_module_export_capability-2471182-1.patch
+      - https://www.drupal.org/files/issues/uuid_features-add_paragraphs_module_export_capability-2471182-2.patch
   variable: { version: ~ }
   views:
     version: ~

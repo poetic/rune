@@ -300,7 +300,7 @@ projects[uuid_features][download][branch] = "1.x-dev"
 projects[uuid_features][download][revision] = "166fb9f"
 projects[uuid_features][download][type] = "git"
 projects[uuid_features][patch][0] = "https://www.drupal.org/files/issues/uuid_features-export%E2%80%93files-in%E2%80%93file-fields-with-taxonomy-terms-2454405-1.patch"
-projects[uuid_features][patch][1] = "https://www.drupal.org/files/issues/uuid_features-add_paragraphs_module_export_capability-2471182-1.patch"
+projects[uuid_features][patch][1] = "https://www.drupal.org/files/issues/uuid_features-add_paragraphs_module_export_capability-2471182-2.patch"
 projects[uuid_features][subdir] = "contrib"
 
 projects[variable][version] = "2.5"
