@@ -57,7 +57,9 @@ projects:
   field_group: { version: ~ }
   field_validation:
     download: { branch: 2.x-dev, revision: 63e1e83 }
-  filefield_paths: { version: ~ }
+  filefield_paths: { version: ~ } 
+    patch: 
+      - https://www.drupal.org/files/issues/deprecated_e-2103151-26.patch
   filefield_sources: { version: ~ }
   flag: { version: ~ }
   flexslider: { version: ~ }
