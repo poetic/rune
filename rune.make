@@ -163,6 +163,9 @@ projects[hybridauth][subdir] = "contrib"
 projects[i18n][version] = "1.12"
 projects[i18n][subdir] = "contrib"
 
+projects[iframe][version] = "1.3"
+projects[iframe][subdir] = "contrib"
+
 projects[image_combination_effects][version] = "1.0-alpha1"
 projects[image_combination_effects][patch][0] = "https://www.drupal.org/files/issues/ICE-fix-fatal-typecast-error-228133-2.patch"
 projects[image_combination_effects][subdir] = "contrib"
