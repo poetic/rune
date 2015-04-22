@@ -66,6 +66,7 @@ projects:
   geocoder: { version: ~ }
   geofield: { version: ~ }
   geophp: { version: ~ }
+  gtranslate: { version: ~ }
   hybridauth: { version: ~ }
   i18n: { version: ~ }
   iframe: { version: ~ }

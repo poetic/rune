@@ -157,6 +157,9 @@ projects[geofield][subdir] = "contrib"
 projects[geophp][version] = "1.7"
 projects[geophp][subdir] = "contrib"
 
+projects[gtranslate][version] = "1.10"
+projects[gtranslate][subdir] = "contrib"
+
 projects[hybridauth][version] = "2.9"
 projects[hybridauth][subdir] = "contrib"
 
