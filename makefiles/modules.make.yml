@@ -57,8 +57,9 @@ projects:
   field_group: { version: ~ }
   field_validation:
     download: { branch: 2.x-dev, revision: 63e1e83 }
-  filefield_paths: { version: ~ } 
-    patch: 
+  filefield_paths:
+    version: 1.0-beta4
+    patch:
       - https://www.drupal.org/files/issues/deprecated_e-2103151-26.patch
   filefield_sources: { version: ~ }
   flag: { version: ~ }
@@ -91,11 +92,14 @@ projects:
   libraries: { version: ~ }
   link: { version: ~ }
   linkit: { version: ~ }
+  mailsystem:
+    download: { branch: 3.x-dev, revision: 4c957ae }
   manualcrop:
     download: { branch: 1.x-dev, revision: 332ffcc }
   masquerade: { version: ~ }
   menu_attributes: { version: ~ }
   migrate: { version: ~ }
+  mimemail: { version: ~ }
   module_filter: { version: ~ }
   office_hours: { version: ~ }
   panelizer:
@@ -111,7 +115,9 @@ projects:
   rules: { version: ~ }
   save_edit: { version: ~ }
   services: { version: ~ }
+  sharethis: { version: ~ }
   simplify: { version: ~ }
+  smtp: { version: ~ }
   strongarm: { version: ~ }
   subpathauto: { version: ~ }
   superfish:
