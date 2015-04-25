@@ -23,6 +23,7 @@ projects:
   colorbox: { version: ~ }
   computed_field: { version: ~ }
   content_menu: { version: ~ }
+  contextual_range_filter: { version: ~ }
   ctools:
     download: { branch: 1.6-rc1, revision: 2678da8 }
   date: { version: ~ }
