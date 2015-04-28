@@ -242,6 +242,9 @@ projects[migrate][version] = "2.7"
 projects[mimemail][subdir] = "contrib"
 projects[mimemail][version] = "1.0-beta3"
 
+projects[mobile_navigation][subdir] = "contrib"
+projects[mobile_navigation][version] = "1.2"
+
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "2.0"
 

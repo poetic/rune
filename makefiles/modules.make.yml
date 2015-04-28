@@ -101,6 +101,7 @@ projects:
   menu_attributes: { version: ~ }
   migrate: { version: ~ }
   mimemail: { version: ~ }
+  mobile_navigation: { version: ~ }
   module_filter: { version: ~ }
   office_hours: { version: ~ }
   panelizer:
