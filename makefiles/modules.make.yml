@@ -112,6 +112,7 @@ projects:
   pathauto: { version: ~ }
   phone: { version: ~ }
   quicktabs: { version: ~ }
+  quiz: { version: ~ }
   range: { version: ~ }
   rules: { version: ~ }
   save_edit: { version: ~ }
