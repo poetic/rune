@@ -98,6 +98,7 @@ projects:
   manualcrop:
     download: { branch: 1.x-dev, revision: 332ffcc }
   masquerade: { version: ~ }
+  media: { version: ~ }
   menu_attributes: { version: ~ }
   migrate: { version: ~ }
   mimemail: { version: ~ }
