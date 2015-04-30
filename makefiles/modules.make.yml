@@ -99,7 +99,10 @@ projects:
     download: { branch: 1.x-dev, revision: 332ffcc }
   masquerade: { version: ~ }
   media: { version: ~ }
-  mediaelement: { version: ~ }
+  mediaelement: 
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/mediaelement-autoplay_loop-1810314-3.patch
   menu_attributes: { version: ~ }
   migrate: { version: ~ }
   mimemail: { version: ~ }
