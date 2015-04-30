@@ -234,7 +234,10 @@ projects[masquerade][subdir] = "contrib"
 projects[masquerade][version] = "1.0-rc7"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "7.x-1.5"
+projects[media][version] = "7.x-1.x-dev"
+
+projects[mediaelement][subdir] = "contrib"
+projects[mediaelement][version] = "7.x-1.2"
 
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc3"
