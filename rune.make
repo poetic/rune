@@ -234,10 +234,10 @@ projects[masquerade][subdir] = "contrib"
 projects[masquerade][version] = "1.0-rc7"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "7.x-1.x-dev"
+projects[media][version] = "1.5"
 
 projects[mediaelement][subdir] = "contrib"
-projects[mediaelement][version] = "7.x-1.2"
+projects[mediaelement][version] = "1.x-dev"
 projects[mediaelement][patch][0] = "https://www.drupal.org/files/issues/mediaelement-autoplay_loop-1810314-3.patch"
 
 projects[menu_attributes][subdir] = "contrib"
