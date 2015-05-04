@@ -233,6 +233,9 @@ projects[manualcrop][download][type] = "git"
 projects[masquerade][subdir] = "contrib"
 projects[masquerade][version] = "1.0-rc7"
 
+projects[media][subdir] = "contrib"
+projects[media][version] = "2.0-alpha4"
+
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc3"
 
