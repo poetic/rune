@@ -58,6 +58,7 @@ projects:
   field_group: { version: ~ }
   field_validation:
     download: { branch: 2.x-dev, revision: 63e1e83 }
+  file_entity: { version: ~ }
   filefield_paths:
     version: 1.0-beta4
     patch:

@@ -139,6 +139,9 @@ projects[field_validation][download][branch] = "2.x-dev"
 projects[field_validation][download][revision] = "63e1e83"
 projects[field_validation][download][type] = "git"
 
+projects[file_entity][subdir] = "contrib"
+projects[file_entity][version] = "2.0-beta1"
+
 projects[filefield_paths][subdir] = "contrib"
 projects[filefield_paths][version] = "1.0-beta4"
 projects[filefield_paths][patch][0] = "https://www.drupal.org/files/issues/deprecated_e-2103151-26.patch"
