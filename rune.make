@@ -276,6 +276,9 @@ projects[pathauto][version] = "1.2"
 projects[phone][subdir] = "contrib"
 projects[phone][version] = "1.0-beta1"
 
+projects[profile2][subdir] = "contrib"
+projects[profile2][version] = "1.3"
+
 projects[quicktabs][subdir] = "contrib"
 projects[quicktabs][version] = "3.6"
 
