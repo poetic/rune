@@ -113,6 +113,7 @@ projects:
   paragraphs: { version: ~ }
   pathauto: { version: ~ }
   phone: { version: ~ }
+  profile2: { version: ~ }
   quicktabs: { version: ~ }
   range: { version: ~ }
   rules: { version: ~ }
