@@ -235,7 +235,7 @@ projects[manualcrop][subdir] = "contrib"
 projects[masquerade][version] = "1.0-rc7"
 projects[masquerade][subdir] = "contrib"
 
-projects[media][download][branch] = "2.x-dev"
+projects[media][download][branch] = "7.x-2.x"
 projects[media][download][type] = "git"
 projects[media][subdir] = "contrib"
 

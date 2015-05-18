@@ -99,7 +99,7 @@ projects:
     download: { branch: 1.x-dev, revision: 332ffcc }
   masquerade: { version: ~ }
   media:
-    download: { branch: 2.x-dev }
+    download: { branch: 7.x-2.x }
   menu_attributes: { version: ~ }
   migrate: { version: ~ }
   mimemail: { version: ~ }
