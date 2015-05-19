@@ -115,6 +115,7 @@ projects:
   phone: { version: ~ }
   profile2: { version: ~ }
   quicktabs: { version: ~ }
+  rabbit_hole: { version: ~ }
   range: { version: ~ }
   rules: { version: ~ }
   save_edit: { version: ~ }

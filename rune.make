@@ -282,6 +282,9 @@ projects[profile2][subdir] = "contrib"
 projects[quicktabs][version] = "3.6"
 projects[quicktabs][subdir] = "contrib"
 
+projects[rabbit_hole][version] = "2.23"
+projects[rabbit_hole][subdir] = "contrib"
+
 projects[range][version] = "1.3"
 projects[range][subdir] = "contrib"
 
@@ -373,7 +376,7 @@ projects[webform_phone][subdir] = "contrib"
 projects[webform_uuid][version] = "1.1"
 projects[webform_uuid][subdir] = "contrib"
 
-projects[youtube][version] = "1.5"
+projects[youtube][version] = "1.6"
 projects[youtube][subdir] = "contrib"
 
 ; Libraries
