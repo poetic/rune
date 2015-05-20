@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Rune Performance Settings feature.
+ */
+
+include_once 'rune_performance_settings.features.inc';
