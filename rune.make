@@ -303,6 +303,9 @@ projects[sharethis][subdir] = "contrib"
 projects[simplify][version] = "3.3"
 projects[simplify][subdir] = "contrib"
 
+projects[xmlsitemap][version] = "2.2"
+projects[xmlsitemap][subdir] = "contrib"
+
 projects[smtp][version] = "1.2"
 projects[smtp][subdir] = "contrib"
 

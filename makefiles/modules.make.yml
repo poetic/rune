@@ -122,6 +122,7 @@ projects:
   services: { version: ~ }
   sharethis: { version: ~ }
   simplify: { version: ~ }
+  xmlsitemap: { version: ~ }
   smtp: { version: ~ }
   strongarm: { version: ~ }
   subpathauto: { version: ~ }
