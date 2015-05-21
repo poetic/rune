@@ -175,6 +175,9 @@ projects[i18n][subdir] = "contrib"
 projects[iframe][version] = "1.3"
 projects[iframe][subdir] = "contrib"
 
+projects[imageapi_optimize][version] = "1.2"
+projects[imageapi_optimize][subdir] = "contrib"
+
 projects[image_combination_effects][version] = "1.0-alpha1"
 projects[image_combination_effects][patch][0] = "https://www.drupal.org/files/issues/ICE-fix-fatal-typecast-error-228133-2.patch"
 projects[image_combination_effects][subdir] = "contrib"
@@ -242,6 +245,9 @@ projects[media][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc3"
 projects[menu_attributes][subdir] = "contrib"
 
+projects[metatag][version] = "1.4"
+projects[metatag][subdir] = "contrib"
+
 projects[migrate][version] = "2.7"
 projects[migrate][subdir] = "contrib"
 
@@ -253,6 +259,9 @@ projects[module_filter][subdir] = "contrib"
 
 projects[office_hours][version] = "1.4"
 projects[office_hours][subdir] = "contrib"
+
+projects[page_title][version] = "2.7"
+projects[page_title][subdir] = "contrib"
 
 projects[panelizer][download][branch] = "3.x-dev"
 projects[panelizer][download][revision] = "dd5aacc"
