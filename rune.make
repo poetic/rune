@@ -260,9 +260,6 @@ projects[module_filter][subdir] = "contrib"
 projects[office_hours][version] = "1.4"
 projects[office_hours][subdir] = "contrib"
 
-projects[page_title][version] = "2.7"
-projects[page_title][subdir] = "contrib"
-
 projects[panelizer][download][branch] = "3.x-dev"
 projects[panelizer][download][revision] = "dd5aacc"
 projects[panelizer][download][type] = "git"

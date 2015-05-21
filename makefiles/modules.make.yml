@@ -107,7 +107,6 @@ projects:
   mimemail: { version: ~ }
   module_filter: { version: ~ }
   office_hours: { version: ~ }
-  page_title: { version: ~ }
   panelizer:
     download: { branch: 3.x-dev, revision: dd5aacc }
   panels:
