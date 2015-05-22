@@ -151,6 +151,7 @@ projects:
     version: ~
     patch:
       - https://www.drupal.org/files/views-area-results-plural-1793500-1.patch
+      - https://www.drupal.org/files/issues/views-taxonomy_multiple_term_names-1248300-46.patch
   views_accordion: { version: ~ }
   views_bootstrap: { version: ~ }
   views_bulk_operations: { version: ~ }
