@@ -102,7 +102,10 @@ projects:
   media:
     download: { branch: 7.x-2.x }
   menu_attributes: { version: ~ }
-  metatag: { version: ~ }
+  metatag:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/metatag-substitute-panels-context-variables-2408211-7.patch
   migrate: { version: ~ }
   mimemail: { version: ~ }
   module_filter: { version: ~ }
