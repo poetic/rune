@@ -105,7 +105,7 @@ projects:
   metatag:
     version: ~
     patch:
-      - https://www.drupal.org/files/issues/metatag-substitute-panels-context-variables-2408211-7.patch
+      - https://www.drupal.org/files/issues/metatag-substitute-panels-context-variables-2408211-8.patch
   migrate: { version: ~ }
   mimemail: { version: ~ }
   module_filter: { version: ~ }

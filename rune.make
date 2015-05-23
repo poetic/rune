@@ -246,7 +246,7 @@ projects[menu_attributes][version] = "1.0-rc3"
 projects[menu_attributes][subdir] = "contrib"
 
 projects[metatag][version] = "1.4"
-projects[metatag][patch][0] = "https://www.drupal.org/files/issues/metatag-substitute-panels-context-variables-2408211-7.patch"
+projects[metatag][patch][0] = "https://www.drupal.org/files/issues/metatag-substitute-panels-context-variables-2408211-8.patch"
 projects[metatag][subdir] = "contrib"
 
 projects[migrate][version] = "2.7"
