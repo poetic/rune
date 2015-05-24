@@ -61,7 +61,10 @@ projects:
     patch:
       - https://www.drupal.org/files/issues/deprecated_e-2103151-26.patch
   filefield_sources: { version: ~ }
-  flag: { version: ~ }
+  flag:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/flag-broken-1925922-131.patch
   flexslider: { version: ~ }
   geocoder: { version: ~ }
   geofield: { version: ~ }
