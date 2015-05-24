@@ -3,12 +3,12 @@ core: 7.x
 
 projects:
   addressfield:
-    version: 1.0
+    version: ~
     patch:
       - https://www.drupal.org/files/issues/addressfield-nonempty-1263316-98.patch
   addressfield_staticmap: { version: ~ }
   admin_menu:
-    version: 3.0-rc5
+    version: ~
     patch:
       - https://www.drupal.org/files/admin_menu-search-disappeared-1916812-13.patch
   admin_views: { version: ~ }
@@ -24,8 +24,7 @@ projects:
   computed_field: { version: ~ }
   content_menu: { version: ~ }
   contextual_range_filter: { version: ~ }
-  ctools:
-    download: { branch: 1.6-rc1, revision: 2678da8 }
+  ctools: { version: ~ }
   date: { version: ~ }
   diff: { version: ~ }
   email: { versions: ~ }
@@ -36,10 +35,9 @@ projects:
   entityreference: { version: ~ }
   eva: { version: ~ }
   features:
-    download: { branch: 7.x-2.x }
+    version: ~
     patch:
       - https://www.drupal.org/files/issues/1064340-features-files-13.patch
-      - https://www.drupal.org/files/issues/features-defaultversion-2467705-1.patch
   features_override: { version: ~ }
   feeds:
     download: { branch: 2.x-dev, revision: f22a0f7 }
@@ -47,11 +45,11 @@ projects:
   feeds_xpathparser: { version: ~ }
   fences: { version: ~ }
   field_collection:
-    version: 1.0-beta8
+    version: ~
     patch:
       - https://www.drupal.org/files/issues/field_collection-host_entity_tokens-1372652-74.patch
   field_collection_feeds:
-    version: 1.0-alpha3
+    version: ~
     patch:
       - https://www.drupal.org/files/issues/FeedsUpdateIssue-1921128-12.patch
   field_group: { version: ~ }
@@ -59,7 +57,7 @@ projects:
     download: { branch: 2.x-dev, revision: 63e1e83 }
   file_entity: { version: ~ }
   filefield_paths:
-    version: 1.0-beta4
+    version: ~
     patch:
       - https://www.drupal.org/files/issues/deprecated_e-2103151-26.patch
   filefield_sources: { version: ~ }
@@ -96,8 +94,7 @@ projects:
   linkit: { version: ~ }
   mailsystem:
     download: { branch: 3.x-dev, revision: 4c957ae }
-  manualcrop:
-    download: { branch: 1.x-dev, revision: 332ffcc }
+  manualcrop: { version: ~ }
   masquerade: { version: ~ }
   media:
     download: { branch: 7.x-2.x }
@@ -112,9 +109,8 @@ projects:
   office_hours: { version: ~ }
   panelizer:
     download: { branch: 3.x-dev, revision: dd5aacc }
-  panels:
-    download: { branch: 3.x-dev, revision: f7ed1af }
-  panels_everywhere: { version: 1.0-rc1 }
+  panels: { version: ~ }
+  panels_everywhere: { version: ~ }
   paragraphs: { version: ~ }
   pathauto: { version: ~ }
   phone: { version: ~ }
@@ -142,10 +138,9 @@ projects:
     patch:
       - https://www.drupal.org/files/issues/uuid_add-paragraphs-module-support-2471174.patch
   uuid_features:
-    download: { branch: 1.x-dev, revision: 166fb9f }
+    download: { branch: 1.x-dev, revision: 84db2dd }
     patch:
       - https://www.drupal.org/files/issues/uuid_features-export%E2%80%93files-in%E2%80%93file-fields-with-taxonomy-terms-2454405-1.patch
-      - https://www.drupal.org/files/issues/uuid_features-add_paragraphs_module_export_capability-2471182-2.patch
   variable: { version: ~ }
   views:
     version: ~

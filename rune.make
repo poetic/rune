@@ -67,9 +67,7 @@ projects[content_menu][subdir] = "contrib"
 projects[contextual_range_filter][version] = "1.7"
 projects[contextual_range_filter][subdir] = "contrib"
 
-projects[ctools][download][branch] = "1.6-rc1"
-projects[ctools][download][revision] = "2678da8"
-projects[ctools][download][type] = "git"
+projects[ctools][version] = "1.7"
 projects[ctools][subdir] = "contrib"
 
 projects[date][version] = "2.8"
@@ -99,10 +97,8 @@ projects[entityreference][subdir] = "contrib"
 projects[eva][version] = "1.2"
 projects[eva][subdir] = "contrib"
 
-projects[features][download][branch] = "7.x-2.x"
-projects[features][download][type] = "git"
+projects[features][version] = "2.5"
 projects[features][patch][0] = "https://www.drupal.org/files/issues/1064340-features-files-13.patch"
-projects[features][patch][1] = "https://www.drupal.org/files/issues/features-defaultversion-2467705-1.patch"
 projects[features][subdir] = "contrib"
 
 projects[features_override][version] = "2.0-rc2"
@@ -200,7 +196,7 @@ projects[inline_entity_form][subdir] = "contrib"
 projects[inline_messages][version] = "1.0"
 projects[inline_messages][subdir] = "contrib"
 
-projects[jquery_update][version] = "2.5"
+projects[jquery_update][version] = "3.0-alpha1"
 projects[jquery_update][subdir] = "contrib"
 
 projects[job_scheduler][version] = "2.0-alpha3"
@@ -230,9 +226,7 @@ projects[mailsystem][download][revision] = "4c957ae"
 projects[mailsystem][download][type] = "git"
 projects[mailsystem][subdir] = "contrib"
 
-projects[manualcrop][download][branch] = "1.x-dev"
-projects[manualcrop][download][revision] = "332ffcc"
-projects[manualcrop][download][type] = "git"
+projects[manualcrop][version] = "1.5"
 projects[manualcrop][subdir] = "contrib"
 
 projects[masquerade][version] = "1.0-rc7"
@@ -266,12 +260,10 @@ projects[panelizer][download][revision] = "dd5aacc"
 projects[panelizer][download][type] = "git"
 projects[panelizer][subdir] = "contrib"
 
-projects[panels][download][branch] = "3.x-dev"
-projects[panels][download][revision] = "f7ed1af"
-projects[panels][download][type] = "git"
+projects[panels][version] = "3.5"
 projects[panels][subdir] = "contrib"
 
-projects[panels_everywhere][version] = "1.0-rc1"
+projects[panels_everywhere][version] = "1.0-rc2"
 projects[panels_everywhere][subdir] = "contrib"
 
 projects[paragraphs][version] = "1.0-beta6"
@@ -346,10 +338,9 @@ projects[uuid][patch][0] = "https://www.drupal.org/files/issues/uuid_add-paragra
 projects[uuid][subdir] = "contrib"
 
 projects[uuid_features][download][branch] = "1.x-dev"
-projects[uuid_features][download][revision] = "166fb9f"
+projects[uuid_features][download][revision] = "84db2dd"
 projects[uuid_features][download][type] = "git"
 projects[uuid_features][patch][0] = "https://www.drupal.org/files/issues/uuid_features-export%E2%80%93files-in%E2%80%93file-fields-with-taxonomy-terms-2454405-1.patch"
-projects[uuid_features][patch][1] = "https://www.drupal.org/files/issues/uuid_features-add_paragraphs_module_export_capability-2471182-2.patch"
 projects[uuid_features][subdir] = "contrib"
 
 projects[variable][version] = "2.5"
