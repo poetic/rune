@@ -243,8 +243,11 @@ projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc3"
 
 projects[metatag][subdir] = "contrib"
-projects[metatag][version] = "1.4"
+projects[metatag][download][branch] = "1.x-dev"
+projects[metatag][download][revision] = "3a7295d"
+projects[metatag][download][type] = "git"
 projects[metatag][patch][0] = "https://www.drupal.org/files/issues/metatag-substitute-panels-context-variables-2408211-8.patch"
+projects[metatag][patch][1] = "https://www.drupal.org/files/issues/metatag-feeds-module-api-change-2475147-4.patch"
 
 projects[migrate][subdir] = "contrib"
 projects[migrate][version] = "2.7"

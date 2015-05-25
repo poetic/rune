@@ -105,9 +105,10 @@ projects:
     download: { branch: 7.x-2.x }
   menu_attributes: { version: ~ }
   metatag:
-    version: ~
+    download: { branch: 1.x-dev, revision: 3a7295d }
     patch:
       - https://www.drupal.org/files/issues/metatag-substitute-panels-context-variables-2408211-8.patch
+      - https://www.drupal.org/files/issues/metatag-feeds-module-api-change-2475147-4.patch
   migrate: { version: ~ }
   mimemail: { version: ~ }
   module_filter: { version: ~ }
