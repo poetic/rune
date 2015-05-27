@@ -409,3 +409,11 @@ libraries[hybridauth][download][type] = "get"
 libraries[hybridauth][download][url] = "https://github.com/hybridauth/hybridauth/archive/master.zip"
 libraries[hybridauth][type] = "library"
 
+libraries[jquery.imagesloaded][download][type] = "get"
+libraries[jquery.imagesloaded][download][url] = "https://github.com/desandro/imagesloaded/archive/v2.1.2.tar.gz"
+libraries[jquery.imagesloaded][type] = "library"
+
+libraries[jquery.imgareaselect][download][type] = "get"
+libraries[jquery.imgareaselect][download][url] = "http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip"
+libraries[jquery.imgareaselect][type] = "library"
+
