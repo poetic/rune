@@ -22,3 +22,11 @@ libraries:
     download:
       type: get
       url: https://github.com/hybridauth/hybridauth/archive/master.zip
+  jquery.imagesloaded:
+    download:
+      type: get
+      url: https://github.com/desandro/imagesloaded/archive/v2.1.2.tar.gz
+  jquery.imgareaselect:
+    download:
+      type: get
+      url: http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip
