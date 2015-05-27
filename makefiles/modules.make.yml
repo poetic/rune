@@ -60,6 +60,7 @@ projects:
     version: ~
     patch:
       - https://www.drupal.org/files/issues/deprecated_e-2103151-26.patch
+      - https://www.drupal.org/files/issues/14-2019723-writeable-stream-wrappers.patch
   filefield_sources: { version: ~ }
   flag:
     version: ~
