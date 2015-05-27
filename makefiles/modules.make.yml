@@ -76,7 +76,10 @@ projects:
   hybridauth: { version: ~ }
   i18n: { version: ~ }
   iframe: { version: ~ }
-  imageapi_optimize: { version: ~ }
+  imageapi_optimize:
+    version: ~
+    patch:
+      - "https://www.drupal.org/files/issues/imageapi_optimize-clean_up_temp_files-2495943-1.patch"
   image_combination_effects:
     version: 1.0-alpha1
     patch:

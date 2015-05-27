@@ -177,6 +177,7 @@ projects[iframe][version] = "1.3"
 
 projects[imageapi_optimize][subdir] = "contrib"
 projects[imageapi_optimize][version] = "1.2"
+projects[imageapi_optimize][patch][0] = "https://www.drupal.org/files/issues/imageapi_optimize-clean_up_temp_files-2495943-1.patch"
 
 projects[image_combination_effects][subdir] = "contrib"
 projects[image_combination_effects][version] = "1.0-alpha1"
@@ -377,7 +378,7 @@ projects[views_field_view][subdir] = "contrib"
 projects[views_field_view][version] = "1.1"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "4.8"
+projects[webform][version] = "4.9"
 
 projects[webform_phone][subdir] = "contrib"
 projects[webform_phone][version] = "1.21"
