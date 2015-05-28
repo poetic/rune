@@ -75,6 +75,7 @@ projects:
   geophp: { version: ~ }
   gtranslate: { version: ~ }
   hybridauth: { version: ~ }
+  httprl: { version: ~ }
   i18n: { version: ~ }
   iframe: { version: ~ }
   imageapi_optimize:

@@ -172,6 +172,9 @@ projects[gtranslate][version] = "1.10"
 projects[hybridauth][subdir] = "contrib"
 projects[hybridauth][version] = "2.12"
 
+projects[httprl][subdir] = "contrib"
+projects[httprl][version] = "1.14"
+
 projects[i18n][subdir] = "contrib"
 projects[i18n][version] = "1.13"
 
