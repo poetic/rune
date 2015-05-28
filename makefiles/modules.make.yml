@@ -13,6 +13,7 @@ projects:
       - https://www.drupal.org/files/admin_menu-search-disappeared-1916812-13.patch
   admin_views: { version: ~ }
   adminimal_admin_menu: { version: ~ }
+  advagg: { version: ~ }
   auto_entitylabel: { version: ~ }
   better_exposed_filters: { version: ~ }
   better_formats: { version: ~ }
