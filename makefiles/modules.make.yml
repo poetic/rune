@@ -70,7 +70,6 @@ projects:
       - https://www.drupal.org/files/issues/1925922-flag-fixed-warning-76.patch
       - https://www.drupal.org/files/issues/line-130-fixer-upper-rater-19252922-46_1.patch
   flexslider: { version: ~ }
-  ftools: { version: 2.x-dev }
   geocoder: { version: ~ }
   geofield: { version: ~ }
   geophp: { version: ~ }

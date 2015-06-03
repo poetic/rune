@@ -157,9 +157,6 @@ projects[flag][patch][2] = "https://www.drupal.org/files/issues/line-130-fixer-u
 projects[flexslider][subdir] = "contrib"
 projects[flexslider][version] = "2.0-alpha3"
 
-projects[ftools][subdir] = "contrib"
-projects[ftools][version] = "2.x-dev"
-
 projects[geocoder][subdir] = "contrib"
 projects[geocoder][version] = "1.2"
 
