@@ -116,7 +116,7 @@ projects[feeds][download][revision] = "f22a0f7"
 projects[feeds][download][type] = "git"
 
 projects[feeds_tamper][subdir] = "contrib"
-projects[feeds_tamper][version] = "1.0"
+projects[feeds_tamper][version] = "1.1"
 
 projects[feeds_xpathparser][subdir] = "contrib"
 projects[feeds_xpathparser][version] = "1.0"
@@ -211,7 +211,7 @@ projects[inline_messages][subdir] = "contrib"
 projects[inline_messages][version] = "1.0"
 
 projects[jquery_update][subdir] = "contrib"
-projects[jquery_update][version] = "3.0-alpha1"
+projects[jquery_update][version] = "3.0-alpha2"
 
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
