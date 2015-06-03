@@ -35,6 +35,7 @@ projects:
   entity_view_mode: { version: ~ }
   entityreference: { version: ~ }
   eva: { version: ~ }
+  expire: { version: ~ }
   features:
     version: ~
     patch:

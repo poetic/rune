@@ -100,6 +100,9 @@ projects[entityreference][version] = "1.1"
 projects[eva][subdir] = "contrib"
 projects[eva][version] = "1.2"
 
+projects[expire][subdir] = "contrib"
+projects[expire][version] = "2.0-rc4"
+
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.5"
 projects[features][patch][0] = "https://www.drupal.org/files/issues/1064340-features-files-13.patch"
