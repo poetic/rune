@@ -97,6 +97,12 @@ projects[entity_view_mode][version] = "1.0-rc1"
 projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.1"
 
+projects[environment][subdir] = "contrib"
+projects[environment][version] = "1.0"
+
+projects[environment_indicator][subdir] = "contrib"
+projects[environment_indicator][version] = "2.6"
+
 projects[eva][subdir] = "contrib"
 projects[eva][version] = "1.2"
 

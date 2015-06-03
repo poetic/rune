@@ -34,6 +34,8 @@ projects:
   entity: { version: ~ }
   entity_view_mode: { version: ~ }
   entityreference: { version: ~ }
+  environment: { version: ~ }
+  environment_indicator: { version: ~ }
   eva: { version: ~ }
   expire: { version: ~ }
   features:
