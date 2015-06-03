@@ -157,6 +157,9 @@ projects[flag][patch][2] = "https://www.drupal.org/files/issues/line-130-fixer-u
 projects[flexslider][subdir] = "contrib"
 projects[flexslider][version] = "2.0-alpha3"
 
+projects[ftools][subdir] = "contrib"
+projects[ftools][version] = "2.x-dev"
+
 projects[geocoder][subdir] = "contrib"
 projects[geocoder][version] = "1.2"
 
@@ -245,8 +248,7 @@ projects[masquerade][subdir] = "contrib"
 projects[masquerade][version] = "1.0-rc7"
 
 projects[media][subdir] = "contrib"
-projects[media][download][branch] = "7.x-2.x"
-projects[media][download][type] = "git"
+projects[media][version] = "2.x-dev"
 
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc3"
