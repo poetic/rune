@@ -27,6 +27,7 @@ projects:
   contextual_range_filter: { version: ~ }
   ctools: { version: ~ }
   date: { version: ~ }
+  devel: { version: ~ }
   diff: { version: ~ }
   email: { versions: ~ }
   email_registration: { version: ~ }
