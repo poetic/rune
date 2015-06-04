@@ -29,6 +29,7 @@ dependencies[] = email_registration
 dependencies[] = entity
 dependencies[] = entity_token
 dependencies[] = entityreference
+dependencies[] = expire
 dependencies[] = features
 dependencies[] = features_override
 dependencies[] = filefield_paths
