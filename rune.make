@@ -314,7 +314,7 @@ projects[range][subdir] = "contrib"
 projects[range][version] = "1.3"
 
 projects[rules][subdir] = "contrib"
-projects[rules][version] = "2.9"
+projects[rules][version] = "2.7"
 
 projects[save_edit][subdir] = "contrib"
 projects[save_edit][version] = "1.0-beta1"
