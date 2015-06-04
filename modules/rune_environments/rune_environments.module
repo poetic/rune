@@ -1,0 +1,104 @@
+<?php
+/**
+ * Implement hook_enable()
+ */
+function rune_environments_enable() {
+  // Default to development environment
+  environment_switch(environment_current('rune', 'development'));
+}
+
+/**
+ * Implements hook_environment_switch().
+ */
+function rune_environments_environment_switch($target_env, $current_env) {
+  // Take over environment indicator
+  variable_set('environment_indicator_overwrite', TRUE);
+  variable_set('environment_indicator_overwritten_name', environment_load($target_env)['label']);
+
+  switch ($target_env) {
+    case 'development':
+      variable_set('environment_indicator_overwritten_color', '#1e88e5');
+      return;
+    case 'testing':
+      variable_set('environment_indicator_overwritten_color', '#43a047');
+      return;
+    case 'staging':
+      variable_set('environment_indicator_overwritten_color', '#fb8c00');
+      return;
+    case 'production':
+      variable_set('environment_indicator_overwritten_color', '#e53935');
+      return;
+  }
+}
+
+/**
+ * Alter the environments as defined.
+ *
+ * This is especially useful to modify the defined allowed operations.
+ *
+ * @param array $environments
+ *   Defined environment states.
+ */
+function rune_environments_environment_alter(&$environments) {
+  $environments['development'] = array(
+    'label' => t('Development'),
+    'workflow' => 'rune',
+  );
+
+  $environments['testing'] = array(
+    'label' => t('Testing'),
+    'workflow' => 'rune'
+  );
+
+  $environments['staging'] = array(
+    'label' => t('Staging'),
+    'workflow' => 'rune'
+  );
+
+  $environments['production'] = array(
+    'label' => t('Production'),
+    'workflow' => 'rune'
+  );
+}
+
+/**
+ * Define qualities about a given environment workflow.
+ *
+ * Environment workflows might also be thought of as environment namespaces.
+ * A given site might have a number of different environment contexts. The
+ * default workflow is NULL, and represents a straightforward site deployment
+ * workflow.
+ *
+ * In the example for hook_environmnet, a pair of states are created for a
+ * 'public' workflow which is intended to be used to indicate whether the site
+ * is actually live, as opposed to in a state for internal testing.
+ *
+ * Other workflows that may be useful could include the current state of
+ * functional development vs. front-end design, or administrative review stages
+ * of the site as a software project.
+ *
+ * @return array
+ *   Array of workflows indexed on machine name. Supported elements include:
+ *   - label: The human-readable name for the workflow.
+ *   - description: Extended description of the workflow.
+ */
+function rune_environments_environment_workflow() {
+  $workflows = array();
+
+  $workflows['rune'] = array(
+    'label' => t('Rune'),
+  );
+
+  return $workflows;
+}
+
+/**
+ * Alter the workflows as defined.
+ *
+ * @param array $workflows
+ *   Array of defined workflows.
+ */
+function rune_environments_environment_workflow_alter(&$workflows) {
+  // Remove the default workflow
+  unset($workflows['default']);
+}
