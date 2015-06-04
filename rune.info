@@ -5,7 +5,6 @@ core = 7.x
 
 ; core
 dependencies[] = contextual
-dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = image
 dependencies[] = list
@@ -42,7 +41,6 @@ dependencies[] = uuid
 dependencies[] = uuid_features
 dependencies[] = uuid_panel_node
 dependencies[] = views_bulk_operations
-dependencies[] = views_ui
 dependencies[] = webform
 dependencies[] = webform_uuid
 
