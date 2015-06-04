@@ -160,6 +160,7 @@ projects:
     patch:
       - https://www.drupal.org/files/issues/uuid_features-export%E2%80%93files-in%E2%80%93file-fields-with-taxonomy-terms-2454405-1.patch
   variable: { version: ~ }
+  varnish: { version: ~ }
   views:
     version: ~
     patch:

@@ -372,6 +372,9 @@ projects[uuid_features][patch][0] = "https://www.drupal.org/files/issues/uuid_fe
 projects[variable][subdir] = "contrib"
 projects[variable][version] = "2.5"
 
+projects[varnish][subdir] = "contrib"
+projects[varnish][version] = "1.0-beta3"
+
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.11"
 projects[views][patch][0] = "https://www.drupal.org/files/views-area-results-plural-1793500-1.patch"
