@@ -289,6 +289,9 @@ projects[panelizer][download][type] = "git"
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.5"
 
+projects[panels_content_cache][subdir] = "contrib"
+projects[panels_content_cache][version] = "1.2"
+
 projects[panels_everywhere][subdir] = "contrib"
 projects[panels_everywhere][version] = "1.0-rc2"
 

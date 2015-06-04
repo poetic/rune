@@ -126,6 +126,7 @@ projects:
   panelizer:
     download: { branch: 3.x-dev, revision: dd5aacc }
   panels: { version: ~ }
+  panels_content_cache: { version: ~ }
   panels_everywhere: { version: ~ }
   paragraphs: { version: ~ }
   pathauto: { version: ~ }
