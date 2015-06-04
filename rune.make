@@ -389,6 +389,9 @@ projects[views_bootstrap][version] = "3.1"
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.2"
 
+projects[views_content_cache][subdir] = "contrib"
+projects[views_content_cache][version] = "3.0-alpha3"
+
 projects[views_data_export][subdir] = "contrib"
 projects[views_data_export][version] = "3.0-beta8"
 

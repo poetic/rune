@@ -169,6 +169,7 @@ projects:
   views_accordion: { version: ~ }
   views_bootstrap: { version: ~ }
   views_bulk_operations: { version: ~ }
+  views_content_cache: { version: ~ }
   views_data_export: { version: ~ }
   views_datasource: { version: ~ }
   views_field_view: { version: ~ }
