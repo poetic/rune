@@ -334,6 +334,10 @@ projects[simplify][version] = "3.3"
 projects[xmlsitemap][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.2"
 
+projects[s3fs][subdir] = "contrib"
+projects[s3fs][version] = "2.1"
+projects[s3fs][patch][0] = "https://www.drupal.org/files/issues/s3fs-allow_uri_scheme_overrides-2495559-1.patch"
+
 projects[smtp][subdir] = "contrib"
 projects[smtp][version] = "1.2"
 
@@ -417,6 +421,12 @@ projects[youtube][subdir] = "contrib"
 projects[youtube][version] = "1.6"
 
 ; Libraries
+libraries[awssdk2][download][type] = "get"
+libraries[awssdk2][download][url] = "https://github.com/aws/aws-sdk-php/releases/download/2.7.25/aws.zip"
+libraries[awssdk2][directory_name] = "awssdk2"
+libraries[awssdk2][destination] = "libraries"
+libraries[awssdk2][type] = "library"
+
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor%20for%20Drupal/edit/ckeditor_4.4.3_edit.zip"
 libraries[ckeditor][type] = "library"

@@ -2,6 +2,12 @@ api: 2
 core: 7.x
 
 libraries:
+  awssdk2:
+    download:
+      type: "get"
+      url: "https://github.com/aws/aws-sdk-php/releases/download/2.7.25/aws.zip"
+    directory_name: "awssdk2"
+    destination: "libraries"
   ckeditor:
     download:
       type: get
