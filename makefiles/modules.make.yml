@@ -86,10 +86,6 @@ projects:
     version: ~
     patch:
       - "https://www.drupal.org/files/issues/imageapi_optimize-clean_up_temp_files-2495943-1.patch"
-  image_combination_effects:
-    version: 1.x-dev
-    patch:
-      - https://www.drupal.org/files/issues/ICE-fix-fatal-typecast-error-228133-2.patch
   imagecache_actions: { version: ~ }
   imagecache_token: { version: ~ }
   imce: { version: ~ }

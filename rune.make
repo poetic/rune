@@ -197,10 +197,6 @@ projects[imageapi_optimize][subdir] = "contrib"
 projects[imageapi_optimize][version] = "1.2"
 projects[imageapi_optimize][patch][0] = "https://www.drupal.org/files/issues/imageapi_optimize-clean_up_temp_files-2495943-1.patch"
 
-projects[image_combination_effects][subdir] = "contrib"
-projects[image_combination_effects][version] = "1.x-dev"
-projects[image_combination_effects][patch][0] = "https://www.drupal.org/files/issues/ICE-fix-fatal-typecast-error-228133-2.patch"
-
 projects[imagecache_actions][subdir] = "contrib"
 projects[imagecache_actions][version] = "1.5"
 
