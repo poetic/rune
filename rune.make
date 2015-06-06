@@ -178,6 +178,9 @@ projects[geofield][version] = "2.3"
 projects[geophp][subdir] = "contrib"
 projects[geophp][version] = "1.7"
 
+projects[google_analytics][subdir] = "contrib"
+projects[google_analytics][version] = "2.1"
+
 projects[gtranslate][subdir] = "contrib"
 projects[gtranslate][version] = "1.10"
 

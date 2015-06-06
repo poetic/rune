@@ -77,6 +77,7 @@ projects:
   geocoder: { version: ~ }
   geofield: { version: ~ }
   geophp: { version: ~ }
+  google_analytics: { version: 2.1 }
   gtranslate: { version: ~ }
   hybridauth: { version: ~ }
   httprl: { version: ~ }
