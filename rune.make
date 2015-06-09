@@ -187,9 +187,6 @@ projects[gtranslate][version] = "1.10"
 projects[hybridauth][subdir] = "contrib"
 projects[hybridauth][version] = "2.12"
 
-projects[httprl][subdir] = "contrib"
-projects[httprl][version] = "1.14"
-
 projects[i18n][subdir] = "contrib"
 projects[i18n][version] = "1.13"
 
@@ -339,6 +336,9 @@ projects[s3fs][patch][0] = "https://www.drupal.org/files/issues/s3fs-allow_uri_s
 
 projects[smtp][subdir] = "contrib"
 projects[smtp][version] = "1.2"
+
+projects[special_menu_items][subdir] = "contrib"
+projects[special_menu_items][version] = "2.0"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"

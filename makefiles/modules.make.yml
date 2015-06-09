@@ -80,7 +80,6 @@ projects:
   google_analytics: { version: 2.1 }
   gtranslate: { version: ~ }
   hybridauth: { version: ~ }
-  httprl: { version: ~ }
   i18n: { version: ~ }
   iframe: { version: ~ }
   imageapi_optimize:
@@ -145,6 +144,7 @@ projects:
     patch:
       - "https://www.drupal.org/files/issues/s3fs-allow_uri_scheme_overrides-2495559-1.patch"
   smtp: { version: ~ }
+  special_menu_items: { version: ~ }
   strongarm: { version: ~ }
   subpathauto: { version: ~ }
   superfish:
