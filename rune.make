@@ -120,9 +120,7 @@ projects[features_override][subdir] = "contrib"
 projects[features_override][version] = "2.0-rc2"
 
 projects[feeds][subdir] = "contrib"
-projects[feeds][download][branch] = "2.x-dev"
-projects[feeds][download][revision] = "f22a0f7"
-projects[feeds][download][type] = "git"
+projects[feeds][version] = "2.0-alpha9"
 
 projects[feeds_tamper][subdir] = "contrib"
 projects[feeds_tamper][version] = "1.1"
@@ -210,7 +208,7 @@ projects[imce_filefield][subdir] = "contrib"
 projects[imce_filefield][version] = "1.1"
 
 projects[inline_entity_form][subdir] = "contrib"
-projects[inline_entity_form][version] = "1.5"
+projects[inline_entity_form][version] = "1.6"
 
 projects[inline_messages][subdir] = "contrib"
 projects[inline_messages][version] = "1.0"

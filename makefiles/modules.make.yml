@@ -44,8 +44,7 @@ projects:
     patch:
       - https://www.drupal.org/files/issues/1064340-features-files-13.patch
   features_override: { version: ~ }
-  feeds:
-    download: { branch: 2.x-dev, revision: f22a0f7 }
+  feeds: { version: ~ }
   feeds_tamper: { version: ~ }
   feeds_xpathparser: { version: ~ }
   fences: { version: ~ }
