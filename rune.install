@@ -1,0 +1,27 @@
+<?php
+/**
+ * @file
+ * Install function for the rune installation profile.
+ */
+
+use Drupal\user\Entity\User;
+
+/**
+ * Implements hook_install().
+ *
+ * Performs actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function rune_install() {
+  // Now that all modules are installed, make sure the entity storage and other
+  // handlers are up to date with the current entity and field definitions. For
+  // example, Path module adds a base field to nodes and taxonomy terms after
+  // those modules are already installed.
+  \Drupal::service('entity.definition_update_manager')->applyUpdates();
+
+  // Assign user 1 the "administrator" role.
+  $user = User::load(1);
+  $user->roles[] = 'administrator';
+  $user->save();
+}

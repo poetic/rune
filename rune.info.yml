@@ -1,0 +1,43 @@
+name: Rune
+type: profile
+description: 'An opinionated install profile focused on developer happiness.'
+core: 8.x
+
+dependencies:
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - contextual
+  - datetime
+  - dblog
+  - editor
+  - entity_reference
+  - field_ui
+  - file
+  - help
+  - history
+  - image
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - quickedit
+  - responsive_image
+  - rdf
+  - search
+  - shortcut
+  - taxonomy
+  - telephone
+  - toolbar
+  - tour
+  - views
+  - views_ui
+  #- webform # disabled until it gets more stable and doesn't cause the test suite to fail
+themes:
+  - classy
+  - seven
