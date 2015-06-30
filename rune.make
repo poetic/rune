@@ -313,6 +313,9 @@ projects[rabbit_hole][version] = "2.23"
 projects[range][subdir] = "contrib"
 projects[range][version] = "1.3"
 
+projects[redirect][subdir] = "contrib"
+projects[redirect][version] = "1.0-rc2"
+
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.7"
 

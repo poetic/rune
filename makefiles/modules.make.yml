@@ -131,6 +131,7 @@ projects:
   quicktabs: { version: ~ }
   rabbit_hole: { version: ~ }
   range: { version: ~ }
+  redirect: { version: ~ }
   # See: https://www.drupal.org/node/240686://www.drupal.org/node/2406863
   # until this is resolved, we need to stick with 2.7
   rules: { version: 2.7 }
