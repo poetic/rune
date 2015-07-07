@@ -121,6 +121,7 @@ projects[features_override][version] = "2.0-rc2"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.0-alpha9"
+projects[feeds][patch][0] = "https://www.drupal.org/files/issues/feeds-unique-target-661606-195.patch"
 
 projects[feeds_tamper][subdir] = "contrib"
 projects[feeds_tamper][version] = "1.1"
