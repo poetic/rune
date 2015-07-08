@@ -265,7 +265,7 @@ projects[metatag][patch][0] = "https://www.drupal.org/files/issues/metatag-subst
 projects[metatag][patch][1] = "https://www.drupal.org/files/issues/metatag-feeds-module-api-change-2475147-4.patch"
 
 projects[migrate][subdir] = "contrib"
-projects[migrate][version] = "2.7"
+projects[migrate][version] = "2.8"
 
 projects[mimemail][subdir] = "contrib"
 projects[mimemail][version] = "1.0-beta3"
@@ -398,7 +398,7 @@ projects[views_bootstrap][subdir] = "contrib"
 projects[views_bootstrap][version] = "3.1"
 
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "3.2"
+projects[views_bulk_operations][version] = "3.3"
 
 projects[views_content_cache][subdir] = "contrib"
 projects[views_content_cache][version] = "3.0-alpha3"
