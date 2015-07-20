@@ -44,10 +44,7 @@ projects:
     patch:
       - https://www.drupal.org/files/issues/1064340-features-files-13.patch
   features_override: { version: ~ }
-  feeds:
-    version: ~
-    patch:
-      - https://www.drupal.org/files/issues/feeds-unique-target-661606-195.patch
+  feeds: { version: ~ }
   feeds_tamper: { version: ~ }
   feeds_xpathparser: { version: ~ }
   fences: { version: ~ }
