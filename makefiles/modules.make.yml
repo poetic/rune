@@ -98,7 +98,7 @@ projects:
     version: ~
     patch:
       - https://www.drupal.org/files/issues/field-formatter-errors-2185767-6.patch
-      - https://www.drupal.org/files/issues/taxonomy-terms-attached-image-fields-as-markers-2178231-24_3.patch
+      - https://www.drupal.org/files/issues/taxonomy-terms-attached-image-fields-as-markers-2178231-25_0.patch
   leaflet_more_maps: { version: ~ }
   libraries: { version: ~ }
   link: { version: ~ }
