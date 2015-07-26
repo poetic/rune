@@ -225,7 +225,7 @@ projects[lang_dropdown][version] = "2.5"
 projects[leaflet][subdir] = "contrib"
 projects[leaflet][version] = "1.1"
 projects[leaflet][patch][0] = "https://www.drupal.org/files/issues/field-formatter-errors-2185767-6.patch"
-projects[leaflet][patch][1] = "https://www.drupal.org/files/issues/taxonomy-terms-attached-image-fields-as-markers-2178231-24_3.patch"
+projects[leaflet][patch][1] = "https://www.drupal.org/files/issues/taxonomy-terms-attached-image-fields-as-markers-2178231-25_0.patch"
 
 projects[leaflet_more_maps][subdir] = "contrib"
 projects[leaflet_more_maps][version] = "1.11"
