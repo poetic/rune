@@ -19,7 +19,7 @@ libraries:
   leaflet:
     download:
       type: get
-      url: http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.3.zip
+      url: http://cdn.leafletjs.com/downloads/leaflet-0.7.3.zip
   superfish:
     download:
       type: get

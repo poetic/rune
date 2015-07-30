@@ -439,7 +439,7 @@ libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/
 libraries[flexslider][type] = "library"
 
 libraries[leaflet][download][type] = "get"
-libraries[leaflet][download][url] = "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.3.zip"
+libraries[leaflet][download][url] = "http://cdn.leafletjs.com/downloads/leaflet-0.7.3.zip"
 libraries[leaflet][type] = "library"
 
 libraries[superfish][download][type] = "get"
