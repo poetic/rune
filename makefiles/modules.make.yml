@@ -40,7 +40,7 @@ projects:
   commerce_extra_price_formatters: 
     download: { branch: 7.x-1.x, revision: 1371336}
   commerce_checkout_redirect: { version: ~ }
-  commerce_hosted_pcj: { version: ~ }
+  commerce_hosted_pci: { version: ~ }
   commerce_payleap: { version: ~ }
   commerce_moneybookers: 
     version: ~
@@ -64,7 +64,7 @@ projects:
     - https://drupal.org/files/issues/issue-2225883.patch
   commerce_yotpo:
     download: { branch: 7.x-1.x, revision: ecc41f9 }
-  commerce_fistdata_gge4: { version: ~ }
+  commerce_firstdata_gge4: { version: ~ }
   computed_field: { version: ~ }
   content_menu: { version: ~ }
   contextual_range_filter: { version: ~ }
