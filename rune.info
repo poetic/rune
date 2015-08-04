@@ -56,3 +56,4 @@ dependencies[] = rune_jquery_update
 dependencies[] = rune_performance_settings
 dependencies[] = rune_permissions
 dependencies[] = rune_text_formats
+dependencies[] = rune_panels
