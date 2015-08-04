@@ -170,6 +170,9 @@ projects[content_menu][version] = "1.0"
 projects[contextual_range_filter][subdir] = "contrib"
 projects[contextual_range_filter][version] = "1.7"
 
+projects[countries][subdir] = "contrib"
+projects[countries][version] = "2.3"
+
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.7"
 

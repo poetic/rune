@@ -68,6 +68,7 @@ projects:
   computed_field: { version: ~ }
   content_menu: { version: ~ }
   contextual_range_filter: { version: ~ }
+  countries: { version: ~ }
   ctools: { version: ~ }
   date: { version: ~ }
   devel: { version: ~ }
