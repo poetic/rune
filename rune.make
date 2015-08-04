@@ -59,7 +59,114 @@ projects[coffee][subdir] = "contrib"
 projects[coffee][version] = "2.2"
 
 projects[colorbox][subdir] = "contrib"
-projects[colorbox][version] = "2.8"
+projects[colorbox][version] = “2.8"
+
+projects[commerce][subdir] = “commerce”
+projects[commerce][version] = 1.11
+
+projects[commerce_features][subdir] = “commerce”
+projects[commerce_features][version] = 1.1
+
+projects[commerce_addressbook][subdir] = “commerce”
+projects[commerce_addressbook][version] = 2.0-rc8
+
+projects[commerce_shipping][subdir] = “commerce”
+projects[commerce_shipping][version] = 2.2
+
+projects[commerce_flat_rate][subdir] = “commerce”
+projects[commerce_flat_rate][version] = 1.0-beta2
+
+projects[commerce_fancy_attributes][subdir] = “commerce”
+projects[commerce_fancy_attributes][version] = 1.0
+
+projects[commerce_autosku][subdir] = “commerce”
+projects[commerce_autosku][version] = 1.x-dev
+projects[commerce_autosku][download][type] = git
+projects[commerce_autosku][download][revision] = 32e86f4
+projects[commerce_autosku][download][branch] = 7.x-1.x
+
+projects[commerce_migrate][subdir] = “commerce”
+projects[commerce_migrate][version] = 1.1
+projects[commerce_migrate][patch][1931302] = https://www.drupal.org/files/commerce_products_source_migration-1931302-2.patch
+
+projects[commerce_discount][subdir] = “commerce”
+projects[commerce_discount][version] = 1.x-dev
+projects[commerce_discount][download][type] = git
+projects[commerce_discount][download][revision] = 7a78225
+projects[commerce_discount][download][branch] = 7.x-1.x
+
+projects[commerce_checkout_progress][subdir] = “commerce”
+projects[commerce_checkout_progress][version] = 1.3
+
+projects[commerce_extra_price_formatters][subdir] = “commerce”
+projects[commerce_extra_price_formatters][version] = 1.x-dev
+projects[commerce_extra_price_formatters][download][type] = git
+projects[commerce_extra_price_formatters][download][revision] = 1371336
+projects[commerce_extra_price_formatters][download][branch] = 7.x-1.x
+
+projects[commerce_checkout_redirect][subdir] = “commerce”
+projects[commerce_checkout_redirect][version] = 2.0-rc1
+
+projects[commerce_hosted_pci][subdir] = “commerce”
+projects[commerce_hosted_pci][version] = 1.0-rc2
+
+projects[commerce_payleap][subdir] = “commerce”
+projects[commerce_payleap][version] = 1.1
+
+projects[commerce_moneybookers][subdir] = “commerce”
+projects[commerce_moneybookers][version] = 1.2
+projects[commerce_moneybookers][patch][] = “http://drupal.org/files/commerce_moneybookers-disable_payment_method_by_default-1962226-3.patch"
+
+projects[commerce_paypal][subdir] = “commerce”
+projects[commerce_paypal][version] = 2.3
+
+projects[commerce_backoffice][subdir] = “commerce”
+projects[commerce_backoffice][version] = 1.4
+
+projects[commerce_message][subdir] = “commerce”
+projects[commerce_message][version] = 1.0-rc3
+
+projects[commerce_search_api][subdir] = “commerce”
+projects[commerce_search_api][version] = 1.3
+
+projects[commerce_add_to_cart_confirmation][subdir] = “commerce”
+projects[commerce_add_to_cart_confirmation][version] = 1.0-rc2
+
+projects[commerce_kiala][subdir] = “commerce”
+projects[commerce_kiala][version] = 1.0-rc1
+
+projects[commerce_physical][subdir] = “commerce”
+projects[commerce_physical][version] = 1.x-dev
+projects[commerce_physical][download][type] = git
+projects[commerce_physical][download][revision] = e2a8866
+projects[commerce_physical][download][branch] = 7.x-1.x
+
+projects[commerce_amex][subdir] = “commerce”
+projects[commerce_amex][version] = 1.1
+
+projects[commerce_cba][subdir] = “commerce”
+projects[commerce_cba][version] = 1.0-beta1
+
+projects[commerce_authnet][subdir] = “commerce”
+projects[commerce_authnet][version] = 1.1
+
+projects[commerce_exactor][subdir] = “commerce”
+projects[commerce_exactor][version] = 1.3
+
+projects[commerce_paymill][subdir] = “commerce”
+projects[commerce_paymill][version] = 2.4
+
+projects[commerce_nosto_tagging][subdir] = “commerce”
+projects[commerce_nosto_tagging][version] = 1.0
+projects[commerce_nosto_tagging][patch][] = https://drupal.org/files/issues/issue-2225883.patch
+
+projects[commerce_yotpo][subdir] = “commerce”
+projects[commerce_yotpo][download][type] = "git"
+projects[commerce_yotpo][download][revision] = "ecc41f9"
+projects[commerce_yotpo][download][branch] = 7.x-1.x
+
+projects[commerce_firstdata_gge4][subdir] = “commerce”
+projects[commerce_firstdata_gge4][version] = 1.0
 
 projects[computed_field][subdir] = "contrib"
 projects[computed_field][version] = "1.0"
