@@ -142,6 +142,9 @@ projects[field_collection_feeds][patch][0] = "https://www.drupal.org/files/issue
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.4"
 
+projects[field_permissions][subdir] = "contrib"
+projects[field_permissions][version] = "1.0-beta2"
+
 projects[field_validation][subdir] = "contrib"
 projects[field_validation][download][branch] = "2.x-dev"
 projects[field_validation][download][revision] = "63e1e83"

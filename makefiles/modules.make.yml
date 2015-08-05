@@ -57,6 +57,7 @@ projects:
     patch:
       - https://www.drupal.org/files/issues/FeedsUpdateIssue-1921128-12.patch
   field_group: { version: ~ }
+  field_permissions: { version: ~ }
   field_validation:
     download: { branch: 2.x-dev, revision: 63e1e83 }
   file_entity: { version: ~ }
