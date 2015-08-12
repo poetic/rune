@@ -1,0 +1,10 @@
+name = Rune Panels
+description = Enable modules to configure panels and panelizer 
+core = 7.x
+package = Rune
+version = 7.x-1.0
+dependencies[] = page_manager
+dependencies[] = panelizer
+dependencies[] = panels_everywhere
+features[features_api][] = api:2
+project path = profiles/rune/modules
