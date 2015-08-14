@@ -30,6 +30,7 @@ dependencies[] = commerce_paypal_ec
 dependencies[] = commerce_paypal_wpp
 dependencies[] = commerce_paypal_wps
 dependencies[] = commerce_price
+dependencies[] = commerce_pricing_attributes
 dependencies[] = commerce_product
 dependencies[] = commerce_product_pricing
 dependencies[] = commerce_product_pricing_ui
