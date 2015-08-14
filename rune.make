@@ -59,7 +59,7 @@ projects[coffee][subdir] = "contrib"
 projects[coffee][version] = "2.2"
 
 projects[colorbox][subdir] = "contrib"
-projects[colorbox][version] = "2.9"
+projects[colorbox][version] = "2.8"
 
 projects[commerce][subdir] = "contrib"
 projects[commerce][version] = "1.11"
