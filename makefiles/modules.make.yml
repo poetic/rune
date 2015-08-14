@@ -27,6 +27,9 @@ projects:
   commerce_addressbook: { version: ~ }
   commerce_shipping: { version: ~ }
   commerce_flat_rate: { version: ~ }
+  commerce_option: { version: ~ }
+  commerce_product_attributes: { version: ~ }
+  commerce_pricing_attributes: { version: ~ }
   commerce_fancy_attributes: { version: ~ }
   commerce_autosku: 
     download: { branch: 7.x-1.x, revision: 32e86f4 }
@@ -220,6 +223,7 @@ projects:
   views_data_export: { version: ~ }
   views_datasource: { version: ~ }
   views_field_view: { version: ~ }
+  views_megarow: { version: ~ }
   webform: { version: ~ }
   webform_phone: { version: ~ }
   webform_uuid: { version: ~ }

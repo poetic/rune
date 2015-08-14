@@ -76,6 +76,15 @@ projects[commerce_shipping][version] = "2.2"
 projects[commerce_flat_rate][subdir] = "contrib"
 projects[commerce_flat_rate][version] = "1.0-beta2"
 
+projects[commerce_option][subdir] = "contrib"
+projects[commerce_option][version] = "1.0-beta2"
+
+projects[commerce_product_attributes][subdir] = "contrib"
+projects[commerce_product_attributes][version] = "1.0-beta3"
+
+projects[commerce_pricing_attributes][subdir] = "contrib"
+projects[commerce_pricing_attributes][version] = "1.0-beta4"
+
 projects[commerce_fancy_attributes][subdir] = "contrib"
 projects[commerce_fancy_attributes][version] = "1.0"
 
@@ -513,6 +522,9 @@ projects[views_datasource][version] = "1.0-alpha2"
 
 projects[views_field_view][subdir] = "contrib"
 projects[views_field_view][version] = "1.1"
+
+projects[views_megarow][subdir] = "contrib"
+projects[views_megarow][version] = "1.5"
 
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "4.9"
