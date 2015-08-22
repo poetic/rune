@@ -1,9 +1,13 @@
 api: 2
 core: 7.x
 
-defaults: { projects: { subdir: contrib } }
+defaults:
+  libraries: { contrib_destination: profiles/rune }
+  projects: { contrib_destination: profiles/rune }
 
-includes:
+projects: { drupal: { version: ~ } }
+
+includes: 
   - ../libraries.make.yml
   - ../modules.make.yml
   - commerce.make.yml
