@@ -1,0 +1,50 @@
+api: 2
+core: 7.x
+
+projects:
+  commerce: { version: ~ }
+  commerce_features: { version: ~ }
+  commerce_addressbook: { version: ~ }
+  commerce_shipping: { version: ~ }
+  commerce_flat_rate: { version: ~ }
+  commerce_option: { version: ~ }
+  commerce_product_attributes: { version: ~ }
+  commerce_pricing_attributes: { version: ~ }
+  commerce_fancy_attributes: { version: ~ }
+  commerce_autosku: 
+    download: { branch: 7.x-1.x, revision: 32e86f4 }
+  commerce_migrate:
+    version: ~
+    patch:
+    - https://www.drupal.org/files/commerce_products_source_migration-1931302-2.patch
+  commerce_discount:
+    download: { branch: 7.x-1.x, revision: 7a78225 }
+  commerce_checkout_progress: { version: ~ }
+  commerce_extra_price_formatters: 
+    download: { branch: 7.x-1.x, revision: 1371336}
+  commerce_checkout_redirect: { version: ~ }
+  commerce_hosted_pci: { version: ~ }
+  commerce_payleap: { version: ~ }
+  commerce_moneybookers: 
+    version: ~
+    patch: 
+    - http://drupal.org/files/commerce_moneybookers-disable_payment_method_by_default-1962226-3.patch
+  commerce_paypal: { version: ~ }
+  commerce_backoffice: { version: ~ }
+  commerce_message: { version: ~ }
+  commerce_search_api: { version: ~ }
+  commerce_add_to_cart_confirmation: { version: ~ }
+  commerce_physical: 
+    download: { branch: 7.x-1.x, revision: e2a8866 }
+  commerce_amex: { version: ~ }
+  commerce_cba: { version: ~ }
+  commerce_authnet: { version: ~ }
+  commerce_exactor: { version: ~ }
+  commerce_paymill: { version: ~ }
+  commerce_nosto_tagging: 
+    version: ~ 
+    patch: 
+    - https://drupal.org/files/issues/issue-2225883.patch
+  commerce_yotpo:
+    download: { branch: 7.x-1.x, revision: ecc41f9 }
+  commerce_firstdata_gge4: { version: ~ }
