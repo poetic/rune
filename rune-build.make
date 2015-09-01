@@ -12,5 +12,5 @@ projects[drupal][type] = "core"
 projects[rune][type] = "profile"
 projects[rune][download][url] = "https://github.com/poetic/rune.git"
 projects[rune][download][type] = "git"
-projects[rune][download][revision] = "442a760d43979563a1696bdc56023e6f0b2c1ce7"
+projects[rune][download][tag] = "0.0.9"
 
