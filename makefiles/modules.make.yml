@@ -20,6 +20,7 @@ projects:
   bg_image: { version: ~ }
   bg_image_formatter: { version: ~ }
   ckeditor: { version: ~ }
+  cloudflare: { version: ~ }
   coffee: { version: ~ }
   colorbox: { version: ~ }
   computed_field: { version: ~ }

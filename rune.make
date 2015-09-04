@@ -55,6 +55,9 @@ projects[bg_image_formatter][version] = "1.3"
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.16"
 
+projects[cloudflare][subdir] = "contrib"
+projects[cloudflare][version] = "1.0-beta4"
+
 projects[coffee][subdir] = "contrib"
 projects[coffee][version] = "2.2"
 
