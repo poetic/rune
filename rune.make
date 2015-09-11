@@ -279,7 +279,9 @@ projects[mimemail][subdir] = "contrib"
 projects[mimemail][version] = "1.0-beta3"
 
 projects[mixpanel][subdir] = "contrib"
-projects[mixpanel][version] = "1.2"
+projects[mixpanel][download][branch] = "1.x-dev"
+projects[mixpanel][download][revision] = "14f8ee8"
+projects[mixpanel][download][type] = "git"
 
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "2.0"

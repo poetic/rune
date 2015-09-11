@@ -119,7 +119,8 @@ projects:
       - https://www.drupal.org/files/issues/metatag-feeds-module-api-change-2475147-4.patch
   migrate: { version: ~ }
   mimemail: { version: ~ }
-  mixpanel: { version: ~ }
+  mixpanel: 
+    download: { branch: 1.x-dev, revision: 14f8ee8 }
   module_filter: { version: ~ }
   office_hours: { version: ~ }
   panelizer:
