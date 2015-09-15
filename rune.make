@@ -435,6 +435,9 @@ projects[webform_phone][version] = "1.21"
 projects[webform_uuid][subdir] = "contrib"
 projects[webform_uuid][version] = "1.1"
 
+projects[xautoload][subdir] = "contrib"
+projects[xautoload][version] = "5.5"
+
 projects[youtube][subdir] = "contrib"
 projects[youtube][version] = "1.6"
 

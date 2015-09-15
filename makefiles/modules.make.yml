@@ -184,4 +184,5 @@ projects:
   webform: { version: ~ }
   webform_phone: { version: ~ }
   webform_uuid: { version: ~ }
+  xautoload: { version: ~ }
   youtube: { version: ~ }
