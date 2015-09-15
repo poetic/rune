@@ -24,6 +24,7 @@ projects:
   coffee: { version: ~ }
   colorbox: { version: ~ }
   computed_field: { version: ~ }
+  configuration: { version: ~ }
   content_menu: { version: ~ }
   contextual_range_filter: { version: ~ }
   countries: { version: ~ }
