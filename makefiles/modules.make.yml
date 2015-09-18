@@ -19,6 +19,7 @@ projects:
   better_formats: { version: ~ }
   bg_image: { version: ~ }
   bg_image_formatter: { version: ~ }
+  captcha: { version: ~ }
   ckeditor: { version: ~ }
   cloudflare: { version: ~ }
   coffee: { version: ~ }
@@ -78,6 +79,7 @@ projects:
   geophp: { version: ~ }
   google_analytics: { version: 2.1 }
   gtranslate: { version: ~ }
+  hidden_captcha: { version: ~ }
   hybridauth: { version: ~ }
   i18n: { version: ~ }
   iframe: { version: ~ }

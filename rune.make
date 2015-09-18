@@ -52,6 +52,9 @@ projects[bg_image][version] = "1.4"
 projects[bg_image_formatter][subdir] = "contrib"
 projects[bg_image_formatter][version] = "1.3"
 
+projects[captcha][subdir] = "contrib"
+projects[captcha][version] = "1.3"
+
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.16"
 
@@ -190,6 +193,9 @@ projects[google_analytics][version] = "2.1"
 
 projects[gtranslate][subdir] = "contrib"
 projects[gtranslate][version] = "1.10"
+
+projects[hidden_captcha][subdir] = "contrib"
+projects[hidden_captcha][version] = "1.0"
 
 projects[hybridauth][subdir] = "contrib"
 projects[hybridauth][version] = "2.13"
