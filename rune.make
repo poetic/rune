@@ -67,9 +67,6 @@ projects[colorbox][version] = "2.8"
 projects[computed_field][subdir] = "contrib"
 projects[computed_field][version] = "1.0"
 
-projects[configuration][subdir] = "contrib"
-projects[configuration][version] = "2.0-alpha3"
-
 projects[content_menu][subdir] = "contrib"
 projects[content_menu][version] = "1.0"
 
@@ -436,9 +433,6 @@ projects[webform_phone][version] = "1.21"
 
 projects[webform_uuid][subdir] = "contrib"
 projects[webform_uuid][version] = "1.1"
-
-projects[xautoload][subdir] = "contrib"
-projects[xautoload][version] = "5.5"
 
 projects[youtube][subdir] = "contrib"
 projects[youtube][version] = "1.6"
