@@ -1,0 +1,177 @@
+<?php
+
+/**
+ * @file
+ * Contains main hooks implementation for ctools_content_type_links module.
+ */
+
+/**
+ * Implements hook_permission().
+ */
+function ctools_content_type_links_permission() {
+  return array(
+    'use ctools contextual links' => array(
+      'title' => t('Administer pane settings through contextual links.'),
+      'description' => t('Gives access to separate pane edit form, or to appropriate admin settings pages.'),
+    ),
+  );
+}
+
+/**
+ * Create contextual links for panels page.
+ */
+function ctools_content_type_links_build_page_contextual_links($subtype, $conf, $args, $contexts) {
+  if (!user_access('use ctools contextual links')) {
+    return '';
+  }
+
+  $pm_page = page_manager_get_current_page();
+  ctools_include('modal');
+  ctools_modal_add_js();
+  // Add ajax-responder so ctools_ajax_command_reload() will work.
+  ctools_add_js('ajax-responder');
+
+  // Lookup pid.
+  if (empty($pm_page['handler']->conf['display'])) {
+    $pm_page['handler']->conf['display'] = panels_load_display($pm_page['handler']->conf['did']);
+  }
+  $pid = ctools_content_type_links_display_lookup_pid($subtype, $pm_page['handler']->conf['display'], $conf);
+  if (empty($pid)) {
+    return '';
+  }
+
+  // @todo sometimes cache_key is empty. We need build it manually.
+  $cache_key = $pm_page['handler']->conf['display']->cache_key;
+  if (empty($cache_key)) {
+    $cache_key = $pm_page['handler']->handler . ':' . $pm_page['name'] . '::' . $pm_page['handler']->name . '::::';
+  }
+  return ctools_content_type_links_build_links(array(
+    'edit' => array(
+      'title' => t('Edit'),
+      'href' => 'panels/ajax/editor/edit-pane/' . $cache_key . '/' . $pid,
+      'query' => array('reload' => 'true', 'ctools-content-type-links-panes-from-page' => 'true'),
+      'attributes' => array('class' => array('ctools-use-modal')),
+    ),
+  ));
+}
+
+/**
+ * Retrieves pane's pid from display object.
+ *
+ * @param string $subtype
+ *   Pane's subtype.
+ *
+ * @param object $display
+ *   Display object.
+ *
+ * @param array $conf
+ *   Panel config settings.
+ *
+ * @return int
+ *   Pane's pid from display.
+ */
+function ctools_content_type_links_display_lookup_pid($subtype, $display, $conf) {
+  $pid = 0;
+  // Get pid from loaded display.
+  foreach ($display->content as $_pid => $pane) {
+    if (($pane->subtype == $subtype) && !empty($conf['pane_form_build_id'])
+      && !empty($pane->configuration['pane_form_build_id'])
+      && $conf['pane_form_build_id'] == $pane->configuration['pane_form_build_id']
+    ) {
+      $pid = $_pid;
+      break;
+    }
+  }
+  return $pid;
+}
+
+/**
+ * Implements hook_ajax_render_alter().
+ */
+function ctools_content_type_links_ajax_render_alter(&$commands) {
+  if (!isset($_POST['ctools_content_type_links_resave_panel'])) {
+    return;
+  }
+  $copy_commands = $commands;
+  $last_command = array_pop($copy_commands);
+  // Will get triggered when user submitted the form.
+  if (strpos($_GET['q'], '/form') !== FALSE && $last_command['command'] == 'modal_dismiss') {
+    // Here we save the cache to database. When we edited the pane we made
+    // changes in the cache. In order the page to see the changes we need
+    // to save cache data to database.
+    if (preg_match('/panels\/ajax\/editor\/edit-pane\/panel_context:([^:]*):.*/', $_GET['q'], $matches)) {
+      $key = $matches[1];
+      ctools_content_type_links_resave_panel($key);
+    }
+
+    $commands[] = ctools_ajax_command_reload();
+  }
+}
+
+/**
+ * Resave panels pane.
+ */
+function ctools_content_type_links_resave_panel($key) {
+  $cache = page_manager_get_page_cache($key);
+  page_manager_save_page_cache($cache);
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function ctools_content_type_links_form_alter(&$form, &$form_state, $form_id) {
+  // For all ctools content type edit forms from this module
+  // add couple of additional hidden fields to be able
+  // to modify and save panes right from page without accessing panels.
+  if (isset($form['#ctools_content_type_links']) && !empty($form_state['pane'])) {
+
+    // Additional key to be able to determine different pane instances
+    // between each others on same pane.
+    $form['pane_form_build_id'] = array(
+      '#type' => 'hidden',
+      '#default_value' => $form['form_build_id']['#value'],
+    );
+
+    // Flag to update panel immediately after saving it from front-end.
+    if (!empty($_GET['ctools-content-type-links-panes-from-page'])) {
+      $form['ctools_content_type_links_resave_panel'] = array(
+        '#type' => 'hidden',
+        '#value' => TRUE,
+      );
+    }
+
+    $form['#submit'][] = 'ctools_content_type_links_content_type_form_submit';
+  }
+}
+
+/**
+ * Helper function for contextual links rendering.
+ *
+ * @param array $links
+ *   Array with links items ready for theme_link.
+ *
+ * @return string
+ *   Rendered contextual links.
+ */
+function ctools_content_type_links_build_links($links) {
+  $build = array(
+    '#prefix' => '<div class="contextual-links-wrapper">',
+    '#suffix' => '</div>',
+    '#theme' => 'links__contextual',
+    '#links' => $links,
+    '#attributes' => array('class' => array('contextual-links')),
+    '#attached' => array(
+      'library' => array(array('contextual', 'contextual-links')),
+    ),
+  );
+
+  return drupal_render($build);
+}
+
+/**
+ * Implements hook_form_submit().
+ */
+function ctools_content_type_links_content_type_form_submit(&$form, &$form_state) {
+  $form_state['conf']['pane_form_build_id'] = $form_state['values']['pane_form_build_id'];
+  $form_state['conf']['ctools_content_type_links_resave_panel'] = $form_state['values']['ctools_content_type_links_resave_panel'];
+}

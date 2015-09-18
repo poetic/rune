@@ -1,0 +1,7 @@
+name = Contextual link for ctools content type plugins
+description = Contextual link for ctools content type plugins
+core = 7.x
+
+dependencies[] = panels
+dependencies[] = page_manager
+dependencies[] = ctools
