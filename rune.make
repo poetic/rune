@@ -160,9 +160,9 @@ projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-beta1"
 
 projects[filefield_paths][subdir] = "contrib"
-projects[filefield_paths][version] = "1.0-beta4"
-projects[filefield_paths][patch][0] = "https://www.drupal.org/files/issues/deprecated_e-2103151-26.patch"
-projects[filefield_paths][patch][1] = "https://www.drupal.org/files/issues/14-2019723-writeable-stream-wrappers.patch"
+projects[filefield_paths][download][branch] = "1.x-dev"
+projects[filefield_paths][download][revision] = "05e2c52"
+projects[filefield_paths][download][type] = "git"
 
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.9"
