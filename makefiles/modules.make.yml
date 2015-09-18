@@ -65,10 +65,7 @@ projects:
     download: { branch: 2.x-dev, revision: 63e1e83 }
   file_entity: { version: ~ }
   filefield_paths:
-    version: ~
-    patch:
-      - https://www.drupal.org/files/issues/deprecated_e-2103151-26.patch
-      - https://www.drupal.org/files/issues/14-2019723-writeable-stream-wrappers.patch
+    download: { branch: 1.x-dev, revision: 05e2c52 }
   filefield_sources: { version: ~ }
   flag:
     version: ~
@@ -120,7 +117,8 @@ projects:
       - https://www.drupal.org/files/issues/metatag-feeds-module-api-change-2475147-4.patch
   migrate: { version: ~ }
   mimemail: { version: ~ }
-  mixpanel: { version: ~ }
+  mixpanel: 
+    download: { branch: 1.x-dev, revision: 14f8ee8 }
   module_filter: { version: ~ }
   office_hours: { version: ~ }
   panelizer:
