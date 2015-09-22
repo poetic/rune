@@ -111,11 +111,7 @@ projects:
   masquerade: { version: ~ }
   media: { version: 2.x-dev }
   menu_attributes: { version: ~ }
-  metatag:
-    download: { branch: 1.x-dev, revision: 3a7295d }
-    patch:
-      - https://www.drupal.org/files/issues/metatag-substitute-panels-context-variables-2408211-8.patch
-      - https://www.drupal.org/files/issues/metatag-feeds-module-api-change-2475147-4.patch
+  metatag: {version: 1.5 }
   migrate: { version: ~ }
   mimemail: { version: ~ }
   mixpanel: 
