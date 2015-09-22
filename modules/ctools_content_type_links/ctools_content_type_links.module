@@ -173,5 +173,7 @@ function ctools_content_type_links_build_links($links) {
  */
 function ctools_content_type_links_content_type_form_submit(&$form, &$form_state) {
   $form_state['conf']['pane_form_build_id'] = $form_state['values']['pane_form_build_id'];
-  $form_state['conf']['ctools_content_type_links_resave_panel'] = $form_state['values']['ctools_content_type_links_resave_panel'];
+  if(isset($form_state['values']['ctools_content_type_links_resave_panel'])) {
+    $form_state['conf']['ctools_content_type_links_resave_panel'] = $form_state['values']['ctools_content_type_links_resave_panel'];
+  }
 }
