@@ -335,6 +335,12 @@ projects[rules][version] = "2.7"
 projects[save_edit][subdir] = "contrib"
 projects[save_edit][version] = "1.0-beta1"
 
+projects[search404][subdir] = "contrib"
+projects[search404][version] = "1.3"
+
+projects[search_by_page][subdir] = "contrib"
+projects[search_by_page][version] = "1.4"
+
 projects[services][subdir] = "contrib"
 projects[services][version] = "3.12"
 
