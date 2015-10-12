@@ -135,6 +135,8 @@ projects:
   # until this is resolved, we need to stick with 2.7
   rules: { version: 2.7 }
   save_edit: { version: ~ }
+  search404: { version: ~ }
+  search_by_page: { version: ~ }
   services: { version: ~ }
   sharethis: { version: ~ }
   simplify: { version: ~ }
