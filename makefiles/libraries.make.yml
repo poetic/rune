@@ -36,3 +36,7 @@ libraries:
     download:
       type: get
       url: http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip
+  logentries:
+    download:
+      type: get
+      url: https://github.com/logentries/le_php/archive/v1.6.zip

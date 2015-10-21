@@ -105,6 +105,7 @@ projects:
   libraries: { version: ~ }
   link: { version: ~ }
   linkit: { version: ~ }
+  logentries: { version: ~ }
   mailsystem:
     download: { branch: 3.x-dev, revision: 4c957ae }
   manualcrop: { version: ~ }
