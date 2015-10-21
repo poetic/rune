@@ -254,6 +254,9 @@ projects[link][version] = "1.3"
 projects[linkit][subdir] = "contrib"
 projects[linkit][version] = "3.3"
 
+projects[logentries][subdir] = "contrib"
+projects[logentries][version] = "1.2"
+
 projects[mailsystem][subdir] = "contrib"
 projects[mailsystem][download][branch] = "3.x-dev"
 projects[mailsystem][download][revision] = "4c957ae"
@@ -479,4 +482,8 @@ libraries[jquery.imagesloaded][type] = "library"
 libraries[jquery.imgareaselect][download][type] = "get"
 libraries[jquery.imgareaselect][download][url] = "http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip"
 libraries[jquery.imgareaselect][type] = "library"
+
+libraries[logentries][download][type] = "get"
+libraries[logentries][download][url] = "https://github.com/logentries/le_php/archive/v1.6.zip"
+libraries[logentries][type] = "library"
 
