@@ -37,6 +37,9 @@ projects[adminimal_admin_menu][version] = "1.5"
 projects[advagg][subdir] = "contrib"
 projects[advagg][version] = "2.10"
 
+projects[apdqc][subdir] = "contrib"
+projects[apdqc][version] = "1.0-beta4"
+
 projects[auto_entitylabel][subdir] = "contrib"
 projects[auto_entitylabel][version] = "1.3"
 

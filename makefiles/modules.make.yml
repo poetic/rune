@@ -14,6 +14,7 @@ projects:
   admin_views: { version: ~ }
   adminimal_admin_menu: { version: ~ }
   advagg: { version: ~ }
+  apdqc: { version: ~ }
   auto_entitylabel: { version: ~ }
   better_exposed_filters: { version: ~ }
   better_formats: { version: ~ }
