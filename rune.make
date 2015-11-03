@@ -314,6 +314,9 @@ projects[panels_everywhere][version] = "1.0-rc2"
 projects[paragraphs][subdir] = "contrib"
 projects[paragraphs][version] = "1.0-beta6"
 
+projects[path_redirect_import][subdir] = "contrib"
+projects[path_redirect_import][version] = "1.0-rc4"
+
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 

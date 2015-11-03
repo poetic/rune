@@ -126,6 +126,7 @@ projects:
   panels_content_cache: { version: ~ }
   panels_everywhere: { version: ~ }
   paragraphs: { version: ~ }
+  path_redirect_import: { version: ~ }
   pathauto: { version: ~ }
   phone: { version: ~ }
   profile2: { version: ~ }
