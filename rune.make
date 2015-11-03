@@ -103,6 +103,9 @@ projects[email_registration][version] = "1.2"
 projects[editablefields][subdir] = "contrib"
 projects[editablefields][version] = "1.0-alpha2"
 
+projects[elysia_cron][subdir] = "contrib"
+projects[elysia_cron][version] = "2.1"
+
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.6"
 

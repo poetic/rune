@@ -36,6 +36,7 @@ projects:
   email: { versions: ~ }
   email_registration: { version: ~ }
   editablefields: { version: ~ }
+  elysia_cron: { version: ~ }
   entity: { version: ~ }
   entity_view_mode: { version: ~ }
   entityreference: { version: ~ }
