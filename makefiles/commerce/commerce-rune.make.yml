@@ -1,9 +1,7 @@
 api: 2
 core: 7.x
 
-defaults:
-  libraries: { contrib_destination: profiles/rune }
-  projects: { contrib_destination: profiles/rune }
+defaults: { projects: { subdir: contrib } }
 
 projects: { drupal: { version: ~ } }
 
