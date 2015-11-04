@@ -28,6 +28,15 @@ Go to the drush directory
     git fetch
     git checkout [appropriate branch name]
 
+## Commerce
+To use Rune Commerce, first build the platform like normal via one of the two commands discussed in [Usage](#usage)
+
+Once the platform is built, run:
+
+    drush make profiles/rune/makefiles/stubs/commerce/commerce-rune.make.yml
+
+This will rebuild the Rune platform with a fully operational commerce foundation baked in.
+
 ## Maintenance
 The makefiles that define the various requirements for this installation
 profile are structured for easy readability and maintenance.
