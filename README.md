@@ -33,7 +33,7 @@ To use Rune Commerce, first build the platform like normal via one of the two co
 
 Once the platform is built, run:
 
-    drush make profiles/rune/makefiles/stubs/commerce/commerce-rune.make.yml
+    drush make profiles/rune/makefiles/commerce/commerce-rune.make.yml
 
 This will rebuild the Rune platform with a fully operational commerce foundation baked in.
 
