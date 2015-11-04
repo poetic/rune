@@ -9,6 +9,4 @@ projects: { drupal: { version: ~ } }
 
 includes: 
   - ../libraries.make.yml
-  - ../modules.make.yml
   - commerce.make.yml
-  - ../themes.make.yml
