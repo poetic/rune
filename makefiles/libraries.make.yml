@@ -40,3 +40,7 @@ libraries:
     download:
       type: get
       url: https://github.com/logentries/le_php/archive/v1.6.zip
+  photoswipe:
+    download:
+      type: get
+      url: https://github.com/dimsemenov/PhotoSwipe/archive/master.zip
