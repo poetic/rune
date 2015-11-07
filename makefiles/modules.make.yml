@@ -130,6 +130,7 @@ projects:
   path_redirect_import: { version: ~ }
   pathauto: { version: ~ }
   phone: { version: ~ }
+  photoswipe: { version: ~ }
   profile2: { version: ~ }
   quicktabs: { version: ~ }
   rabbit_hole: { version: ~ }
