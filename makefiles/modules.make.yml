@@ -107,7 +107,10 @@ projects:
   libraries: { version: ~ }
   link: { version: ~ }
   linkit: { version: ~ }
-  logentries: { version: ~ }
+  logentries:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/logentries-strip-out-tags-before-sending-to-logentries-2627548.patch
   mailsystem:
     download: { branch: 3.x-dev, revision: 4c957ae }
   manualcrop: { version: ~ }

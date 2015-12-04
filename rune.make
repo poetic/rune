@@ -262,6 +262,7 @@ projects[linkit][version] = "3.3"
 
 projects[logentries][subdir] = "contrib"
 projects[logentries][version] = "1.2"
+projects[logentries][patch][0] = "https://www.drupal.org/files/issues/logentries-strip-out-tags-before-sending-to-logentries-2627548.patch"
 
 projects[mailsystem][subdir] = "contrib"
 projects[mailsystem][download][branch] = "3.x-dev"
