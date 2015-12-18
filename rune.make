@@ -68,7 +68,7 @@ projects[coffee][subdir] = "contrib"
 projects[coffee][version] = "2.2"
 
 projects[colorbox][subdir] = "contrib"
-projects[colorbox][version] = "2.8"
+projects[colorbox][version] = "2.10"
 
 projects[computed_field][subdir] = "contrib"
 projects[computed_field][version] = "1.0"
