@@ -343,7 +343,9 @@ projects[range][subdir] = "contrib"
 projects[range][version] = "1.3"
 
 projects[redirect][subdir] = "contrib"
-projects[redirect][version] = "1.0-rc2"
+projects[redirect][download][branch] = "2.x-dev"
+projects[redirect][download][revision] = "cfe2e89"
+projects[redirect][download][type] = "git"
 
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.7"
