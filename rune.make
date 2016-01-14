@@ -24,6 +24,12 @@ projects[addressfield][patch][0] = "https://www.drupal.org/files/issues/addressf
 projects[addressfield_staticmap][subdir] = "contrib"
 projects[addressfield_staticmap][version] = "1.0"
 
+projects[addthis][subdir] = "contrib"
+projects[addthis][version] = "4.0-alpha6"
+
+projects[addtoany][subdir] = "contrib"
+projects[addtoany][version] = "4.10"
+
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][patch][0] = "https://www.drupal.org/files/admin_menu-search-disappeared-1916812-13.patch"
@@ -60,6 +66,7 @@ projects[captcha][version] = "1.3"
 
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.16"
+projects[ckeditor][patch][0] = "https://www.drupal.org/files/issues/Issue_2454933.patch"
 
 projects[cloudflare][subdir] = "contrib"
 projects[cloudflare][version] = "1.0-beta4"
@@ -93,6 +100,9 @@ projects[devel][version] = "1.5"
 
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "3.2"
+
+projects[disqus][subdir] = "contrib"
+projects[disqus][version] = "1.12"
 
 projects[email][subdir] = "contrib"
 projects[email][version] = "1.3"
@@ -155,7 +165,7 @@ projects[field_collection_feeds][version] = "1.0-alpha3"
 projects[field_collection_feeds][patch][0] = "https://www.drupal.org/files/issues/FeedsUpdateIssue-1921128-12.patch"
 
 projects[field_group][subdir] = "contrib"
-projects[field_group][version] = "1.4"
+projects[field_group][version] = "1.5"
 
 projects[field_permissions][subdir] = "contrib"
 projects[field_permissions][version] = "1.0-beta2"
@@ -185,6 +195,9 @@ projects[flag][patch][2] = "https://www.drupal.org/files/issues/line-130-fixer-u
 projects[flexslider][subdir] = "contrib"
 projects[flexslider][version] = "2.0-alpha3"
 
+projects[flippy][subdir] = "contrib"
+projects[flippy][version] = "1.4"
+
 projects[geocoder][subdir] = "contrib"
 projects[geocoder][version] = "1.2"
 
@@ -196,6 +209,9 @@ projects[geophp][version] = "1.7"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "2.1"
+
+projects[googtube][subdir] = "contrib"
+projects[googtube][version] = "2.1"
 
 projects[gtranslate][subdir] = "contrib"
 projects[gtranslate][version] = "1.10"
@@ -240,6 +256,9 @@ projects[jquery_update][version] = "3.0-alpha2"
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
 
+projects[label_help][subdir] = "contrib"
+projects[label_help][version] = "1.2"
+
 projects[lang_dropdown][subdir] = "contrib"
 projects[lang_dropdown][version] = "2.5"
 
@@ -264,6 +283,9 @@ projects[logentries][subdir] = "contrib"
 projects[logentries][version] = "1.2"
 projects[logentries][patch][0] = "https://www.drupal.org/files/issues/logentries-strip-out-tags-before-sending-to-logentries-2627548.patch"
 
+projects[mailchimp][subdir] = "contrib"
+projects[mailchimp][version] = "3.6"
+
 projects[mailsystem][subdir] = "contrib"
 projects[mailsystem][download][branch] = "3.x-dev"
 projects[mailsystem][download][revision] = "4c957ae"
@@ -278,8 +300,20 @@ projects[masquerade][version] = "1.0-rc7"
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.x-dev"
 
+projects[media_ckeditor][subdir] = "contrib"
+projects[media_ckeditor][version] = "2.0-alpha1"
+
+projects[media_oembed][subdir] = "contrib"
+projects[media_oembed][version] = "2.5"
+
+projects[media_youtube][subdir] = "contrib"
+projects[media_youtube][version] = "3.0"
+
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc3"
+
+projects[menu_token][subdir] = "contrib"
+projects[menu_token][version] = "1.0-beta6"
 
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.5"
@@ -298,8 +332,17 @@ projects[mixpanel][download][type] = "git"
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "2.0"
 
+projects[multiple_selects][subdir] = "contrib"
+projects[multiple_selects][version] = "1.2"
+
+projects[oauth][subdir] = "contrib"
+projects[oauth][version] = "3.2"
+
 projects[office_hours][subdir] = "contrib"
 projects[office_hours][version] = "1.4"
+
+projects[pagepreview][subdir] = "contrib"
+projects[pagepreview][version] = "1.0-alpha1"
 
 projects[panelizer][subdir] = "contrib"
 projects[panelizer][download][branch] = "3.x-dev"
@@ -347,6 +390,9 @@ projects[redirect][download][branch] = "2.x-dev"
 projects[redirect][download][revision] = "cfe2e89"
 projects[redirect][download][type] = "git"
 
+projects[required_by_role][subdir] = "contrib"
+projects[required_by_role][version] = "1.7"
+
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.7"
 
@@ -363,7 +409,8 @@ projects[services][subdir] = "contrib"
 projects[services][version] = "3.12"
 
 projects[sharethis][subdir] = "contrib"
-projects[sharethis][version] = "2.10"
+projects[sharethis][version] = "2.x-dev"
+projects[sharethis][patch][0] = "https://www.drupal.org/files/issues/1425744-sharethis-popup-9.patch"
 
 projects[simplify][subdir] = "contrib"
 projects[simplify][version] = "3.3"
@@ -375,8 +422,23 @@ projects[s3fs][subdir] = "contrib"
 projects[s3fs][version] = "2.1"
 projects[s3fs][patch][0] = "https://www.drupal.org/files/issues/s3fs-allow_uri_scheme_overrides-2495559-1.patch"
 
+projects[save_draft][subdir] = "contrib"
+projects[save_draft][version] = "1.4"
+
+projects[scheduler][subdir] = "contrib"
+projects[scheduler][version] = "1.3"
+
+projects[service_links][subdir] = "contrib"
+projects[service_links][version] = "2.3"
+
+projects[shareaholic][subdir] = "contrib"
+projects[shareaholic][version] = "3.26"
+
 projects[smtp][subdir] = "contrib"
 projects[smtp][version] = "1.2"
+
+projects[socialmedia][subdir] = "contrib"
+projects[socialmedia][version] = "1.0-beta15"
 
 projects[special_menu_items][subdir] = "contrib"
 projects[special_menu_items][version] = "2.0"
@@ -386,6 +448,9 @@ projects[strongarm][version] = "2.0"
 
 projects[subpathauto][subdir] = "contrib"
 projects[subpathauto][version] = "1.3"
+
+projects[subscriptions][subdir] = "contrib"
+projects[subscriptions][version] = "1.1"
 
 projects[superfish][subdir] = "contrib"
 projects[superfish][download][branch] = "1.x-dev"
@@ -404,6 +469,9 @@ projects[token][version] = "1.6"
 projects[token_filter][subdir] = "contrib"
 projects[token_filter][version] = "1.1"
 
+projects[twitter][subdir] = "contrib"
+projects[twitter][version] = "5.11"
+
 projects[uuid][subdir] = "contrib"
 projects[uuid][download][branch] = "1.x-dev"
 projects[uuid][download][revision] = "a7bf2db"
@@ -415,6 +483,9 @@ projects[uuid_features][download][branch] = "1.x-dev"
 projects[uuid_features][download][revision] = "84db2dd"
 projects[uuid_features][download][type] = "git"
 projects[uuid_features][patch][0] = "https://www.drupal.org/files/issues/uuid_features-export%E2%80%93files-in%E2%80%93file-fields-with-taxonomy-terms-2454405-1.patch"
+
+projects[user_role_field][subdir] = "contrib"
+projects[user_role_field][version] = "1.1"
 
 projects[variable][subdir] = "contrib"
 projects[variable][version] = "2.5"
@@ -451,6 +522,9 @@ projects[views_field_view][version] = "1.1"
 projects[views_megarow][subdir] = "contrib"
 projects[views_megarow][version] = "1.5"
 
+projects[views_load_more][subdir] = "contrib"
+projects[views_load_more][version] = "1.5"
+
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "4.9"
 
@@ -459,6 +533,9 @@ projects[webform_phone][version] = "1.21"
 
 projects[webform_uuid][subdir] = "contrib"
 projects[webform_uuid][version] = "1.1"
+
+projects[yoast_seo][subdir] = "contrib"
+projects[yoast_seo][version] = "1.0-beta2"
 
 projects[youtube][subdir] = "contrib"
 projects[youtube][version] = "1.6"
@@ -482,6 +559,10 @@ libraries[leaflet][download][type] = "get"
 libraries[leaflet][download][url] = "http://cdn.leafletjs.com/downloads/leaflet-0.7.3.zip"
 libraries[leaflet][type] = "library"
 
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.4.zip"
+libraries[mailchimp][type] = "library"
+
 libraries[superfish][download][type] = "get"
 libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal/archive/master.zip"
 libraries[superfish][type] = "library"
@@ -501,4 +582,8 @@ libraries[jquery.imgareaselect][type] = "library"
 libraries[logentries][download][type] = "get"
 libraries[logentries][download][url] = "https://github.com/logentries/le_php/archive/v1.6.zip"
 libraries[logentries][type] = "library"
+
+libraries[photoswipe][download][type] = "get"
+libraries[photoswipe][download][url] = "https://github.com/dimsemenov/PhotoSwipe/archive/master.zip"
+libraries[photoswipe][type] = "library"
 

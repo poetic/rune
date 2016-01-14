@@ -7,6 +7,8 @@ projects:
     patch:
       - https://www.drupal.org/files/issues/addressfield-nonempty-1263316-98.patch
   addressfield_staticmap: { version: ~ }
+  addthis: { version: ~ }
+  addtoany: { version: ~ }
   admin_menu:
     version: ~
     patch:
@@ -21,7 +23,10 @@ projects:
   bg_image: { version: ~ }
   bg_image_formatter: { version: ~ }
   captcha: { version: ~ }
-  ckeditor: { version: ~ }
+  ckeditor:
+    version: 1.16
+    patch:
+      - https://www.drupal.org/files/issues/Issue_2454933.patch
   cloudflare: { version: ~ }
   coffee: { version: ~ }
   colorbox: { version: ~ }
@@ -33,6 +38,7 @@ projects:
   date: { version: ~ }
   devel: { version: ~ }
   diff: { version: ~ }
+  disqus: { version: ~ }
   email: { versions: ~ }
   email_registration: { version: ~ }
   editablefields: { version: ~ }
@@ -76,10 +82,12 @@ projects:
       - https://www.drupal.org/files/issues/1925922-flag-fixed-warning-76.patch
       - https://www.drupal.org/files/issues/line-130-fixer-upper-rater-19252922-46_1.patch
   flexslider: { version: ~ }
+  flippy: { version: ~ }
   geocoder: { version: ~ }
   geofield: { version: ~ }
   geophp: { version: ~ }
   google_analytics: { version: 2.1 }
+  googtube: { version: ~ }
   gtranslate: { version: ~ }
   hidden_captcha: { version: ~ }
   hybridauth: { version: ~ }
@@ -88,7 +96,7 @@ projects:
   imageapi_optimize:
     version: ~
     patch:
-      - "https://www.drupal.org/files/issues/imageapi_optimize-clean_up_temp_files-2495943-1.patch"
+      - https://www.drupal.org/files/issues/imageapi_optimize-clean_up_temp_files-2495943-1.patch
   imagecache_actions: { version: ~ }
   imagecache_token: { version: ~ }
   imce: { version: ~ }
@@ -97,6 +105,7 @@ projects:
   inline_messages: { version: ~ }
   jquery_update: { version: ~ }
   job_scheduler: { version: ~ }
+  label_help: { version: ~ }
   lang_dropdown: { version: ~ }
   leaflet:
     version: ~
@@ -111,19 +120,27 @@ projects:
     version: ~
     patch:
       - https://www.drupal.org/files/issues/logentries-strip-out-tags-before-sending-to-logentries-2627548.patch
+  mailchimp: { version: ~ }
   mailsystem:
     download: { branch: 3.x-dev, revision: 4c957ae }
   manualcrop: { version: ~ }
   masquerade: { version: ~ }
   media: { version: 2.x-dev }
+  media_ckeditor: { version: ~ }
+  media_oembed: { version: ~ }
+  media_youtube: { version: ~ }
   menu_attributes: { version: ~ }
+  menu_token: { version: ~ }
   metatag: {version: 1.5 }
   migrate: { version: ~ }
   mimemail: { version: ~ }
   mixpanel: 
     download: { branch: 1.x-dev, revision: 14f8ee8 }
   module_filter: { version: ~ }
+  multiple_selects: { version: ~ }
+  oauth: { version: ~ }
   office_hours: { version: ~ }
+  pagepreview: { version: ~ }
   panelizer:
     download: { branch: 3.x-dev, revision: dd5aacc }
   panels: { version: ~ }
@@ -142,28 +159,40 @@ projects:
     download: { branch: 2.x-dev, revision: cfe2e89 }
   # See: https://www.drupal.org/node/240686://www.drupal.org/node/2406863
   # until this is resolved, we need to stick with 2.7
+  required_by_role: { version: ~ }
   rules: { version: 2.7 }
   save_edit: { version: ~ }
   search404: { version: ~ }
   search_by_page: { version: ~ }
   services: { version: ~ }
-  sharethis: { version: ~ }
   simplify: { version: ~ }
   xmlsitemap: { version: ~ }
   s3fs:
     version: 2.1
     patch:
-      - "https://www.drupal.org/files/issues/s3fs-allow_uri_scheme_overrides-2495559-1.patch"
+      - https://www.drupal.org/files/issues/s3fs-allow_uri_scheme_overrides-2495559-1.patch
+  save_draft: { version: ~ }
+  save_edit: { version: ~ }
+  scheduler: { version: ~ }
+  service_links: { version: ~ }
+  shareaholic: { version: ~ }
+  sharethis:
+    version: 2.x-dev
+    patch:
+      - https://www.drupal.org/files/issues/1425744-sharethis-popup-9.patch
   smtp: { version: ~ }
+  socialmedia: { version: ~ }
   special_menu_items: { version: ~ }
   strongarm: { version: ~ }
   subpathauto: { version: ~ }
+  subscriptions: { version: ~ }
   superfish:
     download: { branch: 1.x-dev, revision: fa3d7c6 }
   themekey: { version: ~ }
   title: { version: ~ }
   token: { version: ~ }
   token_filter: { version: ~ }
+  twitter: { version: ~ }
   uuid:
     download: { branch: 1.x-dev, revision: a7bf2db }
     patch:
@@ -172,6 +201,7 @@ projects:
     download: { branch: 1.x-dev, revision: 84db2dd }
     patch:
       - https://www.drupal.org/files/issues/uuid_features-export%E2%80%93files-in%E2%80%93file-fields-with-taxonomy-terms-2454405-1.patch
+  user_role_field: { version: ~ }
   variable: { version: ~ }
   varnish: { version: ~ }
   views:
@@ -187,7 +217,9 @@ projects:
   views_datasource: { version: ~ }
   views_field_view: { version: ~ }
   views_megarow: { version: ~ }
+  views_load_more: { version: ~ }
   webform: { version: ~ }
   webform_phone: { version: ~ }
   webform_uuid: { version: ~ }
+  yoast_seo: { version: ~ }
   youtube: { version: ~ }

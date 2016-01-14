@@ -20,6 +20,10 @@ libraries:
     download:
       type: get
       url: http://cdn.leafletjs.com/downloads/leaflet-0.7.3.zip
+  mailchimp:
+    download:
+      type: get
+      url: https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.4.zip
   superfish:
     download:
       type: get
