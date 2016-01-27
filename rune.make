@@ -137,6 +137,9 @@ projects[eva][version] = "1.2"
 projects[expire][subdir] = "contrib"
 projects[expire][version] = "2.0-rc4"
 
+projects[fb_likebox][subdir] = "contrib"
+projects[fb_likebox][version] = "2.2"
+
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.5"
 projects[features][patch][0] = "https://www.drupal.org/files/issues/1064340-features-files-13.patch"
@@ -340,6 +343,9 @@ projects[oauth][version] = "3.2"
 
 projects[office_hours][subdir] = "contrib"
 projects[office_hours][version] = "1.4"
+
+projects[owlcarousel][subdir] = "contrib"
+projects[owlcarousel][version] = "1.5"
 
 projects[pagepreview][subdir] = "contrib"
 projects[pagepreview][version] = "1.0-alpha1"
@@ -587,3 +593,6 @@ libraries[photoswipe][download][type] = "get"
 libraries[photoswipe][download][url] = "https://github.com/dimsemenov/PhotoSwipe/archive/master.zip"
 libraries[photoswipe][type] = "library"
 
+libraries[owlcarousel][download][type] = "get"
+libraries[owlcarousel][download][url] = "http://owlgraphic.com/owlcarousel/owl.carousel.zip"
+libraries[owlcarousel][type] = "library"

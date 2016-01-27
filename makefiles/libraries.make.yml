@@ -48,3 +48,7 @@ libraries:
     download:
       type: get
       url: https://github.com/dimsemenov/PhotoSwipe/archive/master.zip
+  owlcarousel:
+    download:
+      type: get
+      url: http://owlgraphic.com/owlcarousel/owl.carousel.zip

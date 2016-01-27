@@ -50,6 +50,7 @@ projects:
   environment_indicator: { version: ~ }
   eva: { version: ~ }
   expire: { version: ~ }
+  fb_likebox: { version: 2.2 }
   features:
     version: ~
     patch:
@@ -134,12 +135,13 @@ projects:
   metatag: {version: 1.5 }
   migrate: { version: ~ }
   mimemail: { version: ~ }
-  mixpanel: 
+  mixpanel:
     download: { branch: 1.x-dev, revision: 14f8ee8 }
   module_filter: { version: ~ }
   multiple_selects: { version: ~ }
   oauth: { version: ~ }
   office_hours: { version: ~ }
+  owlcarousel: {version: 1.5}
   pagepreview: { version: ~ }
   panelizer:
     download: { branch: 3.x-dev, revision: dd5aacc }
