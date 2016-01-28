@@ -73,7 +73,7 @@ projects:
     download: { branch: 2.x-dev, revision: 63e1e83 }
   file_entity: { version: ~ }
   filefield_paths:
-    download: { branch: 1.x-dev, revision: 05e2c52 }
+    download: { branch: 1.x-dev, revision: e016a2e }
   filefield_sources: { version: ~ }
   flag:
     version: ~

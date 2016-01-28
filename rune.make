@@ -180,7 +180,7 @@ projects[file_entity][version] = "2.0-beta1"
 
 projects[filefield_paths][subdir] = "contrib"
 projects[filefield_paths][download][branch] = "1.x-dev"
-projects[filefield_paths][download][revision] = "05e2c52"
+projects[filefield_paths][download][revision] = "e016a2e"
 projects[filefield_paths][download][type] = "git"
 
 projects[filefield_sources][subdir] = "contrib"
