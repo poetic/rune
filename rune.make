@@ -21,6 +21,10 @@ projects[addressfield][subdir] = "contrib"
 projects[addressfield][version] = "1.1"
 projects[addressfield][patch][0] = "https://www.drupal.org/files/issues/addressfield-nonempty-1263316-98.patch"
 
+projects[addressfield_tokens][subdir] = "contrib"
+projects[addressfield_tokens][version] = "1.5"
+
+
 projects[addressfield_staticmap][subdir] = "contrib"
 projects[addressfield_staticmap][version] = "1.0"
 
@@ -136,6 +140,9 @@ projects[eva][version] = "1.2"
 
 projects[expire][subdir] = "contrib"
 projects[expire][version] = "2.0-rc4"
+
+projects[fb_likebox][subdir] = "contrib"
+projects[fb_likebox][version] = "2.2"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.5"
@@ -332,6 +339,15 @@ projects[mixpanel][download][type] = "git"
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "2.0"
 
+projects[modernizr][subdir] = "contrib"
+projects[modernizr][version] = "3.7"
+
+projects[multiupload_filefield_widget][subdir] = "contrib"
+projects[multiupload_filefield_widget][version] = "1.13"
+
+projects[multiupload_imagefield_widget][subdir] = "contrib"
+projects[multiupload_imagefield_widget][version] = "1.3"
+
 projects[multiple_selects][subdir] = "contrib"
 projects[multiple_selects][version] = "1.2"
 
@@ -340,6 +356,9 @@ projects[oauth][version] = "3.2"
 
 projects[office_hours][subdir] = "contrib"
 projects[office_hours][version] = "1.4"
+
+projects[owlcarousel][subdir] = "contrib"
+projects[owlcarousel][version] = "1.5"
 
 projects[pagepreview][subdir] = "contrib"
 projects[pagepreview][version] = "1.0-alpha1"
@@ -555,18 +574,6 @@ libraries[flexslider][download][type] = "get"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
 libraries[flexslider][type] = "library"
 
-libraries[leaflet][download][type] = "get"
-libraries[leaflet][download][url] = "http://cdn.leafletjs.com/downloads/leaflet-0.7.3.zip"
-libraries[leaflet][type] = "library"
-
-libraries[mailchimp][download][type] = "get"
-libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.4.zip"
-libraries[mailchimp][type] = "library"
-
-libraries[superfish][download][type] = "get"
-libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal/archive/master.zip"
-libraries[superfish][type] = "library"
-
 libraries[hybridauth][download][type] = "get"
 libraries[hybridauth][download][url] = "https://github.com/hybridauth/hybridauth/archive/master.zip"
 libraries[hybridauth][type] = "library"
@@ -579,11 +586,26 @@ libraries[jquery.imgareaselect][download][type] = "get"
 libraries[jquery.imgareaselect][download][url] = "http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip"
 libraries[jquery.imgareaselect][type] = "library"
 
+libraries[leaflet][download][type] = "get"
+libraries[leaflet][download][url] = "http://cdn.leafletjs.com/downloads/leaflet-0.7.3.zip"
+libraries[leaflet][type] = "library"
+
 libraries[logentries][download][type] = "get"
 libraries[logentries][download][url] = "https://github.com/logentries/le_php/archive/v1.6.zip"
 libraries[logentries][type] = "library"
 
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.4.zip"
+libraries[mailchimp][type] = "library"
+
+libraries[owlcarousel][download][type] = "get"
+libraries[owlcarousel][download][url] = "http://owlgraphic.com/owlcarousel/owl.carousel.zip"
+libraries[owlcarousel][type] = "library"
+
+libraries[superfish][download][type] = "get"
+libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal/archive/master.zip"
+libraries[superfish][type] = "library"
+
 libraries[photoswipe][download][type] = "get"
 libraries[photoswipe][download][url] = "https://github.com/dimsemenov/PhotoSwipe/archive/master.zip"
 libraries[photoswipe][type] = "library"
-

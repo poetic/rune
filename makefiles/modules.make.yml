@@ -7,6 +7,7 @@ projects:
     patch:
       - https://www.drupal.org/files/issues/addressfield-nonempty-1263316-98.patch
   addressfield_staticmap: { version: ~ }
+  addressfield_tokens: { version: 1.5 }
   addthis: { version: ~ }
   addtoany: { version: ~ }
   admin_menu:
@@ -50,6 +51,7 @@ projects:
   environment_indicator: { version: ~ }
   eva: { version: ~ }
   expire: { version: ~ }
+  fb_likebox: { version: 2.2 }
   features:
     version: ~
     patch:
@@ -134,12 +136,16 @@ projects:
   metatag: {version: 1.5 }
   migrate: { version: ~ }
   mimemail: { version: ~ }
-  mixpanel: 
+  mixpanel:
     download: { branch: 1.x-dev, revision: 14f8ee8 }
   module_filter: { version: ~ }
+  modernizr: { version: 3.7 }
+  multiupload_filefield_widget: { version: 1.13 }
+  multiupload_imagefield_widget: { version: 1.3 }
   multiple_selects: { version: ~ }
   oauth: { version: ~ }
   office_hours: { version: ~ }
+  owlcarousel: {version: 1.5}
   pagepreview: { version: ~ }
   panelizer:
     download: { branch: 3.x-dev, revision: dd5aacc }

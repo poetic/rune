@@ -16,18 +16,6 @@ libraries:
     download:
       type: get
       url: https://github.com/woothemes/FlexSlider/archive/master.zip
-  leaflet:
-    download:
-      type: get
-      url: http://cdn.leafletjs.com/downloads/leaflet-0.7.3.zip
-  mailchimp:
-    download:
-      type: get
-      url: https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.4.zip
-  superfish:
-    download:
-      type: get
-      url: https://github.com/mehrpadin/Superfish-for-Drupal/archive/master.zip
   hybridauth:
     download:
       type: get
@@ -40,11 +28,27 @@ libraries:
     download:
       type: get
       url: http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip
+  leaflet:
+    download:
+      type: get
+      url: http://cdn.leafletjs.com/downloads/leaflet-0.7.3.zip
   logentries:
     download:
       type: get
       url: https://github.com/logentries/le_php/archive/v1.6.zip
+  mailchimp:
+    download:
+      type: get
+      url: https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.4.zip
+  owlcarousel:
+    download:
+      type: get
+      url: http://owlgraphic.com/owlcarousel/owl.carousel.zip
   photoswipe:
     download:
       type: get
       url: https://github.com/dimsemenov/PhotoSwipe/archive/master.zip
+  superfish:
+    download:
+      type: get
+      url: https://github.com/mehrpadin/Superfish-for-Drupal/archive/master.zip
