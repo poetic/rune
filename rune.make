@@ -245,6 +245,11 @@ projects[imagecache_actions][version] = "1.5"
 projects[imagecache_token][subdir] = "contrib"
 projects[imagecache_token][version] = "1.x-dev"
 
+projects[imagefield_tokens][subdir] = "contrib"
+projects[imagefield_tokens][download][branch] = "1.x-dev"
+projects[imagefield_tokens][download][revision] = "9244539"
+projects[imagefield_tokens][download][type] = "git"
+
 projects[imce][subdir] = "contrib"
 projects[imce][version] = "1.9"
 
@@ -385,6 +390,9 @@ projects[path_redirect_import][version] = "1.0-rc4"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
+
+projects[patterns][subdir] = "contrib"
+projects[patterns][version] = "2.2"
 
 projects[phone][subdir] = "contrib"
 projects[phone][version] = "1.0-beta1"

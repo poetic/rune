@@ -101,6 +101,8 @@ projects:
       - https://www.drupal.org/files/issues/imageapi_optimize-clean_up_temp_files-2495943-1.patch
   imagecache_actions: { version: ~ }
   imagecache_token: { version: ~ }
+  imagefield_tokens:
+    download: { branch: 1.x-dev, revision: 9244539 }
   imce: { version: ~ }
   imce_filefield: { version: ~ }
   inline_entity_form: { version: ~ }
@@ -155,6 +157,7 @@ projects:
   paragraphs: { version: ~ }
   path_redirect_import: { version: ~ }
   pathauto: { version: ~ }
+  patterns: { version: ~ }
   phone: { version: ~ }
   photoswipe: { version: ~ }
   profile2: { version: ~ }
