@@ -84,6 +84,10 @@ projects[colorbox][version] = "2.10"
 projects[computed_field][subdir] = "contrib"
 projects[computed_field][version] = "1.0"
 
+projects[conditional_fields][subdir] = "contrib"
+projects[conditional_fields][version] = "3.0-alpha2"
+projects[conditional_fields][patch][0] = "https://www.drupal.org/files/issues/filled_with_a_value-2142691-16.patch"
+
 projects[content_menu][subdir] = "contrib"
 projects[content_menu][version] = "1.0"
 

@@ -32,6 +32,10 @@ projects:
   coffee: { version: ~ }
   colorbox: { version: ~ }
   computed_field: { version: ~ }
+  conditional_fields:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/filled_with_a_value-2142691-16.patch
   content_menu: { version: ~ }
   contextual_range_filter: { version: ~ }
   countries: { version: ~ }
