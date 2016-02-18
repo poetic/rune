@@ -223,6 +223,7 @@ projects[google_analytics][version] = "2.1"
 
 projects[googtube][subdir] = "contrib"
 projects[googtube][version] = "2.1"
+projects[googtube][patch][0] = "https://www.drupal.org/files/issues/googtube-2428511-match-https-urls-too.patch"
 
 projects[gtranslate][subdir] = "contrib"
 projects[gtranslate][version] = "1.10"
