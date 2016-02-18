@@ -93,7 +93,10 @@ projects:
   geofield: { version: ~ }
   geophp: { version: ~ }
   google_analytics: { version: 2.1 }
-  googtube: { version: ~ }
+  googtube:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/googtube-2428511-match-https-urls-too.patch
   gtranslate: { version: ~ }
   hidden_captcha: { version: ~ }
   hybridauth: { version: ~ }
