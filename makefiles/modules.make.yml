@@ -97,6 +97,7 @@ projects:
     version: ~
     patch:
       - https://www.drupal.org/files/issues/googtube-2428511-match-https-urls-too.patch
+      - https://www.drupal.org/files/issues/googtube-fix-https-embed-1822354-9.patch
   gtranslate: { version: ~ }
   hidden_captcha: { version: ~ }
   hybridauth: { version: ~ }
