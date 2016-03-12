@@ -395,7 +395,7 @@ projects[path_redirect_import][subdir] = "contrib"
 projects[path_redirect_import][version] = "1.0-rc4"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.2"
+projects[pathauto][version] = "1.3"
 
 projects[patterns][subdir] = "contrib"
 projects[patterns][version] = "2.2"
