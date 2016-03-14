@@ -368,6 +368,12 @@ projects[oauth][version] = "3.2"
 projects[office_hours][subdir] = "contrib"
 projects[office_hours][version] = "1.4"
 
+projects[openid_selector][subdir] = "contrib"
+projects[openid_selector][version] = "1.x-dev"
+
+projects[openid_sso_relying][subdir] = "contrib"
+projects[openid_sso_relying][version] = "1.0-beta3"
+
 projects[owlcarousel][subdir] = "contrib"
 projects[owlcarousel][version] = "1.5"
 
@@ -611,6 +617,10 @@ libraries[logentries][type] = "library"
 libraries[mailchimp][download][type] = "get"
 libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.4.zip"
 libraries[mailchimp][type] = "library"
+
+libraries[openid_selector][download][type] = "get"
+libraries[openid_selector][download][url] = "http://openid-selector.googlecode.com/files/openid-selector-1.3.zip"
+libraries[openid_selector][type] = "library"
 
 libraries[owlcarousel][download][type] = "get"
 libraries[owlcarousel][download][url] = "http://owlgraphic.com/owlcarousel/owl.carousel.zip"
