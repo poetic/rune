@@ -612,6 +612,10 @@ libraries[mailchimp][download][type] = "get"
 libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.4.zip"
 libraries[mailchimp][type] = "library"
 
+libraries[openid_selector][download][type] = "get"
+libraries[openid_selector][download][url] = "http://openid-selector.googlecode.com/files/openid-selector-1.3.zip"
+libraries[openid_selector][type] = "library"
+
 libraries[owlcarousel][download][type] = "get"
 libraries[owlcarousel][download][url] = "http://owlgraphic.com/owlcarousel/owl.carousel.zip"
 libraries[owlcarousel][type] = "library"
