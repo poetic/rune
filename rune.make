@@ -368,6 +368,12 @@ projects[oauth][version] = "3.2"
 projects[office_hours][subdir] = "contrib"
 projects[office_hours][version] = "1.4"
 
+projects[openid_selector][subdir] = "contrib"
+projects[openid_selector][version] = "1.x-dev"
+
+projects[openid_sso_relying][subdir] = "contrib"
+projects[openid_sso_relying][version] = "1.0-beta3"
+
 projects[owlcarousel][subdir] = "contrib"
 projects[owlcarousel][version] = "1.5"
 
