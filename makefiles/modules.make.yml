@@ -155,6 +155,8 @@ projects:
   multiple_selects: { version: ~ }
   oauth: { version: ~ }
   office_hours: { version: ~ }
+  openid_selector: {version: ~}
+  openid_sso_relying: { version: 1.0-beta3 }
   owlcarousel: {version: 1.5}
   pagepreview: { version: ~ }
   panelizer:

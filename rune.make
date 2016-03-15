@@ -620,16 +620,19 @@ libraries[mailchimp][type] = "library"
 
 libraries[openid_selector][download][type] = "get"
 libraries[openid_selector][download][url] = "http://openid-selector.googlecode.com/files/openid-selector-1.3.zip"
+libraries[openid_selector][directory_name] = "openid-selector"
+libraries[openid_selector][destination] = "../../sites/all/libraries"
 libraries[openid_selector][type] = "library"
 
 libraries[owlcarousel][download][type] = "get"
 libraries[owlcarousel][download][url] = "http://owlgraphic.com/owlcarousel/owl.carousel.zip"
 libraries[owlcarousel][type] = "library"
 
+libraries[photoswipe][download][type] = "get"
+libraries[photoswipe][download][url] = "https://github.com/dimsemenov/PhotoSwipe/archive/master.zip"
+libraries[photoswipe][type] = "library"
+
 libraries[superfish][download][type] = "get"
 libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal/archive/master.zip"
 libraries[superfish][type] = "library"
 
-libraries[photoswipe][download][type] = "get"
-libraries[photoswipe][download][url] = "https://github.com/dimsemenov/PhotoSwipe/archive/master.zip"
-libraries[photoswipe][type] = "library"
