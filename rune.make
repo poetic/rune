@@ -416,7 +416,9 @@ projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
 
 projects[quicktabs][subdir] = "contrib"
-projects[quicktabs][version] = "3.6"
+projects[quicktabs][download][branch] = "3.x-dev"
+projects[quicktabs][download][revision] = "aeeaaa9"
+projects[quicktabs][download][type] = "git"
 
 projects[rabbit_hole][subdir] = "contrib"
 projects[rabbit_hole][version] = "2.23"

@@ -171,7 +171,8 @@ projects:
   phone: { version: ~ }
   photoswipe: { version: ~ }
   profile2: { version: ~ }
-  quicktabs: { version: ~ }
+  quicktabs:
+    download: { branch: 3.x-dev, revision: aeeaaa9 }
   rabbit_hole: { version: ~ }
   range: { version: ~ }
   redirect:
