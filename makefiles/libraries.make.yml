@@ -50,6 +50,8 @@ libraries:
     download:
       type: get
       url: http://owlgraphic.com/owlcarousel/owl.carousel.zip
+    directory_name: "owl-carousel"
+    destination: "../../sites/all/libraries"
   photoswipe:
     download:
       type: get

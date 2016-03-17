@@ -628,6 +628,8 @@ libraries[openid_selector][type] = "library"
 
 libraries[owlcarousel][download][type] = "get"
 libraries[owlcarousel][download][url] = "http://owlgraphic.com/owlcarousel/owl.carousel.zip"
+libraries[owlcarousel][directory_name] = "owl-carousel"
+libraries[owlcarousel][destination] = "../../sites/all/libraries"
 libraries[owlcarousel][type] = "library"
 
 libraries[photoswipe][download][type] = "get"
