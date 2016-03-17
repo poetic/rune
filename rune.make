@@ -627,7 +627,7 @@ libraries[openid_selector][destination] = "../../sites/all/libraries"
 libraries[openid_selector][type] = "library"
 
 libraries[owlcarousel][download][type] = "get"
-libraries[owlcarousel][download][url] = "http://owlgraphic.com/owlcarousel/owl.carousel.zip"
+libraries[owlcarousel][download][url] = "https://github.com/OwlFonk/OwlCarousel/archive/master.zip"
 libraries[owlcarousel][directory_name] = "owl-carousel"
 libraries[owlcarousel][destination] = "../../sites/all/libraries"
 libraries[owlcarousel][type] = "library"

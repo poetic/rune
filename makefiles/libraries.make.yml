@@ -49,7 +49,7 @@ libraries:
   owlcarousel:
     download:
       type: get
-      url: http://owlgraphic.com/owlcarousel/owl.carousel.zip
+      url: https://github.com/OwlFonk/OwlCarousel/archive/master.zip
     directory_name: "owl-carousel"
     destination: "../../sites/all/libraries"
   photoswipe:
