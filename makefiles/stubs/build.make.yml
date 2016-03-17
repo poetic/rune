@@ -12,5 +12,5 @@ projects:
     subdir: ~
     download:
       url: https://github.com/poetic/rune.git
-      branch: "master"
+      branch: "feature/owlCarousel"
 
