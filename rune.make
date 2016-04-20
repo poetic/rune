@@ -566,6 +566,9 @@ projects[views_megarow][version] = "1.5"
 projects[views_load_more][subdir] = "contrib"
 projects[views_load_more][version] = "1.5"
 
+projects[views_rss][subdir] = "contrib"
+projects[views_rss][version] = "2.0-rc4"
+
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "4.9"
 

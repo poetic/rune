@@ -238,6 +238,7 @@ projects:
   views_field_view: { version: ~ }
   views_megarow: { version: ~ }
   views_load_more: { version: ~ }
+  views_rss: { version: ~  }
   webform: { version: ~ }
   webform_phone: { version: ~ }
   webform_uuid: { version: ~ }
