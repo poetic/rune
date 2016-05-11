@@ -584,6 +584,12 @@ projects[yoast_seo][version] = "1.0-beta2"
 projects[youtube][subdir] = "contrib"
 projects[youtube][version] = "1.6"
 
+projects[picture][subdir] = "contrib"
+projects[picture][version] = "2.13"
+
+projects[breakpoints][subdir] = "contrib"
+projects[breakpoints][version] = "1.4"
+
 ; Libraries
 libraries[awssdk2][download][type] = "get"
 libraries[awssdk2][download][url] = "https://github.com/aws/aws-sdk-php/releases/download/2.7.25/aws.zip"
