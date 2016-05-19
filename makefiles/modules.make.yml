@@ -247,3 +247,4 @@ projects:
   webform_uuid: { version: ~ }
   yoast_seo: { version: ~ }
   youtube: { version: ~ }
+  
