@@ -65,6 +65,9 @@ projects[bg_image][version] = "1.4"
 projects[bg_image_formatter][subdir] = "contrib"
 projects[bg_image_formatter][version] = "1.3"
 
+projects[breakpoints][subdir] = "contrib"
+projects[breakpoints][version] = "1.4"
+
 projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.3"
 
@@ -412,6 +415,9 @@ projects[phone][version] = "1.0-beta1"
 projects[photoswipe][subdir] = "contrib"
 projects[photoswipe][version] = "2.0-beta2"
 
+projects[picture][subdir] = "contrib"
+projects[picture][version] = "2.13"
+
 projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
 
@@ -445,6 +451,9 @@ projects[search404][version] = "1.3"
 
 projects[search_by_page][subdir] = "contrib"
 projects[search_by_page][version] = "1.4"
+
+projects[segmentio][subdir] = "contrib"
+projects[segmentio][version] = "1.1"
 
 projects[services][subdir] = "contrib"
 projects[services][version] = "3.12"
@@ -584,11 +593,6 @@ projects[yoast_seo][version] = "1.0-beta2"
 projects[youtube][subdir] = "contrib"
 projects[youtube][version] = "1.6"
 
-projects[picture][subdir] = "contrib"
-projects[picture][version] = "2.13"
-
-projects[breakpoints][subdir] = "contrib"
-projects[breakpoints][version] = "1.4"
 
 ; Libraries
 libraries[awssdk2][download][type] = "get"
