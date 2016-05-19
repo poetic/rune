@@ -23,6 +23,7 @@ projects:
   better_formats: { version: ~ }
   bg_image: { version: ~ }
   bg_image_formatter: { version: ~ }
+  breakpoints: { version: ~ }
   captcha: { version: ~ }
   ckeditor:
     version: 1.16
@@ -170,6 +171,7 @@ projects:
   patterns: { version: ~ }
   phone: { version: ~ }
   photoswipe: { version: ~ }
+  picture: { version: ~ }
   profile2: { version: ~ }
   quicktabs:
     download: { branch: 3.x-dev, revision: aeeaaa9 }
@@ -184,6 +186,7 @@ projects:
   save_edit: { version: ~ }
   search404: { version: ~ }
   search_by_page: { version: ~ }
+  segmentio: { version: ~ }
   services: { version: ~ }
   simplify: { version: ~ }
   xmlsitemap: { version: ~ }
@@ -244,5 +247,4 @@ projects:
   webform_uuid: { version: ~ }
   yoast_seo: { version: ~ }
   youtube: { version: ~ }
-  picture: { version: ~ }
-  breakpoints: { version: ~ }
+  
