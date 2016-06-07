@@ -152,8 +152,7 @@ projects[fb_likebox][subdir] = "contrib"
 projects[fb_likebox][version] = "2.2"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.5"
-projects[features][patch][0] = "https://www.drupal.org/files/issues/1064340-features-files-13.patch"
+projects[features][version] = "2.10"
 
 projects[features_override][subdir] = "contrib"
 projects[features_override][version] = "2.0-rc2"
@@ -236,7 +235,7 @@ projects[hidden_captcha][subdir] = "contrib"
 projects[hidden_captcha][version] = "1.0"
 
 projects[hybridauth][subdir] = "contrib"
-projects[hybridauth][version] = "2.13"
+projects[hybridauth][version] = "2.15"
 
 projects[i18n][subdir] = "contrib"
 projects[i18n][version] = "1.13"
@@ -301,8 +300,7 @@ projects[linkit][subdir] = "contrib"
 projects[linkit][version] = "3.3"
 
 projects[logentries][subdir] = "contrib"
-projects[logentries][version] = "1.2"
-projects[logentries][patch][0] = "https://www.drupal.org/files/issues/logentries-strip-out-tags-before-sending-to-logentries-2627548.patch"
+projects[logentries][version] = "1.3"
 
 projects[mailchimp][subdir] = "contrib"
 projects[mailchimp][version] = "3.6"
@@ -466,7 +464,7 @@ projects[simplify][subdir] = "contrib"
 projects[simplify][version] = "3.3"
 
 projects[xmlsitemap][subdir] = "contrib"
-projects[xmlsitemap][version] = "2.2"
+projects[xmlsitemap][version] = "2.3"
 
 projects[s3fs][subdir] = "contrib"
 projects[s3fs][version] = "2.1"
@@ -570,7 +568,7 @@ projects[views_field_view][subdir] = "contrib"
 projects[views_field_view][version] = "1.1"
 
 projects[views_megarow][subdir] = "contrib"
-projects[views_megarow][version] = "1.5"
+projects[views_megarow][version] = "1.6"
 
 projects[views_load_more][subdir] = "contrib"
 projects[views_load_more][version] = "1.5"
