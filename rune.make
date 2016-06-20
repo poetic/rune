@@ -542,7 +542,7 @@ projects[varnish][subdir] = "contrib"
 projects[varnish][version] = "1.0-beta3"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.11"
+projects[views][version] = "3.14"
 projects[views][patch][0] = "https://www.drupal.org/files/views-area-results-plural-1793500-1.patch"
 projects[views][patch][1] = "https://www.drupal.org/files/issues/views-taxonomy_multiple_term_names-1248300-46.patch"
 
