@@ -194,7 +194,7 @@ projects:
   service_links: { version: ~ }
   shareaholic: { version: ~ }
   sharethis:
-    version: 2.x-dev
+    download: { branch: 2.x-dev, revision: b51ebc0 }
     patch:
       - https://www.drupal.org/files/issues/1425744-sharethis-popup-9.patch
   smtp: { version: ~ }
