@@ -458,7 +458,7 @@ projects[services][version] = "3.12"
 
 projects[sharethis][subdir] = "contrib"
 projects[sharethis][download][branch] = "2.x-dev"
-projects[sharethis][download][version] = "b51ebc0"
+projects[sharethis][download][revision] = "b51ebc0"
 projects[sharethis][download][type] = "git"
 projects[sharethis][patch][0] = "https://www.drupal.org/files/issues/1425744-sharethis-popup-9.patch"
 
