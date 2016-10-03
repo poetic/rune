@@ -88,7 +88,10 @@ projects:
   flexslider: { version: ~ }
   flippy: { version: ~ }
   geocoder: { version: ~ }
-  geofield: { version: ~ }
+  geofield:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/geofield-feeds_import_not_saving-2534822-46.patch
   geophp: { version: ~ }
   google_analytics: { version: 2.1 }
   googtube:

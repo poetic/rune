@@ -216,6 +216,7 @@ projects[geocoder][version] = "1.2"
 
 projects[geofield][subdir] = "contrib"
 projects[geofield][version] = "2.3"
+projects[geofield][patch][0] = "https://www.drupal.org/files/issues/geofield-feeds_import_not_saving-2534822-46.patch"
 
 projects[geophp][subdir] = "contrib"
 projects[geophp][version] = "1.7"
