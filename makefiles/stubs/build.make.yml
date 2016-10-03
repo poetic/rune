@@ -12,5 +12,5 @@ projects:
     subdir: ~
     download:
       url: https://github.com/poetic/rune.git
-      branch: "modules/add-patch-to-allow-update-geofield"
+      branch: "master"
 
