@@ -512,7 +512,7 @@ projects[themekey][subdir] = "contrib"
 projects[themekey][version] = "3.3"
 
 projects[title][subdir] = "contrib"
-projects[title][version] = "1.0-alpha7"
+projects[title][version] = "1.0-alpha8"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.6"
