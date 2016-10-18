@@ -133,7 +133,10 @@ projects:
   mailchimp: { version: ~ }
   mailsystem:
     download: { branch: 3.x-dev, revision: 4c957ae }
-  manualcrop: { version: ~ }
+  manualcrop:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/manualcrop--automatic_default_crop--1.5.diff
   masquerade: { version: ~ }
   media: { version: 2.x-dev }
   media_ckeditor: { version: ~ }
