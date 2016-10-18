@@ -313,6 +313,7 @@ projects[mailsystem][download][type] = "git"
 
 projects[manualcrop][subdir] = "contrib"
 projects[manualcrop][version] = "1.5"
+projects[manualcrop][patch][0] = "https://www.drupal.org/files/issues/manualcrop--automatic_default_crop--1.5.diff"
 
 projects[masquerade][subdir] = "contrib"
 projects[masquerade][version] = "1.0-rc7"
