@@ -366,7 +366,7 @@ projects[multiple_selects][subdir] = "contrib"
 projects[multiple_selects][version] = "1.2"
 
 projects[oauth][subdir] = "contrib"
-projects[oauth][version] = "3.2"
+projects[oauth][version] = "3.3"
 
 projects[office_hours][subdir] = "contrib"
 projects[office_hours][version] = "1.4"
