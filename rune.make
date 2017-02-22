@@ -636,7 +636,7 @@ libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp
 libraries[mailchimp][type] = "library"
 
 libraries[openid_selector][download][type] = "get"
-libraries[openid_selector][download][url] = "http://openid-selector.googlecode.com/files/openid-selector-1.3.zip"
+libraries[openid_selector][download][url] = "https://github.com/RealLukeMartin/legacy-libs/blob/master/openid-selector.zip?raw=true"
 libraries[openid_selector][directory_name] = "openid-selector"
 libraries[openid_selector][destination] = "../../sites/all/libraries"
 libraries[openid_selector][type] = "library"
