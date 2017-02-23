@@ -244,6 +244,7 @@ projects:
   views_load_more: { version: ~ }
   views_rss: { version: ~  }
   webform: { version: ~ }
+  webform_ajax: { version: ~ }
   webform_phone: { version: ~ }
   webform_uuid: { version: ~ }
   yoast_seo: { version: ~ }
