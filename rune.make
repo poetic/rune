@@ -581,7 +581,10 @@ projects[views_rss][subdir] = "contrib"
 projects[views_rss][version] = "2.0-rc4"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "4.9"
+projects[webform][version] = "4.14"
+
+projects[webform_ajax][subdir] = "contrib"
+projects[webform_ajax][version] = "1.1"
 
 projects[webform_phone][subdir] = "contrib"
 projects[webform_phone][version] = "1.21"
