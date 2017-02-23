@@ -101,6 +101,7 @@ projects:
       - https://www.drupal.org/files/issues/googtube-fix-https-embed-1822354-9.patch
   gtranslate: { version: ~ }
   hidden_captcha: { version: ~ }
+  honeypot: { version: ~ }
   hybridauth: { version: ~ }
   i18n: { version: ~ }
   iframe: { version: ~ }

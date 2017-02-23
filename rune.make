@@ -233,7 +233,10 @@ projects[gtranslate][subdir] = "contrib"
 projects[gtranslate][version] = "1.10"
 
 projects[hidden_captcha][subdir] = "contrib"
-projects[hidden_captcha][version] = "1.0"
+projects[hidden_captcha][version] = "1.1"
+
+projects[honeypot][subdir] = "contrib"
+projects[honeypot][version] = "1.22"
 
 projects[hybridauth][subdir] = "contrib"
 projects[hybridauth][version] = "2.15"
