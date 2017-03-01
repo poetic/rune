@@ -596,7 +596,7 @@ projects[webform_uuid][subdir] = "contrib"
 projects[webform_uuid][version] = "1.1"
 
 projects[yoast_seo][subdir] = "contrib"
-projects[yoast_seo][version] = "1.0-beta2"
+projects[yoast_seo][version] = "1.1"
 
 projects[youtube][subdir] = "contrib"
 projects[youtube][version] = "1.6"
