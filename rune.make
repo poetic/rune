@@ -459,7 +459,7 @@ projects[segmentio][subdir] = "contrib"
 projects[segmentio][version] = "1.1"
 
 projects[services][subdir] = "contrib"
-projects[services][version] = "3.12"
+projects[services][version] = "3.19"
 
 projects[sharethis][subdir] = "contrib"
 projects[sharethis][download][branch] = "2.x-dev"
