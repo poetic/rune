@@ -216,6 +216,7 @@ projects:
   title: { version: ~ }
   token: { version: ~ }
   token_filter: { version: ~ }
+  transliteration: { version: ~ }
   twitter: { version: ~ }
   uuid:
     download: { branch: 1.x-dev, revision: a7bf2db }
@@ -245,6 +246,7 @@ projects:
   views_rss: { version: ~  }
   webform: { version: ~ }
   webform_ajax: { version: ~ }
+  webform_multifile: { version: ~ }
   webform_phone: { version: ~ }
   webform_uuid: { version: ~ }
   yoast_seo: { version: ~ }

@@ -524,6 +524,9 @@ projects[token][version] = "1.6"
 projects[token_filter][subdir] = "contrib"
 projects[token_filter][version] = "1.1"
 
+projects[transliteration][subdir] = "contrib"
+projects[transliteration][version] = "3.2"
+
 projects[twitter][subdir] = "contrib"
 projects[twitter][version] = "5.11"
 
@@ -588,6 +591,9 @@ projects[webform][version] = "4.14"
 
 projects[webform_ajax][subdir] = "contrib"
 projects[webform_ajax][version] = "1.1"
+
+projects[webform_multifile][subdir] = "contrib"
+projects[webform_multifile][version] = "1.5"
 
 projects[webform_phone][subdir] = "contrib"
 projects[webform_phone][version] = "1.21"
