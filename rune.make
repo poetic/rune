@@ -63,7 +63,7 @@ projects[bg_image][subdir] = "contrib"
 projects[bg_image][version] = "1.4"
 
 projects[bg_image_formatter][subdir] = "contrib"
-projects[bg_image_formatter][version] = "1.3"
+projects[bg_image_formatter][version] = "2.0-beta3"
 
 projects[breakpoints][subdir] = "contrib"
 projects[breakpoints][version] = "1.4"
