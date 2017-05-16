@@ -322,7 +322,7 @@ projects[masquerade][subdir] = "contrib"
 projects[masquerade][version] = "1.0-rc7"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.x-dev"
+projects[media][version] = "2.2"
 
 projects[media_ckeditor][subdir] = "contrib"
 projects[media_ckeditor][version] = "2.0-alpha1"
@@ -593,7 +593,7 @@ projects[webform_ajax][subdir] = "contrib"
 projects[webform_ajax][version] = "1.1"
 
 projects[webform_multifile][subdir] = "contrib"
-projects[webform_multifile][version] = "1.5"
+projects[webform_multifile][version] = "1.6"
 
 projects[webform_phone][subdir] = "contrib"
 projects[webform_phone][version] = "1.21"
