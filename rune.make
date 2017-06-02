@@ -340,7 +340,7 @@ projects[menu_token][subdir] = "contrib"
 projects[menu_token][version] = "1.0-beta6"
 
 projects[metatag][subdir] = "contrib"
-projects[metatag][version] = "1.5"
+projects[metatag][version] = "1.21"
 
 projects[migrate][subdir] = "contrib"
 projects[migrate][version] = "2.8"
@@ -602,7 +602,7 @@ projects[webform_uuid][subdir] = "contrib"
 projects[webform_uuid][version] = "1.1"
 
 projects[yoast_seo][subdir] = "contrib"
-projects[yoast_seo][version] = "1.1"
+projects[yoast_seo][version] = "1.2"
 
 projects[youtube][subdir] = "contrib"
 projects[youtube][version] = "1.6"
