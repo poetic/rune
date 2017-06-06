@@ -368,6 +368,9 @@ projects[multiupload_imagefield_widget][version] = "1.3"
 projects[multiple_selects][subdir] = "contrib"
 projects[multiple_selects][version] = "1.2"
 
+projects[node_clone][subdir] = "contrib"
+projects[node_clone][version] = "1.0"
+
 projects[oauth][subdir] = "contrib"
 projects[oauth][version] = "3.3"
 
