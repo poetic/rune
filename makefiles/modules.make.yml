@@ -178,6 +178,7 @@ projects:
     download: { branch: 3.x-dev, revision: aeeaaa9 }
   rabbit_hole: { version: ~ }
   range: { version: ~ }
+  recaptcha: { version: ~ }
   redirect:
     download: { branch: 2.x-dev, revision: cfe2e89 }
   # See: https://www.drupal.org/node/240686://www.drupal.org/node/2406863
@@ -251,4 +252,4 @@ projects:
   webform_uuid: { version: ~ }
   yoast_seo: { version: ~ }
   youtube: { version: ~ }
-  
+

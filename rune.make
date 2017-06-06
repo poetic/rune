@@ -435,6 +435,9 @@ projects[rabbit_hole][version] = "2.23"
 projects[range][subdir] = "contrib"
 projects[range][version] = "1.3"
 
+projects[recaptcha][subdir] = "contrib"
+projects[recaptcha][version] = "2.2"
+
 projects[redirect][subdir] = "contrib"
 projects[redirect][download][branch] = "2.x-dev"
 projects[redirect][download][revision] = "cfe2e89"
