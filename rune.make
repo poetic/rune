@@ -200,7 +200,7 @@ projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.9"
 
 projects[flag][subdir] = "contrib"
-projects[flag][version] = "3.6"
+projects[flag][version] = "3.9"
 projects[flag][patch][0] = "https://www.drupal.org/files/issues/flag-broken-1925922-131.patch"
 projects[flag][patch][1] = "https://www.drupal.org/files/issues/1925922-flag-fixed-warning-76.patch"
 projects[flag][patch][2] = "https://www.drupal.org/files/issues/line-130-fixer-upper-rater-19252922-46_1.patch"
@@ -465,7 +465,7 @@ projects[segmentio][subdir] = "contrib"
 projects[segmentio][version] = "1.1"
 
 projects[services][subdir] = "contrib"
-projects[services][version] = "3.19"
+projects[services][version] = "3.20"
 
 projects[sharethis][subdir] = "contrib"
 projects[sharethis][download][branch] = "2.x-dev"
