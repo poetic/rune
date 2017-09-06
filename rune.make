@@ -9,7 +9,7 @@ projects[adminimal_theme][version] = "1.21"
 projects[adminimal_theme][type] = "theme"
 
 projects[bootstrap][subdir] = "contrib"
-projects[bootstrap][version] = "3.0"
+projects[bootstrap][version] = "3.8"
 projects[bootstrap][type] = "theme"
 
 projects[omega][subdir] = "contrib"
@@ -39,7 +39,7 @@ projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][patch][0] = "https://www.drupal.org/files/admin_menu-search-disappeared-1916812-13.patch"
 
 projects[admin_views][subdir] = "contrib"
-projects[admin_views][version] = "1.5"
+projects[admin_views][version] = "1.6"
 
 projects[adminimal_admin_menu][subdir] = "contrib"
 projects[adminimal_admin_menu][version] = "1.5"
@@ -54,7 +54,7 @@ projects[auto_entitylabel][subdir] = "contrib"
 projects[auto_entitylabel][version] = "1.3"
 
 projects[better_exposed_filters][subdir] = "contrib"
-projects[better_exposed_filters][version] = "3.2"
+projects[better_exposed_filters][version] = "3.4"
 
 projects[better_formats][subdir] = "contrib"
 projects[better_formats][version] = "1.0-beta1"
@@ -134,7 +134,7 @@ projects[entity_view_mode][subdir] = "contrib"
 projects[entity_view_mode][version] = "1.0-rc1"
 
 projects[entityreference][subdir] = "contrib"
-projects[entityreference][version] = "1.1"
+projects[entityreference][version] = "1.5"
 
 projects[environment][subdir] = "contrib"
 projects[environment][version] = "1.0"
@@ -222,7 +222,7 @@ projects[geophp][subdir] = "contrib"
 projects[geophp][version] = "1.7"
 
 projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "2.1"
+projects[google_analytics][version] = "2.3"
 
 projects[googtube][subdir] = "contrib"
 projects[googtube][version] = "2.1"
@@ -395,7 +395,7 @@ projects[panelizer][download][revision] = "dd5aacc"
 projects[panelizer][download][type] = "git"
 
 projects[panels][subdir] = "contrib"
-projects[panels][version] = "3.5"
+projects[panels][version] = "3.6"
 
 projects[panels_content_cache][subdir] = "contrib"
 projects[panels_content_cache][version] = "1.2"
@@ -496,7 +496,7 @@ projects[shareaholic][subdir] = "contrib"
 projects[shareaholic][version] = "3.26"
 
 projects[smtp][subdir] = "contrib"
-projects[smtp][version] = "1.2"
+projects[smtp][version] = "1.7"
 
 projects[socialmedia][subdir] = "contrib"
 projects[socialmedia][version] = "1.0-beta15"
@@ -522,7 +522,7 @@ projects[themekey][subdir] = "contrib"
 projects[themekey][version] = "3.3"
 
 projects[title][subdir] = "contrib"
-projects[title][version] = "1.0-alpha8"
+projects[title][version] = "1.0-alpha9"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.6"
@@ -558,7 +558,7 @@ projects[varnish][subdir] = "contrib"
 projects[varnish][version] = "1.0-beta3"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.14"
+projects[views][version] = "3.18"
 projects[views][patch][0] = "https://www.drupal.org/files/views-area-results-plural-1793500-1.patch"
 projects[views][patch][1] = "https://www.drupal.org/files/issues/views-taxonomy_multiple_term_names-1248300-46.patch"
 
@@ -575,7 +575,7 @@ projects[views_content_cache][subdir] = "contrib"
 projects[views_content_cache][version] = "3.0-alpha3"
 
 projects[views_data_export][subdir] = "contrib"
-projects[views_data_export][version] = "3.0-beta8"
+projects[views_data_export][version] = "3.2"
 
 projects[views_datasource][subdir] = "contrib"
 projects[views_datasource][version] = "1.0-alpha2"
