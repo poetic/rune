@@ -69,7 +69,7 @@ projects[breakpoints][subdir] = "contrib"
 projects[breakpoints][version] = "1.4"
 
 projects[captcha][subdir] = "contrib"
-projects[captcha][version] = "1.3"
+projects[captcha][version] = "1.5"
 
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.16"
