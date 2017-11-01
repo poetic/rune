@@ -607,6 +607,15 @@ projects[webform_phone][version] = "1.21"
 projects[webform_uuid][subdir] = "contrib"
 projects[webform_uuid][version] = "1.1"
 
+projects[workbench][subdir] = "contrib"
+projects[workbench][version] = "1.2"
+
+projects[workbench_access][subdir] = "contrib"
+projects[workbench_access][version] = "1.5"
+
+projects[workbench_moderation][subdir] = "contrib"
+projects[workbench_moderation][version] = "3.0"
+
 projects[yoast_seo][subdir] = "contrib"
 projects[yoast_seo][version] = "1.2"
 

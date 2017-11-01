@@ -251,6 +251,9 @@ projects:
   webform_multifile: { version: ~ }
   webform_phone: { version: ~ }
   webform_uuid: { version: ~ }
+  workbench: { version: ~ }
+  workbench_access: { version: ~ }
+  workbench_moderation: { version: ~ }
   yoast_seo: { version: ~ }
   youtube: { version: ~ }
 
