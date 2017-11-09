@@ -45,6 +45,7 @@ projects:
   devel: { version: ~ }
   diff: { version: ~ }
   disqus: { version: ~ }
+  drafty: { version: ~ }
   email: { versions: ~ }
   email_registration: { version: ~ }
   editablefields: { version: ~ }
