@@ -52,10 +52,6 @@ libraries:
       url: https://github.com/OwlFonk/OwlCarousel/archive/master.zip
     directory_name: "owl-carousel"
     destination: "../../sites/all/libraries"
-  photoswipe:
-    download:
-      type: get
-      url: https://github.com/dimsemenov/PhotoSwipe/archive/master.zip
   superfish:
     download:
       type: get
