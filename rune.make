@@ -288,8 +288,6 @@ projects[lang_dropdown][version] = "2.5"
 
 projects[leaflet][subdir] = "contrib"
 projects[leaflet][version] = "1.3"
-projects[leaflet][patch][0] = "https://www.drupal.org/files/issues/field-formatter-errors-2185767-6.patch"
-projects[leaflet][patch][1] = "https://www.drupal.org/files/issues/taxonomy-terms-attached-image-fields-as-markers-2178231-25_0.patch"
 
 projects[leaflet_more_maps][subdir] = "contrib"
 projects[leaflet_more_maps][version] = "1.16"
@@ -417,9 +415,6 @@ projects[patterns][version] = "2.2"
 
 projects[phone][subdir] = "contrib"
 projects[phone][version] = "1.0-beta1"
-
-projects[photoswipe][subdir] = "contrib"
-projects[photoswipe][version] = "2.0-beta2"
 
 projects[picture][subdir] = "contrib"
 projects[picture][version] = "2.13"
@@ -664,10 +659,6 @@ libraries[owlcarousel][download][url] = "https://github.com/OwlFonk/OwlCarousel/
 libraries[owlcarousel][directory_name] = "owl-carousel"
 libraries[owlcarousel][destination] = "../../sites/all/libraries"
 libraries[owlcarousel][type] = "library"
-
-libraries[photoswipe][download][type] = "get"
-libraries[photoswipe][download][url] = "https://github.com/dimsemenov/PhotoSwipe/archive/master.zip"
-libraries[photoswipe][type] = "library"
 
 libraries[superfish][download][type] = "get"
 libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal/archive/master.zip"
