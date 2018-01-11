@@ -168,7 +168,6 @@ projects:
   pathauto: { version: ~ }
   patterns: { version: ~ }
   phone: { version: ~ }
-  photoswipe: { version: ~ }
   picture: { version: ~ }
   profile2: { version: ~ }
   quicktabs:
