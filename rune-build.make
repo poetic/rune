@@ -5,7 +5,7 @@ api = 2
 ; Core
 projects[drupal][subdir] = "contrib"
 projects[drupal][patch][0] = "https://www.drupal.org/files/issues/drupal-clean_up_temp_files-2496173-1-d7.patch"
-projects[drupal][version] = "7.56"
+projects[drupal][version] = "7.57"
 projects[drupal][type] = "core"
 
 ; Profiles
